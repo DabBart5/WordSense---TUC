@@ -12,7 +12,10 @@
   	- Alternativ irgendwie über Cookies
 2. Ist das Projekt von einem vorherigem Studenten benutzbar?
 3. Gibt es DataSets die meinen Ansprüchen entsprechen?
-   - Cambrigde Dictionary hat eine API, kostet aber 	
+   - Cambrigde Dictionary hat eine API, kostet aber
+4. Sollte ich mich (fast nur) auf das Main-Game beschränken?
+	- Einfach nur eine schlichte Nice App um kurz Vokabeln zu üben
+5. 	
 
 ## Prinzip
 -Main-Game:
