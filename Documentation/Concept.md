@@ -77,7 +77,7 @@
   - Nice to Have:
 		
 ---
-#Open-Source Material
+# Open-Source Material
 - [dictionaryapi](https://dictionaryapi.dev/)
 - Wiktionary, ([kaikki](https://kaikki.org/dictionary/English/) scheint das maschinenlesbar zu haben, über wiktionary selbst auf ersten blick schwieriger)
 - [librelingo](https://librelingo.app/)
