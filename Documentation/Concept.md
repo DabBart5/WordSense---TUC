@@ -42,6 +42,7 @@
     	- Endless-Mode
     	- Normal Mode (X Fragen hintereinander, X customizable (standard 10 oder 20 oder so?))
     	- ein I dont know button wäre vielleicht auch nicht schlecht (für statistiken, gegen raten)
+    	- mehr einschränkungen der Wörter die Vorkommen (Adjektive, Substantive, vlt. auch Städte, etc. was einem so einfällt)
     2. Modus 1: 
        - Als Alternative in Modus 1: es sollte möglich sein das Wort zu schreiben
          	- Als Alternative in Modus 1: es sollte möglich sein das Wort zu schreiben
@@ -75,8 +76,12 @@
     	- Effekte wenn richtige Antwort abgeschickt (nicht nervig, nicht lang, nicht blockierend, ...)
   - Nice to Have:
 		
-		
-
+---
+#Open-Source Material
+- [dictionaryapi](https://dictionaryapi.dev/)
+- Wiktionary, ([kaikki](https://kaikki.org/dictionary/English/) scheint das maschinenlesbar zu haben, über wiktionary selbst auf ersten blick schwieriger)
+- [librelingo](https://librelingo.app/)
+	
 ## Requirements
 ### Functional Requirements
 
