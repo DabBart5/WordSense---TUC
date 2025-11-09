@@ -81,7 +81,23 @@
 - [dictionaryapi](https://dictionaryapi.dev/)
 - Wiktionary, ([kaikki](https://kaikki.org/dictionary/English/) scheint das maschinenlesbar zu haben, über wiktionary selbst auf ersten blick schwieriger)
 - [librelingo](https://librelingo.app/)
-	
+
+---
+# Frontend
+## Framework Wahl
+Die Liste stellt eine Rangliste dar, je weiter oben, desto lieber würde ich damit arbeiten (ich kann nicht sagen, dass ich alle ausgiebig getestet habe, das Meiste wird sich beim arbeiten damit herausstellen)
+1. svelte (soll sehr schön sein, sah auch recht angenehm aus)
+2. Alpine (auf ersten Blick leichter einstieg)
+3. Vue (soll ganz gut sein, ...)
+4. Angular (oft benutzt, leichterer Einstieg als bei React)
+
+# Backend
+## Framework (falls benötigt)
+keine Rangliste (nicht wirklich, noch nicht genug damit beschäftigt)
+1. Django (arbeite im Softwarepraktikum vielleicht damit)
+2. Node.js 
+
+---
 ## Requirements
 ### Functional Requirements
 
