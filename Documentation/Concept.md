@@ -5,6 +5,7 @@
 - evtl. Fokus auf Mobile Ansicht
 - In erster Linie für Englisch, evtl. erweiterbar für andere Sprachen (Japanisch wäre cool (für mich selbst))
 - Grammatik evtl. zum Nachlesen (auch in Englisch)
+- evtl. ähnlich zu [Kotoba Taisen](https://kotobataisen.com/)
 
 ## Offene Fragen
 1. Sollte man einen Account brauchen? (fänd ich blöd)
