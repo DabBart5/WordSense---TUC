@@ -1,5 +1,5 @@
 # WordSense – Webanwendung für Vokabeltraining
-
+## (alles hier kommt von ChatGPT und wurde noch nicht bearbeitet/geprüft)
 ## Idee
 - Web App für Sprachenlernen
 - Fokus auf Vokabeln (komplett innerhalb der Sprache, die man lernt)
