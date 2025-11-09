@@ -40,6 +40,7 @@
     	- Timer-Mode (Zeitspanne customizable)
     	- Endless-Mode
     	- Normal Mode (X Fragen hintereinander, X customizable (standard 10 oder 20 oder so?))
+    	- ein I dont know button wäre vielleicht auch nicht schlecht (für statistiken, gegen raten)
     2. Modus 1: 
        - Als Alternative in Modus 1: es sollte möglich sein das Wort zu schreiben
          	- Als Alternative in Modus 1: es sollte möglich sein das Wort zu schreiben
