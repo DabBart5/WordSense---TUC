@@ -86,7 +86,7 @@
 # Frontend
 ## Framework Wahl
 Die Liste stellt eine Rangliste dar, je weiter oben, desto lieber würde ich damit arbeiten (ich kann nicht sagen, dass ich alle ausgiebig getestet habe, das Meiste wird sich beim arbeiten damit herausstellen)
-1. svelte (soll sehr schön sein, sah auch recht angenehm aus)
+1. svelte (sveltekit?) (soll sehr schön sein, sah auch recht angenehm aus)
 2. Alpine (auf ersten Blick leichter einstieg)
 3. Vue (soll ganz gut sein, ...)
 4. Angular (oft benutzt, leichterer Einstieg als bei React)
