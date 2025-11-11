@@ -3,9 +3,9 @@
 - Web App für Sprachenlernen
 - Fokus auf Vokabeln (komplett innerhalb der Sprache die man lernt)
 - evtl. Fokus auf Mobile Ansicht
-- In erster Linie für Englisch, evtl. erweiterbar für andere Sprachen (Japanisch wäre cool (für mich selbst))
+- In erster Linie für Englisch, evtl. erweiterbar für andere Sprachen 
 - Grammatik evtl. zum Nachlesen (auch in Englisch)
-- evtl. ähnlich zu [Kotoba Taisen](https://kotobataisen.com/)
+- evtl. (in passenden Aspekten) ähnlich zu [Kotoba Taisen](https://kotobataisen.com/) oder [Bunpro](https://bunpro.jp/)
 
 ## Offene Fragen
 1. Sollte man einen Account brauchen? (fänd ich blöd)
@@ -14,27 +14,33 @@
 2. Ist das Projekt von einem vorherigem Studenten benutzbar?
 3. Gibt es DataSets die meinen Ansprüchen entsprechen?
    - Cambrigde Dictionary hat eine API, kostet aber
-4. Sollte ich mich (fast nur) auf das Main-Game beschränken?
-	- Einfach nur eine schlichte Nice App um kurz Vokabeln zu üben
+4. Sollte ich mich mehr auf das Main-Game beschränken? -> Konsultation
+	- Einfach nur eine schlichte Nice App um kurz Vokabeln zu üben 
 5. 	
 
 ## Prinzip
 -Main-Game:
-  - Beschreibung:
-      - Vokabel und Definition bilden ein Paar
-      - Ein Teil des Paars wird gegeben, das andere wird gesucht
-		- Modus 1:
-            - Die Definition eines Wortes ist gegeben
-            - Es werden X verschiedene Wörter vorgeschlagen (10 > X > 4, customizable)
-            - Es ist das Wort zu wählen was am ehesten zu der Definiton passt
-            - Weiteres: zusätzliche Funtionen: i., ii, ...
-    	- Modus 2:
-        	- Ein Wort ist gegeben
-           	- Die Definition ist gesucht
-           	- Es sind X Defintionen gegeben (10 > X > 4, customizable)
-           	- Es ist die Definition zu wählen die am ehesten zu dem Wort passt
+  - Vokabel und Definition bilden ein Paar
+  - Ein Teil des Paars wird gegeben, das andere wird gesucht
+	- Modus 1:
+        - Die Definition eines Wortes ist gegeben
+        - Es werden 4 verschiedene Wörter vorgeschlagen (ich denke 4 ist ne ganz gute Zahl, bei zu vielen Optionen braucht man zu lange um sich die alle durchzulesen)
+        - Es ist das Wort zu wählen was am ehesten zu der Definiton passt
+        - Weiteres: zusätzliche Funtionen: i., ii, ...
+   	- Modus 2:
+      	- Ein Wort ist gegeben
+     	- Die Definition ist gesucht
+    	- Es sind 4 Defintionen gegeben 
+       	- Es ist die Definition zu wählen die am ehesten zu dem Wort passt
     	- 
-           	
+- Grammar:
+  	-  orientiert an Bunpro (grammatik zum nachlesen, hier vlt. noch ein paar Übungsaufgaben dazu)
+  	-  Grammatikregeln nach "Schwierigkeit" (CEFR) sortiert
+  	-  Einzelne Grammatikregeln auswählbar um mehr Informationen über diese lesen zu können
+  		- beinhaltet Erklärung (Nutzung, Bedeutung) auf Englisch, Beipielsätze
+  		- Übungsaufgabe(n), Satz gegeben mit Lücke sowie Anforderungen (Grammatik), -> Freitextfeld in dem das Wort einzugeben ist, -> überprüfen, ob richtig (evtl. hinweise wenn falsch) 
+  	- Für ein SRS (Spaced Repetition System) sind Accounts ziemlich notwendig, also vielleicht nicht?
+  	-  
   ---
   - Zusätzliche Funktionen:
     1. Main Game (beide Modi)
@@ -102,3 +108,8 @@ keine Rangliste (nicht wirklich, noch nicht genug damit beschäftigt)
 ### Functional Requirements
 
 ### Non Functional Requirements
+
+---
+#What you should think about
+
+- wenn du ressourcen von anderen benutzt, schreib die dir irgendwo auf und pack die am ende auf irgende seite im fertigen produkt
