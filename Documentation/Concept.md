@@ -51,16 +51,15 @@
     	- mehr einschränkungen der Wörter die Vorkommen (Adjektive, Substantive, vlt. auch Städte, etc. was einem so einfällt)
     2. Modus 1: 
        - Als Alternative in Modus 1: es sollte möglich sein das Wort zu schreiben
-         	- Als Alternative in Modus 1: es sollte möglich sein das Wort zu schreiben
-         	  	- Rechtschreibfehlererkennung
+         	- Rechtschreibfehlererkennung
     		- Vokabel evtl. in Satz gegeben (togglebar)
     3. Modus 2:
     	- ...
     4. Anzeigen der Definitionen der falschen Wörter
-    5. Synonyme finden
+    5. Synonyme finden (?) (evtl. nur synonyme angezeigt bekommen, um nuancen zu lernen)
     6. Schwierigkeit solle anpassbar sein (A1, A2, B1. B2, C1, C2) (Cambrigde dictionary hat glaube ich einschätzungen dazu)
       	- Auswahl von Wörtern könnten sehr ähnlich (synonyme) sein um Nuancen zu lernen
-    7. Aussprache sollte abhörbar sein
+    7. Aussprache sollte abhörbar sein (zumindest mit angegeben werden, phonetisches alphabet)
     8. Es sollten weitere Informationen über das Wort angezeigt werden (Formalität, Synonyme/Antonyme, Phonetische Schreibweise ... (sprachspezifisches))
     9. Eigene Wortlisten erstellen oder hochladen
     10. Wörter markieren (einfügen in eine Wortliste, Zugriff auf diese aus Menü)
