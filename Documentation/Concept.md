@@ -87,6 +87,7 @@
 - Wiktionary, ([kaikki](https://kaikki.org/dictionary/English/) scheint das maschinenlesbar zu haben, über wiktionary selbst auf ersten blick schwieriger)
 - [librelingo](https://librelingo.app/)
 - [Wordlisten nach Schwierigkeit](https://www.esl-lounge.com/student/reference/c1-cefr-vocabulary-word-list.php)
+- du kannst ChatGPT nutzen um Wortlisten zu erstellen, die zb mehr infos haben wie art des Worts, etc.
 
 ---
 # Frontend
