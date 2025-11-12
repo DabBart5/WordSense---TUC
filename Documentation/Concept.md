@@ -46,7 +46,7 @@
     1. Main Game (beide Modi)
     	- Timer-Mode (Zeitspanne customizable)
     	- Endless-Mode
-    	- Normal Mode (X Fragen hintereinander, X customizable (standard 10 oder 20 oder so?))
+    	- Normal Mode (X Fragen hintereinander, X customizable (standard 10 oder 20 oder so?)), oder mit Herzen?
     	- ein I dont know button wäre vielleicht auch nicht schlecht (für statistiken, gegen raten)
     	- mehr einschränkungen der Wörter die Vorkommen (Adjektive, Substantive, vlt. auch Städte, etc. was einem so einfällt)
     2. Modus 1: 
