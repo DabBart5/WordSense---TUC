@@ -14,13 +14,8 @@
 
 	export let onToggleTheme; // incoming function from layout
 
-	import { locale } from "svelte-i18n";
     import LanguageDropdown from "./LanguageDropdown.svelte";
 
-	function setLang(lang: string) {
-		locale.set(lang);
-		localStorage.setItem("lang", lang);
-	}
 </script>
 
 <header>
@@ -52,10 +47,11 @@
 			</li>
 			<li>
 				<!-- svelte-ignore element_implicitly_closed -->
-				<div class="wa-cluster">
+				<div>
 					<wa-button
 						variant="neutral"
 						appearance="outlined"
+						class = "header-Button"
 						on:click={onToggleTheme}
 					>
 						<wa-icon name="sun" label="Light/Darkmode"></wa-icon>
@@ -71,6 +67,7 @@
 		display: flex;
 		justify-content: space-between;
 		border-bottom: var(--size) solid var(--color-bg-contrast);
+		border-bottom: 2px solid var(--color-bg-contrast);
 	}
 
 	.corner {

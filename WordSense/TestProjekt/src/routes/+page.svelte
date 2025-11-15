@@ -1,31 +1,36 @@
 <script lang="ts">
+	
 	import Counter from "./Counter.svelte";
-	import { t } from 'svelte-i18n';
+	import { t } from '../stores/i18n';
 	// <wa-button>
 	import "@awesome.me/webawesome/dist/components/button/button.js";
+
+	//import { Modal, Content, Trigger}  from "sv-popup"
+
+
 </script>
 
 <svelte:head>
-	<title>{$t('page_title')}</title>
+	<title>WordSense</title>
 	<meta name="description" content="Train your Vocabulary with WordSense" />
 </svelte:head>
 
 <section>
-	<h1>{$t('page_title')}</h1>
+	<h1>{$t.page_title}</h1>
 
 	<p>
-		Play WordSense to train your Vocabulary. To start click the Button
-		below!
+		{$t.mainPage_Description}
 	</p>
+
 	<div class="buttonDiv">
-		<span class ="buttonSpan">
-			<wa-button class="gameButton">
-				<div class="button_text">MainGame</div>
-			</wa-button>
-			<wa-button class="gameButton">
-				<div class="button_text">MainGame</div>
-			</wa-button>
-		</span>
+		<wa-button class="gameButton">
+			<div class="button_text">MainGame</div>
+		</wa-button>
+	</div>
+	<div class="buttonDiv">
+		<wa-button class="gameButton">
+			<div class="button_text">MainGame</div>
+		</wa-button>
 	</div>
 </section>
 
@@ -53,42 +58,46 @@
 		color: var(--color-text);
 	}
 
-	.buttonDiv{
+	.buttonDiv {
 		width: 100%;
-		height: auto;
-		min-width: 2em;
-		min-height: 2em;
-
-	}
-	.buttonSpan{
-		width: 100%;
-		align-items: center;
-		padding-left: 10vw;
-		padding-right: 10vw;
+		display: flex;
+		justify-content: center; 
+		align-items: center; 
+		margin: 1rem 0; 
 	}
 
 	.button_text {
 		position: relative;
-		font-size: 1.2 rem;
+		font-size: 5em;
+		font-family: "Montserrat";
 		width: 100%;
 		height: 100%;
 		top: 0;
 		color: var(--color-bg-contrast);
-		display: block;
+		text-align: center;
 	}
 
+	wa-button.gameButton{
+		display: block;
+		width: 50%;
+	}
 	wa-button.gameButton::part(base) {
 		border-radius: 2px;
 		border: solid 2px;
-		min-width: 2em;
-		min-height: 2em;
+		display: block;
+		min-width:100% ;
+		min-height: 6em;
+		display: flex;
+  		justify-content: center; 
+  		align-items: center;
+		border-radius: 4px;
 		background: var(--background-color);
 		border-top-color: var(--color-bg-contrast);
 		border-left-color: var(--color-bg-contrast);
 		border-bottom-color: var(--color-bg-contrast);
 		border-right-color: var(--color-bg-contrast);
 		color: var(--color-bg-contrast);
-		font-size: 1.125rem;
+		font-size: 1.125em;
 		box-shadow: 0 2px 10px #0002;
 		transition: all var(--wa-transition-slow) var(--wa-transition-easing);
 	}

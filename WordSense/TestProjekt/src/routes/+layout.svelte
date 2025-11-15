@@ -2,22 +2,6 @@
 	import Header from "./Header.svelte";
 	import "../app.css";
 
-	//setting up languages
-	import "$lib/i18n"; // just importing triggers init
-	import { isLoading } from "svelte-i18n";
-	import { locale } from "svelte-i18n";
-
-	let current = "en";
-
-	// Load saved language
-	if (typeof localStorage !== "undefined") {
-		const saved = localStorage.getItem("lang");
-		if (saved) {
-			current = saved;
-			locale.set(current);
-		}
-	}
-	//---
 
 	//setting up light/darkmode switch
 
@@ -44,9 +28,6 @@
 	let { children } = $props();
 </script>
 
-{#if $isLoading}
-	<h1 class="loading">please wait...</h1>
-{:else}
 	<div class="app">
 		<Header onToggleTheme={toggleTheme} />
 
@@ -62,15 +43,9 @@
 			</p>
 		</footer>
 	</div>
-{/if}
 
 <style>
 
-	.loading{
-		width: 100%;
-		text-align: center;
-		
-	}
 	.app {
 		display: flex;
 		flex-direction: column;

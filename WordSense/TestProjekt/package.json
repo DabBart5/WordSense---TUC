@@ -18,6 +18,7 @@
 		"@sveltejs/adapter-auto": "^7.0.0",
 		"@sveltejs/kit": "^2.47.1",
 		"@sveltejs/vite-plugin-svelte": "^6.2.1",
+		"esbuild": "^0.27.0",
 		"svelte": "^5.41.0",
 		"svelte-check": "^4.3.3",
 		"typescript": "^5.9.3",
@@ -27,5 +28,9 @@
 		"@awesome.me/webawesome": "^3.0.0",
 		"svelte-i18n": "^4.0.1",
 		"yarn": "^1.22.22"
-	}
+	},
+	"overrides": {
+  		"esbuild": "0.27.0",
+  		"svelte-i18n/esbuild": "0.27.0"
+}
 }
