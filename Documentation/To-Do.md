@@ -4,3 +4,5 @@
 - Buttons Maingame von größe her anpassen
 - hier und da farben in light und dark mode anpassen
 - Übersetzen
+- CSS klassen im einheitlichen Schreibstil
+- nutzen einheitlicher Schriftgrößen
