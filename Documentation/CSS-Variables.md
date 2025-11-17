@@ -1,1 +1,14 @@
 # CSS Variables and their Use-Cases
+- --background-color : background
+- --font-mono: 'Fira Mono', monospace;
+- --color-bg-0: 
+- --color-bg-1: 
+- --color-theme-1: equals background
+- --color-theme-2: color in contrast to background
+- --color-bg-contrast: 
+- --color-text:
+- --color-text-1: 
+- --h1: Main Überschrift
+- --h2: andere Überschriften
+- --text-size-normal: 
+- --text-size-bigger: 
