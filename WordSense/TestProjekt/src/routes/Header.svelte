@@ -76,7 +76,7 @@
 		height: 3em;
 	}
 
-	.corner a {
+	/* .corner a {
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -88,7 +88,7 @@
 		width: 2em;
 		height: 2em;
 		object-fit: contain;
-	}
+	} */
 
 	nav {
 		display: flex;

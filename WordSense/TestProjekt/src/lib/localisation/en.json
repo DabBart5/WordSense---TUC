@@ -1,5 +1,11 @@
 {
   "page_title": "WordSense",
   "current_language": "en",
-  "mainPage_Description": "Play WordSense to train your Vocabulary. To start click the Button below!"
+  "mainPage_Description": "Play WordSense to train your Vocabulary. To start click the Button below!",
+  "word": "Word",
+  "definition": "Definition",
+  "difficulty": "Difficulty",
+  "start": "Start",
+  "sec": "s.",
+  "exampleSentence": "Example Sentence"
 }

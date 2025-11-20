@@ -1,13 +1,12 @@
 <script lang="ts">
-	
+	import { Modal, Content, Trigger } from "sv-popup";
 	import Counter from "./Counter.svelte";
-	import { t } from '../stores/i18n';
+	import { t } from "../stores/i18n";
 	// <wa-button>
 	import "@awesome.me/webawesome/dist/components/button/button.js";
+    import MainGameSettings from "./MainGameSettings.svelte";
 
 	//import { Modal, Content, Trigger}  from "sv-popup"
-
-
 </script>
 
 <svelte:head>
@@ -15,21 +14,28 @@
 	<meta name="description" content="Train your Vocabulary with WordSense" />
 </svelte:head>
 
+<!--<section class = "main-column"> taken out for now-->
 <section>
 	<h1>{$t.page_title}</h1>
 
 	<p>
 		{$t.mainPage_Description}
 	</p>
-
 	<div class="buttonDiv">
-		<wa-button class="gameButton">
-			<div class="button_text">MainGame</div>
-		</wa-button>
+		<Modal button={false}>
+			<Content>
+				<MainGameSettings />
+			</Content>
+			<Trigger>
+				<wa-button class="gameButton">
+					<span class="button_text">MainGame</span>
+				</wa-button>
+			</Trigger>
+		</Modal>
 	</div>
 	<div class="buttonDiv">
 		<wa-button class="gameButton">
-			<div class="button_text">MainGame</div>
+			<span class="button_text">MainGame</span>
 		</wa-button>
 	</div>
 </section>
@@ -47,49 +53,54 @@
 		width: 100%;
 		text-align: center;
 		font-family: "Montserrat";
-		font-size: 8vw;
+		font-size: var(--h1);
 		color: var(--color-text);
 	}
 
 	p {
 		width: 100%;
-		font-size: 2vw;
+		font-size: var(--text-size-normal);
 		text-align: center;
 		color: var(--color-text);
 	}
 
+	.button_text {
+		content: "";
+		display: block; /* make text a block-level element */
+		width: 100%; /* span fills the button */
+		text-align: justify; /* stretches text edge to edge */
+		text-justify: inter-word; /* spacing between words */
+		font-size: clamp(2rem, 15vw, 5rem);
+	}
+
 	.buttonDiv {
 		width: 100%;
-		display: flex;
-		justify-content: center; 
-		align-items: center; 
-		margin: 1rem 0; 
+		display: block;
+		justify-content: center;
+		align-items: center;
+		margin: 0.5rem 0;
 	}
 
-	.button_text {
-		position: relative;
-		font-size: 5em;
-		font-family: "Montserrat";
+	wa-button.gameButton {
+		display: flex;
 		width: 100%;
-		height: 100%;
-		top: 0;
+		justify-content: center; /* centers content horizontally */
+		align-items: center; /* centers vertically */
+		min-height: 3rem;
+		padding: 12px;
+		position: relative;
+		font-family: "Montserrat";
 		color: var(--color-bg-contrast);
 		text-align: center;
-	}
-
-	wa-button.gameButton{
-		display: block;
-		width: 50%;
 	}
 	wa-button.gameButton::part(base) {
 		border-radius: 2px;
 		border: solid 2px;
 		display: block;
-		min-width:100% ;
-		min-height: 6em;
+		min-height: 5rem;
 		display: flex;
-  		justify-content: center; 
-  		align-items: center;
+		justify-content: center;
+		align-items: center;
 		border-radius: 4px;
 		background: var(--background-color);
 		border-top-color: var(--color-bg-contrast);
