@@ -1,59 +1,70 @@
-import Database from 'better-sqlite3';
+import Database from "better-sqlite3";
+import fs from "node:fs";
+
+/**
+ * @param {{ language: any; word: any; gender: string; pronunciation: any; definition: any; synonym: any; exSentence: any; wordType: any; difficulty: any; transitivity: any; notes: string; }} w
+ */
+function normalizeWordEntry(w) {
+    return {
+        language: w.language ?? "Unknown",
+        word: w.word ?? "",
+        gender: w.gender && w.gender !== "none" ? w.gender : null,
+        pronunciation: w.pronunciation || null,
+
+        definition: typeof w.definition === "string"
+            ? w.definition
+            : JSON.stringify(w.definition),
+
+        synonym: Array.isArray(w.synonym)
+            ? JSON.stringify(w.synonym)
+            : "[]",
+
+        exSentence: Array.isArray(w.exSentence)
+            ? JSON.stringify(w.exSentence)
+            : "[]",
+
+        wordType: w.wordType ?? null,
+        difficulty: w.difficulty ?? "Unknown",
+
+        transitivity: w.transitivity ? 1 : 0,
+
+        notes: w.notes?.trim() ? w.notes : null
+    };
+}
 
 export function seedDB() {
-    const db = new Database('dictionary.db');
+    const db = new Database("wordsense/TestProjekt/src/lib/server/dictionary.db");
 
     const insert = db.prepare(`
-    INSERT INTO dictionary (
-        language, word, gender, pronunciation,
-        definition, synonym, exSentence,
-        wordType, difficulty, notes
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-`);
+        INSERT INTO dictionary (
+            language, word, gender, pronunciation,
+            definition, synonym, exSentence, wordType,
+            difficulty, transitivity, notes
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    `);
 
-    // Example seed data:
-    const seedWords = [
-        {
-            language: "en",
-            word: "run",
-            gender: null,
-            pronunciation: "/rʌn/",
-            definition: ["to move swiftly on foot", "to operate or function"],
-            synonym: ["sprint", "jog", "operate"],
-            exSentence: ["I run every morning.", "The machine is running smoothly."],
-            wordType: "verb",
-            difficulty: "A2",
-            notes: "Highly irregular verb."
-        },
-        {
-            language: "en",
-            word: "beautiful",
-            gender: null,
-            pronunciation: "/ˈbjuːtəfəl/",
-            definition: ["pleasing the senses or mind aesthetically"],
-            synonym: ["attractive", "lovely", "pretty"],
-            exSentence: ["The sunset is beautiful."],
-            wordType: "adjective",
-            difficulty: "A2",
-            notes: ""
-        }
-    ];
+    const text = fs.readFileSync("wordsense/TestProjekt/src/lib/scripts/dicts/English_B2_half.json", "utf8");
+    const words = JSON.parse(text);
 
-    for (const w of seedWords) {
+    for (const raw of words) {
+        const w = normalizeWordEntry(raw);
+
         insert.run(
             w.language,
             w.word,
             w.gender,
             w.pronunciation,
-            JSON.stringify(w.definition),
-            JSON.stringify(w.synonym),
-            JSON.stringify(w.exSentence),
+            w.definition,
+            w.synonym,
+            w.exSentence,
             w.wordType,
             w.difficulty,
+            w.transitivity,
             w.notes
         );
+
+        console.log("Inserted:", w.word);
     }
 
     console.log("Dictionary seeded!");
-
 }

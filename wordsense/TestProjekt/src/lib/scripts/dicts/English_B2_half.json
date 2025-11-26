@@ -1,0 +1,6248 @@
+[
+    {
+        "language": "English",
+        "word": "intended",
+        "gender": "none",
+        "pronunciation": "/ɪnˈtɛndɪd/",
+        "definition": "(usually followed by the particle \"to\") To hope, to wish (something, or something to be accomplished), be intent upon",
+        "synonym": [
+            [
+                "design",
+                "mean",
+                "plan",
+                "purpose"
+            ]
+        ],
+        "exSentence": [
+            "I intended to become a teacher."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "intense",
+        "gender": "none",
+        "pronunciation": "/ɪnˈtɛns/",
+        "definition": "Strained, tightly drawn. To be of extreme force, degree, or strength",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The heat is intense."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "to interact",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "to communicate with someone or react to something",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "They are imbued with reason and conscience and should interact with each other in a spirit of brotherhood."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "interaction",
+        "gender": "none",
+        "pronunciation": "/ˌɪntəɹˈækʃən/",
+        "definition": "The situation or occurrence in which two or more objects or events act upon one another to produce a new effect, the effect resulting from such a situation or occurrence.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Then interaction with others becomes important."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "internal",
+        "gender": "none",
+        "pronunciation": "/ɪnˈtɝnəl/",
+        "definition": "Inside of something",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The stomach is one of the internal organs."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "interpret",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "To explain or tell the meaning of, to translate orally into intelligible or familiar language or terms. applied especially to language, but also to dreams, signs, conduct, mysteries, etc.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "It doesn't require a scholar to interpret."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "interpretation",
+        "gender": "none",
+        "pronunciation": "/ɪntəpɹəˈteɪʃən/",
+        "definition": "An act of interpreting or explaining what is obscure, a translation, a version, a construction.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "In our interpretation, the output data in Table 2 is an acceptable variation of that in Table 1."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "interrupt",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "An event that causes a computer or other device to temporarily cease what it was doing and attend to a condition.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Why did she interrupt me?"
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "interval",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "A distance in space or time.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "During the interval, Takashi and Harumi got a drink at the theater bar."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "invade",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "To enter a country by force with large numbers of soldiers in order to take possession of it",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Concentrations of troops near the border look set to invade within the next few days.",
+            "You must not invade the privacy of others."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "invasion",
+        "gender": "none",
+        "pronunciation": "/ɪnˈveɪʒən/",
+        "definition": "A military action consisting of armed forces of one geopolitical entity entering territory controlled by another such entity, generally with the objective of conquering territory or altering the established government.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "It is nothing less than an invasion."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "investigation",
+        "gender": "none",
+        "pronunciation": "/ɪnˌvɛstəˈɡeɪʃən/",
+        "definition": "The act of investigating, the process of inquiring into or following up, research, especially patient or thorough inquiry or examination",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The students assisted the professor in the investigation."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "investment",
+        "gender": "none",
+        "pronunciation": "/ɪnˈvɛsmənt/",
+        "definition": "The act of putting money, effort, time, etc. into something to make a profit or get an advantage, or the money, effort, time, etc. used to do this",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Education is an investment in the future."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "investor",
+        "gender": "none",
+        "pronunciation": "/ɪnˈvɛstɚ/",
+        "definition": "A person or organization who puts money into something, especially by buying shares, in order to make a profit or get an advantage",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The big investor bought up the stocks."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "to isolate",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "To separate something from other things with which it is connected or mixed",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Johnson is a recluse; he prefers to isolate himself from the rest of the students in our class."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "isolated",
+        "gender": "none",
+        "pronunciation": "/ˈaɪsəleɪtɪd/",
+        "definition": "To set apart or cut off from others.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The more stubborn you are, the more isolated you become."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "issue",
+        "gender": "none",
+        "pronunciation": "/ˈɪsjuː/",
+        "definition": "a subject or problem that people are thinking and talking about",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "As employers we need to be seen to be addressing (= dealing with) these issues sympathetically."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "jail",
+        "gender": "none",
+        "pronunciation": "/dʒeɪl/",
+        "definition": "A place or institution for the confinement of persons held in lawful custody or detention, especially for minor offenses or with reference to some future judicial proceeding.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "By the time you get out of jail, she'll probably have gotten married."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "jet",
+        "gender": "none",
+        "pronunciation": "/dʒɛt/",
+        "definition": "An aircraft with a jet engine that is able to fly very fast",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The jet crash-landed and burst into flames.",
+            "Whenever I go abroad, I suffer from jet lag and diarrhea."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "joint",
+        "gender": "none",
+        "pronunciation": "/dʒɔɪnt/",
+        "definition": "The point where two components of a structure join, but are still able to rotate.",
+        "synonym": [
+            [
+                "hinge",
+                "pivot"
+            ]
+        ],
+        "exSentence": [
+            "As you become older, your joints get stiffer"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "journalism",
+        "gender": "none",
+        "pronunciation": "/ˈdʒɜːn(ə)lɪzəm/",
+        "definition": "The activity or profession of being a journalist.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I'd like to get into journalism in the future."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "joy",
+        "gender": "none",
+        "pronunciation": "/dʒɔɪ/",
+        "definition": "A feeling of extreme happiness or cheerfulness, especially related to the acquisition or expectation of something good.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I'm beside myself with joy."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "judgement",
+        "gender": "none",
+        "pronunciation": "/dʒʌdʒmənt/",
+        "definition": "a decision or opinion about someone or something that you form after thinking carefully",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Say what you will, I will act on my own judgement."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "junior",
+        "gender": "none",
+        "pronunciation": "/ˈdʒuːnɪə/",
+        "definition": "someone who has a job at a low level within an organization",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Junior and middle-ranking civil servants have pledged to join the indefinite strike.",
+            "At last, I graduated from junior high school."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "jury",
+        "gender": "none",
+        "pronunciation": "/ˈd͡ʒʊə.ɹi/",
+        "definition": "A group of individuals chosen from the general population to hear and decide a case in a court of law.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "In the justice system of the United States, there are twelve people on a jury."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "justice",
+        "gender": "none",
+        "pronunciation": "/ˈdʒʌs.tɪs/",
+        "definition": "The state or characteristic of being just or fair.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Don't you have a sense of justice?"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "justify",
+        "gender": "none",
+        "pronunciation": "/ˈdʒʌstɪfaɪ/",
+        "definition": "To provide an acceptable explanation for.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            [],
+            "How can you justify spending so much money on clothes?"
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "kindergarten",
+        "gender": "none",
+        "pronunciation": "/ˈkɪndəɹˌɡɑːɹd(ə)n/",
+        "definition": "An educational institution for young children, usually between ages 4 and 6, nursery school.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I will not be able to pick up Shigemi at the kindergarten."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "kit",
+        "gender": "none",
+        "pronunciation": "/kɪt/",
+        "definition": "a set of things, such as tools or clothes, used for a particular purpose or activity",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "A torch is an important piece of kit on backpacking trips.",
+            "I built the kit taking care not to make mistakes in the wiring."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "labour",
+        "gender": "none",
+        "pronunciation": "/ˈleɪ.bə/",
+        "definition": "Effort expended on a particular task, toil, work.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We are indirectly dependent upon the labour of others for all the necessities and comforts of our lives."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "ladder",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "A frame, usually portable, of wood, metal, or rope, used for ascent and descent, consisting of two side pieces to which are fastened rungs (cross strips or rounds acting as steps).",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Bill climbed the ladder of success until he became the president of the company."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "landing",
+        "gender": "none",
+        "pronunciation": "/ˈlændɪŋ/",
+        "definition": "The fact of an aircraft arriving on the ground or a boat reaching land",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The spaceship made a perfect landing."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "landscape",
+        "gender": "none",
+        "pronunciation": "/ˈlandskeɪp/",
+        "definition": "A portion of land or territory which the eye can comprehend in a single view, including all the objects it contains.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Survey the landscape below."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "lane",
+        "gender": "none",
+        "pronunciation": "/leɪn/",
+        "definition": "a special strip of a road, sports track, or swimming pool that is used to keep vehicles or competitors separate",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The rightmost lane is now under construction."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "largely",
+        "gender": "none",
+        "pronunciation": "[ˈlaːdʒ.li]",
+        "definition": "In a widespread or large manner.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Your success will largely depend upon how you will make good use of your opportunity."
+        ],
+        "wordType": "adverb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "lately",
+        "gender": "none",
+        "pronunciation": "/ˈleɪt.li/",
+        "definition": "Recently, not long ago, of late.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Muiriel likes to annoy me lately."
+        ],
+        "wordType": "adverb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "latest",
+        "gender": "none",
+        "pronunciation": "/ˈleɪt.ɪst/",
+        "definition": "Near the end of a period of time.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "You must be back on Sunday at the latest."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "launch",
+        "gender": "none",
+        "pronunciation": "/lɔːnt͡ʃ/",
+        "definition": "an occasion when a ship is put into water, or a spacecraft is sent into space, for the first time",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The launch, which had been scheduled for this morning, was postponed because of the illness of shuttle Commander John Creighton."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "leadership",
+        "gender": "none",
+        "pronunciation": "/ˈliːdəʃɪp/",
+        "definition": "the position or fact of being the leader",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "You must act under the leadership of your supervisor."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "league",
+        "gender": "none",
+        "pronunciation": "/liːɡ/",
+        "definition": "A league is a group in which all the players, people, or things are on approximately the same level",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The manager has put him back in the major league."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "lean",
+        "gender": "none",
+        "pronunciation": "/liːn/",
+        "definition": "to (cause to) slope in one direction, or to move the top part of the body in a particular direction",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Don't lean against the wall."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "leave",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "If you leave something in a particular condition, you do not touch it, move it, or act to change it in any way, so that it stays in the same condition",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "He left most of his dinner (= did not eat much of it)."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "legend",
+        "gender": "none",
+        "pronunciation": "/ˈlɛdʒ.ənd/",
+        "definition": "An unrealistic story depicting past events.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We are familiar with the legend of Robin Hood."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "lens",
+        "gender": "none",
+        "pronunciation": "/lɛnz/",
+        "definition": "An object, usually made of glass, that focuses or defocuses the light that passes through it.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Through the lens the image was inverted."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "level",
+        "gender": "none",
+        "pronunciation": "/ˈlɛv.əl/",
+        "definition": "the height of something",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I won't lower myself to his level."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "licence",
+        "gender": "none",
+        "pronunciation": "/ˈlaɪsəns/",
+        "definition": "A legal document giving official permission to do something, a permit.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I had my licence renewed a week ago."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "lifetime",
+        "gender": "none",
+        "pronunciation": "/ˈlaɪftaɪm/",
+        "definition": "The duration of the life of someone or something.",
+        "synonym": [
+            [
+                "lifespan"
+            ]
+        ],
+        "exSentence": [
+            "Communism will never be reached in my lifetime."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "lighting",
+        "gender": "none",
+        "pronunciation": "/ˈlaɪtɪŋ/",
+        "definition": "the arrangement of lights used in a room, house, theatre, etc",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We danced in the subdued lighting."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "likewise",
+        "gender": "none",
+        "pronunciation": "/ˈlaɪkˌwaɪz/",
+        "definition": "(manner) In a similar manner.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Tom is tall and likewise strong."
+        ],
+        "wordType": "adverb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "limitation",
+        "gender": "none",
+        "pronunciation": "/lɪmɪˈteɪʃən/",
+        "definition": "The act of limiting or the state of being limited.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Furthermore, no distinction shall be made on the basis of the political, jurisdictional or international status of the country or territory to which a person belongs, whether it be independent, trust, non-self-governing or under any other limitation of sovereignty."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "limited",
+        "gender": "none",
+        "pronunciation": "/ˈlɪmɪtɪd/",
+        "definition": "To be restricted, to not be allowed to go beyond a certain bound, for boundaries to be set.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Your father's supporters are not limited to his friends."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "line",
+        "gender": "none",
+        "pronunciation": "/laɪn/",
+        "definition": "a long, thin and sometimes imaginary mark that forms the edge, border, or limit of something",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The police couldn't arrest him because he'd fled across the state line."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "literally",
+        "gender": "none",
+        "pronunciation": "/ˈlɪtəɹəli/",
+        "definition": "Word for word, not figuratively, not as an idiom or metaphor",
+        "synonym": [
+            [
+                "actually",
+                "really"
+            ]
+        ],
+        "exSentence": [
+            "Don't take it literally."
+        ],
+        "wordType": "adverb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "literary",
+        "gender": "none",
+        "pronunciation": "/ˈlɪt(ə)ɹi/",
+        "definition": "Relating to literature.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "When, one day, computers undertake to translate literary works, it will be the end of literature as we know it."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "litter",
+        "gender": "none",
+        "pronunciation": "/ˈlɪtə(ɹ)/",
+        "definition": "small pieces of rubbish that have been left lying on the ground in public places",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "These days you can't walk down the street without seeing people dropping litter."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "lively",
+        "gender": "none",
+        "pronunciation": "/ˈlaɪvli/",
+        "definition": "full of energy and enthusiasm; interesting and exciting",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "He is lively during recess."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "load",
+        "gender": "none",
+        "pronunciation": "/ləʊd/",
+        "definition": "A burden, a weight to be carried.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The load was too heavy for a driver to carry alone."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "loan",
+        "gender": "none",
+        "pronunciation": "/ləʊn/",
+        "definition": "An act or instance of lending, an act or instance of granting something for temporary use.",
+        "synonym": [
+            [
+                "lending",
+                "loaning"
+            ]
+        ],
+        "exSentence": [
+            "You can get a loan from a bank."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "logical",
+        "gender": "none",
+        "pronunciation": "/ˈlɒdʒɪkəɫ/",
+        "definition": "In agreement with the principles of logic.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Prime numbers are like life; they are completely logical, but impossible to find the rules for, even if you spend all your time thinking about it."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "logo",
+        "gender": "none",
+        "pronunciation": "/ˈləʊɡəʊ/",
+        "definition": "A visual symbol or emblem that acts as a trademark or a means of identification of a company or organization.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The design was also given the finishing touch to have launch impact and dynamism provided by the novelty of the arch shaped logo design."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "long-term",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "continuing a long time into the future",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The management tended to be too concerned about short-term improvement of the bottom line to have any long-term design for the future."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "loose",
+        "gender": "none",
+        "pronunciation": "/luːs/",
+        "definition": "not firmly held or fastened in place",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "There were some loose wires hanging out of the wall.",
+            "He was truly at loose ends."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "lord",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "The master of the servants of a household, the master of a feudal manor",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "And whatsoever ye do, do it heartily, as to the Lord, and not unto men."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "lottery",
+        "gender": "none",
+        "pronunciation": "/ˈlɒtəɹi/",
+        "definition": "A scheme for the distribution of prizes by lot or chance, especially a gaming scheme in which one or more tickets bearing particular numbers draw prizes, the other tickets are blanks.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "My mother prefers the arbitrary selection of the lottery machines over my lucky numbers."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "low",
+        "gender": "none",
+        "pronunciation": "/ləʊ/",
+        "definition": "close to the ground or the bottom of something",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "His low salary prevents him from buying the house."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "lower",
+        "gender": "none",
+        "pronunciation": "/ˈləʊə/",
+        "definition": "to move something into a low position",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I won't lower myself to his level."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "loyal",
+        "gender": "none",
+        "pronunciation": "/ˈlɔɪəl/",
+        "definition": "Having or demonstrating undivided and constant support for someone or something.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Pop artists thrive on the adulation of their loyal fans."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "lung",
+        "gender": "none",
+        "pronunciation": "/ˈlʌŋ/",
+        "definition": "A biological organ of vertebrates that controls breathing and oxygenates the blood.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Smokers are far more likely to develop lung cancer than non-smokers are."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "lyric",
+        "gender": "none",
+        "pronunciation": "/ˈlɪɹ.ɪk/",
+        "definition": "(especially of poetry and songs) expressing personal thoughts and feelings",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I like lyric better than epic."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "magnificent",
+        "gender": "none",
+        "pronunciation": "/mæɡˈnɪfəsənt/",
+        "definition": "Grand, elegant or splendid in appearance.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "This scenery is magnificent."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "maintain",
+        "gender": "none",
+        "pronunciation": "/meɪnˈteɪn/",
+        "definition": "to continue to have; to keep in existence, or not allow to become less",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The bureaucrats maintain solid ties with the gigantic corporations."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "majority",
+        "gender": "none",
+        "pronunciation": "/məˈd͡ʒɒɹɪti/",
+        "definition": "More than half (50%) of some group.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "A democrat is a free citizen who yields to the will of the majority."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "make",
+        "gender": "none",
+        "pronunciation": "/meɪk/",
+        "definition": "to earn or get",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "She makes $100,000 a year as a doctor."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "makeup",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "An item's composition.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The makeup of Mideast peace talks may change due to a change of heart on the part of Israel."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "make",
+        "gender": "none",
+        "pronunciation": "/ˈmeɪkɪŋ/",
+        "definition": "to earn or get",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "She makes $100,000 a year as a doctor."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "manufacture",
+        "gender": "none",
+        "pronunciation": "/ˌmænjʊˈfæktʃə/",
+        "definition": "The action or process of making goods systematically or on a large scale.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "He works for a company that manufactures car parts."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "manufacture",
+        "gender": "none",
+        "pronunciation": "/ˌmænjʊˈfækt͡ʃəɹɪŋ/",
+        "definition": "To make things, usually on a large scale, with tools and either physical labor or machinery.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "He works for a company that manufactures car parts."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "map",
+        "gender": "none",
+        "pronunciation": "/mæp/",
+        "definition": "A visual representation of an area, whether real or imaginary.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Please, can you indicate this to me on the map?"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "marathon",
+        "gender": "none",
+        "pronunciation": "/ˈmæɹəθən/",
+        "definition": "A 42.195 kilometre (26 mile 385 yard) road race.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The doctor forbade me from taking part in the marathon."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "margin",
+        "gender": "none",
+        "pronunciation": "/ˈmɑːdʒɪn/",
+        "definition": "The edge of the paper, typically left blank when printing but sometimes used for annotations etc.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "She was in the habit of making notes in the margins of her textbooks."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "marker",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "An object used to mark a location.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I've put in some markers where I planted the seeds."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "martial",
+        "gender": "none",
+        "pronunciation": "/ˈmɑːʃəl/",
+        "definition": "relating to soldiers, war, or life in the armed forces",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "For a guy who was chosen by his father as the only son to be taught the secrets of this martial art, he doesn't have that much of a kick."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "mass",
+        "gender": "none",
+        "pronunciation": "/mæs/",
+        "definition": "(physical) Matter, material.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "There is a mass of dark clouds in the sky."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "massive",
+        "gender": "none",
+        "pronunciation": "/ˈmæs.ɪv/",
+        "definition": "very large in size, amount, or number",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We came up against massive popular resistance."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "master",
+        "gender": "none",
+        "pronunciation": "/ˈmastə/",
+        "definition": "to learn how to do something well",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "It's quite difficult to master French in 2 or 3 years."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "match",
+        "gender": "none",
+        "pronunciation": "/ˈmætʃɪŋ/",
+        "definition": "To agree, to be equal, to correspond.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I want to get the word out - even if you don't have a lot of clothes you can enjoy dressing more fashionably by mixing and matching."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "mate",
+        "gender": "none",
+        "pronunciation": "/meɪt/",
+        "definition": "A fellow, comrade, colleague, partner or someone with whom something is shared, e.g. shipmate, classmate.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I usually go out with some of my mates from the office on Saturdays."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "material",
+        "gender": "none",
+        "pronunciation": "/məˈtɪəɹɪəl/",
+        "definition": "Matter which may be shaped or manipulated, particularly in making something.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Another interesting source of energy is the heat that can be recovered from radioactive waste material."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "maximum",
+        "gender": "none",
+        "pronunciation": "/ˈmæksɪməm/",
+        "definition": "The highest limit",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Thanks to the technological innovation, the maximum output of the factory has doubled."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "means",
+        "gender": "none",
+        "pronunciation": "/miːnz/",
+        "definition": "a method or way of doing something",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "They had no means of communication."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "measurement",
+        "gender": "none",
+        "pronunciation": "/ˈmeʒ.ə.mənt/",
+        "definition": "The act of measuring.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "In the imperial measurement system, four quarts equals one gallon."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "mechanic",
+        "gender": "none",
+        "pronunciation": "/məˈkænɪk/",
+        "definition": "the details of how something works or happens",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "He knows a lot about the mechanics of running a school."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "mechanical",
+        "gender": "none",
+        "pronunciation": "/mɪˈkanɪk(ə)l/",
+        "definition": "operated by a machine, or connected with machines or their parts",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The downtime is caused by a mechanical problem."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "mechanism",
+        "gender": "none",
+        "pronunciation": "/ˈmɛkənɪzm/",
+        "definition": "a part of a machine, or a set of parts that work together",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Its mechanism will cease to work."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "medal",
+        "gender": "none",
+        "pronunciation": "[ˈmeɾ.ɫ̩]",
+        "definition": "A stamped metal disc used as a personal ornament, a charm, or a religious object.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The committee bestowed a medal on him."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "medication",
+        "gender": "none",
+        "pronunciation": "/mɛdɪˈkeɪʃən/",
+        "definition": "A medicine, or all the medicines regularly taken by a patient.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Do I need some kind of medication?"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "medium",
+        "gender": "none",
+        "pronunciation": "/ˈmiːdɪəm/",
+        "definition": "(plural media or mediums) The chemistry of the surrounding environment, e.g. solid, liquid, gas, vacuum, or a specific substance such as a solvent.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The air is a medium for sound."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "melt",
+        "gender": "none",
+        "pronunciation": "/mɛlt/",
+        "definition": "to turn from something solid into something soft or liquid, or to cause something to do this",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "A plastic dish will melt on the stove."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "membership",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "The state of being a member of a group or organization.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Each member has to pay a membership fee."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "memorable",
+        "gender": "none",
+        "pronunciation": "/ˈmɛm(ə)ɹəbl̩/",
+        "definition": "Worthy to be remembered, very important or remarkable.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "That'll make for a memorable time."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "metaphor",
+        "gender": "none",
+        "pronunciation": "/ˈmɛt.ə.fɔː(ɹ)/",
+        "definition": "The use of a word or phrase to refer to something that it is not, invoking a direct similarity between the word or phrase used and the thing described (but in the case of English without the words like or as, since use of those words would imply a simile), the word or phrase used in this way, an implied comparison.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "He's a tiger when he's angry\" is an example of metaphor."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "military",
+        "gender": "none",
+        "pronunciation": "/ˈmɪl.ɪ.tɹi/",
+        "definition": "Armed forces.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The President says we must beef up our military forces."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "miner",
+        "gender": "none",
+        "pronunciation": "/ˈmaɪnə/",
+        "definition": "A person who works in a mine.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The miner asked the lamp spirit for a happy life."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "mineral",
+        "gender": "none",
+        "pronunciation": "/ˈmɪ.nəɹ.əl/",
+        "definition": "Any naturally occurring inorganic material that has a (more or less) definite chemical composition and characteristic physical properties.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The region is relatively rich in mineral resources."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "minimum",
+        "gender": "none",
+        "pronunciation": "/ˈmɪn.ɪ.məm/",
+        "definition": "The lowest limit.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We have to reduce the cost to a minimum."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "minister",
+        "gender": "none",
+        "pronunciation": "/ˈmɪnɪstə/",
+        "definition": "a member of the government in Britain and many other countries who is in charge of a particular department or has an important position in it",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The press besieged the minister with questions."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "minor",
+        "gender": "none",
+        "pronunciation": "/ˈmaɪnɚ/",
+        "definition": "having little importance, influence, or effect, especially when compared with other things of the same type",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "It's only a minor problem - we'll soon find a solution."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "minority",
+        "gender": "none",
+        "pronunciation": "/maɪˈnɒɹ.ɪ.ti/",
+        "definition": "a smaller number or part",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The chairman should take the minority opinion into account."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "miserable",
+        "gender": "none",
+        "pronunciation": "/ˈmɪz(ə)ɹəbəl/",
+        "definition": "very unhappy",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "unpleasant and causing unhappiness"
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "mission",
+        "gender": "none",
+        "pronunciation": "/ˈmɪʃn̩/",
+        "definition": "A set of tasks that fulfills a purpose or duty, an assignment set by an employer, or by oneself.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We carried out our mission successfully."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "mistake",
+        "gender": "none",
+        "pronunciation": "/mɪˈsteɪk/",
+        "definition": "An error, a blunder.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "If you see a mistake, then please correct it."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "mixed",
+        "gender": "none",
+        "pronunciation": "/mɪkst/",
+        "definition": "To stir together.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Our feelings towards him are mixed."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "mode",
+        "gender": "none",
+        "pronunciation": "/məʊd/",
+        "definition": "a way of operating, living, or behaving",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Railways are an important mode of transport for the economy.",
+            "The author's mode of expression is very concise."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "model",
+        "gender": "none",
+        "pronunciation": "/ˈmɒdl̩/",
+        "definition": "A person who serves as a subject for artwork or fashion, usually in the medium of photography but also for painting or drawing.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "She's going out with a male model."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "modest",
+        "gender": "none",
+        "pronunciation": "/ˈmɑdəst/",
+        "definition": "Not bragging or boasting about oneself or one's achievements, unpretentious, humble.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Generally speaking, Japanese women are modest."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "modify",
+        "gender": "none",
+        "pronunciation": "/ˈmɒdɪfaɪ/",
+        "definition": "To change part of.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "You'll have to modify the height of the table to make it fit."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "monitor",
+        "gender": "none",
+        "pronunciation": "/ˈmɒnɨtə/",
+        "definition": "Someone who watches over something, a person in charge of something or someone.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "United Nations monitors were not allowed to enter the area."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "monster",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "A terrifying and dangerous creature.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The monster's smile was cruel."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "monthly",
+        "gender": "none",
+        "pronunciation": "/ˈmʌnθli/",
+        "definition": "happening or produced once a month",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "How much is the monthly rate?"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "monument",
+        "gender": "none",
+        "pronunciation": "/ˈmɒnjʊmənt/",
+        "definition": "A structure built for commemorative or symbolic reasons, or as a memorial, a commemoration.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The monument was set up in the park."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "moral",
+        "gender": "none",
+        "pronunciation": "/ˈmɒɹəl/",
+        "definition": "relating to the standards of good or bad behaviour, fairness, honesty, etc. that each person believes in, rather than to laws",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "It's her moral obligation to tell the police what she knows."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "moreover",
+        "gender": "none",
+        "pronunciation": "/mɔːˈɹəʊvə/",
+        "definition": "In addition to what has been said, furthermore, additionally.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The house looked good; moreover, the price was right."
+        ],
+        "wordType": "adverb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "mortgage",
+        "gender": "none",
+        "pronunciation": "/ˈmɔː.ɡɪdʒ/",
+        "definition": "an agreement that allows you to borrow money from a bank or similar organization, especially in order to buy a house, or the amount of money itself",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The bank holds a mortgage on his building."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "mosque",
+        "gender": "none",
+        "pronunciation": "/mɒsk/",
+        "definition": "A place of worship for Muslims, often having at least one minaret, a masjid.",
+        "synonym": [
+            [
+                "masjid"
+            ]
+        ],
+        "exSentence": [
+            "This is a house and that is a mosque."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "mosquito",
+        "gender": "none",
+        "pronunciation": "/məˈski.toʊ/",
+        "definition": "A small flying insect of the family Culicidae, the females of which bite humans and animals and suck blood, leaving an itching bump on the skin, and sometimes carrying diseases like malaria and yellow fever.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I've got mosquito bites all over my arm."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "motion",
+        "gender": "none",
+        "pronunciation": "/ˈməʊʃən/",
+        "definition": "A state of progression from one place to another.",
+        "synonym": [
+            [
+                "movement"
+            ]
+        ],
+        "exSentence": [
+            "And I call on the chairman of the Education Committee to support the motion."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "motivate",
+        "gender": "none",
+        "pronunciation": "/ˈməʊtɪveɪt/",
+        "definition": "To provide someone with an incentive to do something, to encourage.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The teachers are trying to motivate their students."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "motivation",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "Willingness of action especially in behavior.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Without motivation, nothing can be achieved."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "motor",
+        "gender": "none",
+        "pronunciation": "/ˈməʊtə/",
+        "definition": "A machine or device that converts other energy forms into mechanical energy, or imparts motion.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The motor started to run."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "mount",
+        "gender": "none",
+        "pronunciation": "/maʊnt/",
+        "definition": "A hill or mountain.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The first Olympic Games were held at the foot of Mount Olympus to honor the Greeks' chief god, Zeus."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "moving",
+        "gender": "none",
+        "pronunciation": "/ˈmuːvɪŋ/",
+        "definition": "causing strong feelings of sadness or sympathy",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "This song is so moving that it brings tears to my eyes."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "multiple",
+        "gender": "none",
+        "pronunciation": "/ˈmʌltɪpl̩/",
+        "definition": "very many of the same type, or of different types",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "There was a multiple collision on the highway."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "multiply",
+        "gender": "none",
+        "pronunciation": "/ˈmʌltɪplaɪ/",
+        "definition": "An act or instance of multiplying.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The only way on Earth to multiply happiness is to divide it."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "mysterious",
+        "gender": "none",
+        "pronunciation": "/mɪˈstɪəɹi.əs/",
+        "definition": "strange, not known, or not understood",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I always liked mysterious characters more."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "myth",
+        "gender": "none",
+        "pronunciation": "/mɪθ/",
+        "definition": "an ancient story or set of stories, especially explaining the early history of a group of people or about natural events and facts",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The children enjoyed the stories about the gods and goddesses of Greek and Roman myth."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "naked",
+        "gender": "none",
+        "pronunciation": "/ˈnɛkɪd/",
+        "definition": "Bare, not covered by clothing.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "You can't go naked in this hotel."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "narrow",
+        "gender": "none",
+        "pronunciation": "/ˈnæɹəʊ/",
+        "definition": "having a small distance from one side to the other, especially in comparison with the length",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The little village has very narrow streets."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "nasty",
+        "gender": "none",
+        "pronunciation": "/ˈnaː.sti/",
+        "definition": "bad or very unpleasant",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I can't stand that nasty attitude of his any longer."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "national",
+        "gender": "none",
+        "pronunciation": "/ˈnæʃ(ə)nəl/",
+        "definition": "A subject of a nation.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The French government has launched an online game that challenges taxpayers to balance the national budget."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "navigation",
+        "gender": "none",
+        "pronunciation": "/nævɪˈɡeɪʃən/",
+        "definition": "The theory, practice and technology of charting a course for a ship, aircraft or spaceship or (colloquially) road vehicle.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "It seems the navy jets had a major screw-up in navigation and they bombed their own troops by mistake."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "nearby",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "Adjacent, near, close by",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The farmer that lived nearby came to investigate."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "neat",
+        "gender": "none",
+        "pronunciation": "/niːt/",
+        "definition": "An artificial intelligence researcher who believes that solutions should be elegant, clear and provably correct.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "No one is so poor that he cannot afford to be neat."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "necessity",
+        "gender": "none",
+        "pronunciation": "/nɪˈsɛsəti/",
+        "definition": "The quality or state of being necessary, unavoidable, or absolutely requisite.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "It must, of necessity, be postponed."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "negative",
+        "gender": "none",
+        "pronunciation": "/ˈnɛ(e)ɡəˌɾɪv/",
+        "definition": "not expecting good things, or likely to consider only the bad side of a situation",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Some people argue that technology has negative effects."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "negotiate",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "To confer with others in order to come to terms or reach an agreement.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We delegated him to negotiate with them."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "negotiation",
+        "gender": "none",
+        "pronunciation": "/nɪˌɡəʊʃiˈeɪʃən/",
+        "definition": "The process of achieving agreement through discussion.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Far from being a failure, our negotiation was a great success."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "nerve",
+        "gender": "none",
+        "pronunciation": "/nɛɾv/",
+        "definition": "worry or anxiety about something that is going to happen",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I never suffer from nerves when I'm speaking in public."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "neutral",
+        "gender": "none",
+        "pronunciation": "/ˈnjuːtɹəl/",
+        "definition": "not expressing an opinion or taking actions that support either side in a disagreement or war",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The senator remained neutral in the furious controversy."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "nevertheless",
+        "gender": "none",
+        "pronunciation": "/ˈnɛvəðəlɛs/",
+        "definition": "despite what has just been said or referred to",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "It's just five in the morning, but nevertheless it is light out."
+        ],
+        "wordType": "adverb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "newly",
+        "gender": "none",
+        "pronunciation": "/ˈnjuːli/",
+        "definition": "Very recently, in the immediate past.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Why on earth did you sell your newly-built house?"
+        ],
+        "wordType": "adverb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "nickel",
+        "gender": "none",
+        "pronunciation": "/ˈnɪk.əl/",
+        "definition": "a US or Canadian coin worth five cents",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "A nickel is a five-cent coin."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "nightmare",
+        "gender": "none",
+        "pronunciation": "/ˈnaɪt.mɛə/",
+        "definition": "a very upsetting or frightening dream",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I had a nightmare."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "norm",
+        "gender": "none",
+        "pronunciation": "/nɔːm/",
+        "definition": "That which is normal or typical.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Her behaviour towards me was a departure from the norm."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "notebook",
+        "gender": "none",
+        "pronunciation": "/ˈnəʊtˌbʊk/",
+        "definition": "A book in which notes or memoranda are written.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Let me put down your new phone number in my notebook."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "notion",
+        "gender": "none",
+        "pronunciation": "/ˈnəʊʃən/",
+        "definition": "a belief or idea",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I had no notion that you were coming."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "novelist",
+        "gender": "none",
+        "pronunciation": "/ˈnɒvəlɪst/",
+        "definition": "An author of novels.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The novelist gathered materials for his work."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "nowadays",
+        "gender": "none",
+        "pronunciation": "/ˈnaʊ.ə.deɪz/",
+        "definition": "At the present time, in the current era.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Beef is expensive nowadays."
+        ],
+        "wordType": "adverb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "numerous",
+        "gender": "none",
+        "pronunciation": "/ˈnjuːməɹəs/",
+        "definition": "Indefinitely large numerically, many.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We have made numerous improvements to our house since we bought it."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "nursing",
+        "gender": "none",
+        "pronunciation": "/ˈnɜːsɪŋ/",
+        "definition": "To breastfeed: to feed (a baby) at the breast, to suckle.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Nursing mothers are advised to eat plenty of leafy green vegetables."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "nutrition",
+        "gender": "none",
+        "pronunciation": "/njuːˈtɹɪ.ʃən/",
+        "definition": "the substances that you take into your body as food and the way that they influence your health: ",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            [
+                "Good nutrition is essential if patients are to make a quick recovery."
+            ]
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "obesity",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "The state of being obese due to an excess of body fat.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I suffer from obesity."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "obey",
+        "gender": "none",
+        "pronunciation": "/əʊˈbeɪ/",
+        "definition": "To do as ordered by (a person, institution etc), to act according to the bidding of.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "You are supposed to obey the law."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "object",
+        "gender": "none",
+        "pronunciation": "/ˈɒb.d͡ʒɛkt/",
+        "definition": "to feel or express opposition to or dislike of something or someone",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I don't mean to object to your proposal."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "objective",
+        "gender": "none",
+        "pronunciation": "/ɒbˈd͡ʒɛk.tɪv/",
+        "definition": "something that you plan to do or achieve",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Her main/prime objective now is simply to stay in power."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "obligation",
+        "gender": "none",
+        "pronunciation": "/ɑb.ləˈɡeɪ.ʃən/",
+        "definition": "something that you must do",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "You have no obligation to help us."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "observation",
+        "gender": "none",
+        "pronunciation": "/ˌɒbzəˈveɪʃ(ə)n/",
+        "definition": "The fact that you notice or see something",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Science is based on careful observation."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "observe",
+        "gender": "none",
+        "pronunciation": "/əbˈzɝv/",
+        "definition": "To notice or view, especially carefully or with attention to detail.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The role of scientists is to observe and describe the world, not to try to control it."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "observer",
+        "gender": "none",
+        "pronunciation": "/ɒb-/",
+        "definition": "One who makes observations, monitors or takes notice",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The fact is apparent to the most casual observer."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "obstacle",
+        "gender": "none",
+        "pronunciation": "/ˈɒbstəkl̩/",
+        "definition": "Something that impedes, stands in the way of, or holds up progress",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The scandal was an obstacle to his promotion."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "obtain",
+        "gender": "none",
+        "pronunciation": "/əbˈteɪn/",
+        "definition": "To get hold of, to gain possession of, to procure, to acquire, in any way.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "How did you obtain these old postage stamps?"
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "occasionally",
+        "gender": "none",
+        "pronunciation": "/əˈkeɪʒnəli/",
+        "definition": "sometimes but not often",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Teachers should occasionally let their students blow off some steam."
+        ],
+        "wordType": "adverb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "occupation",
+        "gender": "none",
+        "pronunciation": "/ɒkjəˈpeɪʃən/",
+        "definition": "An activity or task with which one occupies oneself, usually specifically the productive activity, service, trade, or craft for which one is regularly paid, a job.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "You must take up a regular occupation."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "occupy",
+        "gender": "none",
+        "pronunciation": "/ˈɒkjʊpaɪ/",
+        "definition": "to fill, exist in, or use a place or period of time",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Smokers are asked to occupy the rear seats."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "offence",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "an illegal act; a crime",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The law prescribes certain penalties for this offence."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "offend",
+        "gender": "none",
+        "pronunciation": "/əˈfɛnd/",
+        "definition": "To hurt the feelings of, to displease, to make angry, to insult.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "She didn't mean to offend anyone with her remark."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "offender",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "One who gives or causes offense, or does something wrong.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Such conduct would subject the offender to a heavy penalty."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "offensive",
+        "gender": "none",
+        "pronunciation": "/əˈfɛnsɪv/",
+        "definition": "causing offence",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The instant I open the lid an offensive smell greets my nose."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "official",
+        "gender": "none",
+        "pronunciation": "/əˈfɪʃəl/",
+        "definition": "agreed to or arranged by people in positions of authority",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "His official title at the company is Assistant to the President."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "ongoing",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "To be ongoing (occurring, happening), to last, proceed or continue.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The discussions are ongoing."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "opening",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "a ceremony at the beginning of an event or activity",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I am counting on you to deliver the opening address."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "openly",
+        "gender": "none",
+        "pronunciation": "/ˈoʊpənli/",
+        "definition": "In an open manner, visibly, not covertly.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Secret gifts are openly rewarded."
+        ],
+        "wordType": "adverb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "opera",
+        "gender": "none",
+        "pronunciation": "/ˈɒp.əɹ.ə/",
+        "definition": "A theatrical work, combining drama, music, song and sometimes dance.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "This is an opera in five acts."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "operate",
+        "gender": "none",
+        "pronunciation": "/ˈɒpəɹeɪt/",
+        "definition": "To perform a work or labour, to exert power or strength, physical or mechanical, to act.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The engineer demonstrated how to operate the sophisticated system."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "operator",
+        "gender": "none",
+        "pronunciation": "/ˈɒpəˌɹeɪtə/",
+        "definition": "One who operates.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Tom became good friends with the elevator operator in their hotel."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "opponent",
+        "gender": "none",
+        "pronunciation": "/ɒpəʊnənt/",
+        "definition": "One who opposes another, one who works or takes a position against someone or something, one who attempts to stop the progress of someone or something.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The manager balanced the strength of his team against that of their opponent and sighed."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "oppose",
+        "gender": "none",
+        "pronunciation": "/əˈpəʊz/",
+        "definition": "To attempt to stop the progression of, to resist or antagonize by physical means, or by arguments, etc., to contend against.",
+        "synonym": [
+            [
+                "hinder",
+                "obstruct",
+                "resist"
+            ]
+        ],
+        "exSentence": [
+            "You have no right to oppose our plan."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "opposed",
+        "gender": "none",
+        "pronunciation": "/əˈpəʊzd/",
+        "definition": "To attempt to stop the progression of, to resist or antagonize by physical means, or by arguments, etc., to contend against.",
+        "synonym": [
+            [
+                "hinder",
+                "obstruct",
+                "resist"
+            ]
+        ],
+        "exSentence": [
+            "The consensus indicates that we are opposed to the proposed idea."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "opposition",
+        "gender": "none",
+        "pronunciation": "/ɒpəˈzɪʃən/",
+        "definition": "strong disagreement",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "There is certain to be some opposition to your suggestion."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "optimistic",
+        "gender": "none",
+        "pronunciation": "/ˌɒptɪˈmɪstɪk/",
+        "definition": "Expecting the best in all possible ways.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "This business plan of yours seems almost too optimistic."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "orchestra",
+        "gender": "none",
+        "pronunciation": "/ˈɔːkəstɹə/",
+        "definition": "A large group of musicians who play together on various instruments, usually including some from strings, woodwind, brass and/or percussion, the instruments played by such a group.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The orchestra makes discordant noises when tuning up."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "organ",
+        "gender": "none",
+        "pronunciation": "/ˈɔː.ɡən/",
+        "definition": "A larger part of an organism, composed of tissues that perform similar functions.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "He sustained injuries to his arms, legs and several internal organs."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "organic",
+        "gender": "none",
+        "pronunciation": "/ɔːˈɡænɪk/",
+        "definition": "not using artificial chemicals in the growing of plants and animals for food and other products",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "These organic olives are packaged in recycled glass containers."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "origin",
+        "gender": "none",
+        "pronunciation": "/ˈɒɹ.ə.dʒən/",
+        "definition": "The beginning of something.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The origin of the fire is unknown."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "otherwise",
+        "gender": "none",
+        "pronunciation": "/ˈʌð.əˌwaɪz/",
+        "definition": "Other than supposed, different.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Hurry up, otherwise you'll be late for lunch."
+        ],
+        "wordType": "conjunction",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "outcome",
+        "gender": "none",
+        "pronunciation": "/ˈaʊtkʌm/",
+        "definition": "That which is produced or occurs as a result of an event or process.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Whatever the outcome, you must meet the challenge."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "outer",
+        "gender": "none",
+        "pronunciation": "/ˈaʊtə/",
+        "definition": "at a greater distance from the centre",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "How do you find food in outer space?"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "outfit",
+        "gender": "none",
+        "pronunciation": "/ˈaʊtfɪt/",
+        "definition": "A set of clothing (with accessories).",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Mary was very impressed with the professional appearance of her new outfit."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "outline",
+        "gender": "none",
+        "pronunciation": "/ˈaʊtlaɪn/",
+        "definition": "A line marking the boundary of an object figure.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "First, I'm going to do an outline of my new website."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "output",
+        "gender": "none",
+        "pronunciation": "/ˈaʊtpʊt/",
+        "definition": "the amount that is produced by a person, machine, factory, country, etc.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Thanks to the technological innovation, the maximum output of the factory has doubled."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "outstanding",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "clearly very much better than what is usual",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Because of Linda's outstanding grades last semester, I have arranged for her to visit Europe."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "overall",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "in general rather than in particular, or including all the people or things in a particular group or situation",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "This vowel change has much to do with the overall accent pattern assigned to each word."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "overcome",
+        "gender": "none",
+        "pronunciation": "/ˌəʊvəˈkʌm/",
+        "definition": "to defeat or succeed in controlling or dealing with something",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "You have to overcome the difficulties."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "overnight",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "for or during the night",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The stock has gone down overnight."
+        ],
+        "wordType": "adverb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "owe",
+        "gender": "none",
+        "pronunciation": "/əʊ/",
+        "definition": "To be under an obligation to give something back to someone or to perform some action for someone.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "You owe me an apology for that."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "ownership",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "The state of having complete legal control of something, possession, proprietorship.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Management of a company is different from ownership of a company."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "oxygen",
+        "gender": "none",
+        "pronunciation": "/ˈɒksɪdʒən/",
+        "definition": "The chemical element (symbol O) with an atomic number of 8 and relative atomic mass of 15.9994. It is a colorless and odorless gas.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            [
+                "Oxygen has the atomic number 8, which represents the number of protons in its nucleus."
+            ]
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "pace",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "the speed at which someone or something moves, or with which something happens or changes",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Why don't we drive out to the country for a change of pace?"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "package",
+        "gender": "none",
+        "pronunciation": "/ˈpækɪdʒ/",
+        "definition": "Something which is packed, a parcel, a box, an envelope.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Attach this label to your package."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "packet",
+        "gender": "none",
+        "pronunciation": "/ˈpak.ɪt/",
+        "definition": "A small pack or package, a little bundle or parcel",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "This book is the literary equivalent of Haribo sweets: you only want to eat one, but end up devouring the whole packet."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "palm",
+        "gender": "none",
+        "pronunciation": "/ˈpæm/",
+        "definition": "Any of various evergreen trees from the family Palmae or Arecaceae, which are mainly found in the tropics.",
+        "synonym": [
+            [
+                "palm tree"
+            ]
+        ],
+        "exSentence": [
+            "The roofs of the huts are made from palm fronds."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "panel",
+        "gender": "none",
+        "pronunciation": "/ˈpænəl/",
+        "definition": "A (usually) rectangular section of a surface, or of a covering or of a wall, fence etc.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We understand that the Woody Panel retails for $80."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "panic",
+        "gender": "none",
+        "pronunciation": "/ˈpænɪk/",
+        "definition": "to suddenly feel so worried or frightened that you cannot think or behave calmly or reasonably",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Relax, and above all, don't panic."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "parade",
+        "gender": "none",
+        "pronunciation": "/pəˈɹeɪd/",
+        "definition": "An organized procession consisting of a series of consecutive displays, performances, exhibits, etc. displayed by moving down a street past a crowd of spectators.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I hope you will join us in the parade and march along the street."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "parallel",
+        "gender": "none",
+        "pronunciation": "/ˈpæɹəˌlɛl/",
+        "definition": "One of a set of parallel lines.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "If two or more lines, streets, etc. are parallel, the distance between them is the same all along their length"
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "parliament",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "A formal council summoned (especially by a monarch) to discuss important issues.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Do you know when the first parliament came into being?"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "part-time",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "For, during, or involving less than the normal time for some activity, especially the number of hours an employee works.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "My wife's part-time job brings in a little extra money."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "participant",
+        "gender": "none",
+        "pronunciation": "/pɑːˈtɪsɪpənt/",
+        "definition": "a person who takes part in or becomes involved in a particular activity",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "He was a neutral participant at the discussion."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "participation",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "The act of participating, of taking part in something.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Watching television changes the role of the fans by making their participation more passive and distant."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "partly",
+        "gender": "none",
+        "pronunciation": "/ˈpɑːtli/",
+        "definition": "In part, or to some degree, but not completely.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I partly agree with you."
+        ],
+        "wordType": "adverb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "partnership",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "The state of being associated with a partner.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The government is promoting a partnership between the state and the private sector."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "passage",
+        "gender": "none",
+        "pronunciation": "/ˈpæsɪd͡ʒ/",
+        "definition": "A paragraph or section of text or music with particular meaning.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Can you get at the meaning of this passage?"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "passionate",
+        "gender": "none",
+        "pronunciation": "/ˈpæʃənət/",
+        "definition": "having very strong feelings or emotions",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I like such a passionate picture as Gogh painted."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "password",
+        "gender": "none",
+        "pronunciation": "/ˈpæswɜːd/",
+        "definition": "A word used to gain admittance or to gain access to information, watchword.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The password is \"Muiriel\"."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "patch",
+        "gender": "none",
+        "pronunciation": "/pætʃ/",
+        "definition": "A piece of cloth, or other suitable material, sewed or otherwise fixed upon a garment to repair or strengthen it, especially upon an old garment to cover a hole.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I'll have to sew a patch onto these jeans - they're ripped at the knee."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "patience",
+        "gender": "none",
+        "pronunciation": "/ˈpeɪʃəns/",
+        "definition": "The quality of being patient.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I am losing my patience with you."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "patient",
+        "gender": "none",
+        "pronunciation": "/ˈpeɪʃənt/",
+        "definition": "A person or animal who receives treatment from a doctor or other medically educated person.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I'm a patient of Dr Stephens - could I please make an appointment to see her?"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "pause",
+        "gender": "none",
+        "pronunciation": "/pɔːz/",
+        "definition": "a short period in which something such as a sound or an activity is stopped before starting again",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "After an awkward pause, Bill took her by the hand and dragged her upstairs."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "peer",
+        "gender": "none",
+        "pronunciation": "/pɪə/",
+        "definition": "a person who is the same age or has the same social position or the same abilities as other people in a group",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Do you think it's true that teenage girls are less self-confident than their male peers?"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "penalty",
+        "gender": "none",
+        "pronunciation": "/ˈpɛnəlti/",
+        "definition": "a punishment, or the usual punishment, for doing something that is against a law",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We should do away with the death penalty."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "pension",
+        "gender": "none",
+        "pronunciation": "/ˈpɛnʃ(ə)n/",
+        "definition": "An annuity paid regularly as benefit due to a retired employee, serviceman etc. in consideration of past services, originally and chiefly by a government but also by various private pension schemes.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The company gave him a large enough pension to live on."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "perceive",
+        "gender": "none",
+        "pronunciation": "/pəˈsiːv/",
+        "definition": "To become aware of, through the physical senses or by thinking, to see, to understand.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I perceive by your face that you have good news."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "perception",
+        "gender": "none",
+        "pronunciation": "/pəˈsɛpʃ(ə)n/",
+        "definition": "The organisation, identification and interpretation of sensory information.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I'm afraid my depth perception is very poor."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "permanent",
+        "gender": "none",
+        "pronunciation": "/ˈpɜːmənənt/",
+        "definition": "lasting for a long time or for ever",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Please give me your permanent address."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "permanently",
+        "gender": "none",
+        "pronunciation": "/ˈpɜːmənəntli/",
+        "definition": "In a permanent manner, lastingly.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Brown warned Beth that if she didn't eat properly she would be permanently overweight."
+        ],
+        "wordType": "adverb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "permit",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "An artifact or document rendering something allowed or legal.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "You can't enter the building without a permit."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "perspective",
+        "gender": "none",
+        "pronunciation": "/pɚˈspɛktɪv/",
+        "definition": "A view, vista or outlook.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The picture looks strange because it has no perspective."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "pharmacy",
+        "gender": "none",
+        "pronunciation": "/ˈfɑːməsi/",
+        "definition": "A place where prescription drugs are dispensed, a dispensary.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Where's the nearest pharmacy?"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "phase",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "any stage in a series of events or in a process of development",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We are entering a new phase in the war."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "phenomenon",
+        "gender": "none",
+        "pronunciation": "/fɪˈnɒmənɒn/",
+        "definition": "A thing or being, event or process, perceptible through senses, or a fact or occurrence thereof.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The phenomenon of interest is in itself, a most interesting subject."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "philosophy",
+        "gender": "none",
+        "pronunciation": "/fɪˈlɒsəfi/",
+        "definition": "the use of reason in understanding such things as the nature of the real world and existence, the use and limits of knowledge, and the principles of moral judgment",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Your philosophy of life varies from mine."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "physician",
+        "gender": "none",
+        "pronunciation": "/fɪˈzɪʃən/",
+        "definition": "A practitioner of physic, i.e. a specialist in internal medicine, especially as opposed to a surgeon, a practitioner who treats with medication rather than with surgery.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The physician prescribed his patient some medicine."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "pick",
+        "gender": "none",
+        "pronunciation": "/pɪk/",
+        "definition": "to take some things and leave others",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "One of my sisters has been picked for the Olympic team."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "picture",
+        "gender": "none",
+        "pronunciation": "/ˈpɪktʃə/",
+        "definition": "A representation of anything (as a person, a landscape, a building) upon canvas, paper, or other surface, by drawing, painting, printing, photography, etc.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Is it a recent picture?"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "pile",
+        "gender": "none",
+        "pronunciation": "/paɪl/",
+        "definition": "A mass of things heaped together, a heap.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "They found out truth while examining a pile of relevant documents."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "pill",
+        "gender": "none",
+        "pronunciation": "/pɪl/",
+        "definition": "A small, usually round or cylindrical object designed for easy swallowing, usually containing some sort of medication.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I'd like to take the pill."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "pitch",
+        "gender": "none",
+        "pronunciation": "/pɪtʃ/",
+        "definition": "the degree to which a sound or a musical note is high or low",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "he piano and organ were tuned to the same pitch."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "pity",
+        "gender": "none",
+        "pronunciation": "/ˈpɪti/",
+        "definition": "A feeling of sympathy at the misfortune or suffering of someone or something.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "It's a pity when somebody dies."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "placement",
+        "gender": "none",
+        "pronunciation": "/ˈpleɪsmənt/",
+        "definition": "The act of placing or putting in place, the act of locating or positioning, the state of being placed.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I think we can find a placement for you in the sales department."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "plain",
+        "gender": "none",
+        "pronunciation": "/pleɪn/",
+        "definition": "not decorated in any way; with nothing added",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "That's plain to anyone."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "plot",
+        "gender": "none",
+        "pronunciation": "/plɒt/",
+        "definition": "(authorship) The course of a story, comprising a series of incidents which are gradually unfolded, sometimes by unexpected means.",
+        "synonym": [
+            [
+                "storyline"
+            ]
+        ],
+        "exSentence": [
+            "Apart from the plot, the book interested me."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "plus",
+        "gender": "none",
+        "pronunciation": "/plʌs/",
+        "definition": "an advantage or a good feature",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Your teaching experience will be a plus in this job"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "pointed",
+        "gender": "none",
+        "pronunciation": "/ˈpɔɪntɪd/",
+        "definition": "A pointed object has a thin, sharp end or becomes much narrower at one end:",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "He's got funny little pointed ears."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "popularity",
+        "gender": "none",
+        "pronunciation": "/ˌpɒp.jəˈlæɹ.ɪ.ti/",
+        "definition": "The quality or state of being popular, especially, the state of being esteemed by, or of being in favor with, the people at large",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The popularity of a web site depends on its content."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "portion",
+        "gender": "none",
+        "pronunciation": "/ˈpoəɹʃən/",
+        "definition": "An allocated amount.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Tom got a small portion of pie."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "pose",
+        "gender": "none",
+        "pronunciation": "/pəʊz/",
+        "definition": "to cause something, especially a problem or difficulty",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Nuclear weapons pose a threat to everyone."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "position",
+        "gender": "none",
+        "pronunciation": "/pəˈzɪʃ(ə)n/",
+        "definition": "the place where something or someone is, often in relation to other things",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I understand your position perfectly."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "positive",
+        "gender": "none",
+        "pronunciation": "/ˈpɒzɪ̈tɪv/",
+        "definition": "full of hope and confidence, or giving cause for hope and confidence",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I am positive that he is wrong."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "possess",
+        "gender": "none",
+        "pronunciation": "/pəˈzɛs/",
+        "definition": "To have, to have ownership of.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Those who possess nothing lose nothing."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "potential",
+        "gender": "none",
+        "pronunciation": "/pəˈtɛnʃəl/",
+        "definition": "Currently unrealized ability (with the most common adposition being to)",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Education aims to develop potential abilities."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "potentially",
+        "gender": "none",
+        "pronunciation": "/pəˈtɛnʃ(ə)li/",
+        "definition": "In a manner showing much potential, with the possibility of happening in a given way.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Our words are potentially ambiguous."
+        ],
+        "wordType": "adverb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "power",
+        "gender": "none",
+        "pronunciation": "/ˈpaʊ.ə(ɹ)/",
+        "definition": "Ability to do or undergo something.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Don't underestimate my power."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "praise",
+        "gender": "none",
+        "pronunciation": "/pɹeɪz/",
+        "definition": "Commendation, favourable representation in words",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Helen blushed at their praise."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "precede",
+        "gender": "none",
+        "pronunciation": "/pɹiːˈsiːd/",
+        "definition": "to be or go before something or someone in time or space",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "In Asia men usually precede women when walking."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "precious",
+        "gender": "none",
+        "pronunciation": "/ˈpɹɛʃəs/",
+        "definition": "Someone (or something) who (or which) is loved, a darling.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Your friendship is most precious to me."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "precise",
+        "gender": "none",
+        "pronunciation": "/pɹɪˈsaɪs/",
+        "definition": "exact and accurate",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The word 'excessive competition' is frequently used in Japanese industry, but there is not a precise definition of the practice."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "precisely",
+        "gender": "none",
+        "pronunciation": "/pɹɪˈsaɪsli/",
+        "definition": "(manner) In a precise manner, exactly.",
+        "synonym": [
+            [
+                "exactly",
+                "incisively"
+            ]
+        ],
+        "exSentence": [
+            "Please come here at 3 o'clock precisely."
+        ],
+        "wordType": "adverb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "predictable",
+        "gender": "none",
+        "pronunciation": "/pɹɪˈdɪktəbl̩/",
+        "definition": "Able to be predicted.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "This source is dependable and predictable, but more research is still needed in this area."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "preference",
+        "gender": "none",
+        "pronunciation": "/ˈpɹɛf(ə)ɹ(ə)ns/",
+        "definition": "The selection of one thing or person over others (with the main adposition being \"for\" in relation to the thing or person, but possibly also \"of\")",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Have you got any preference between beef and lamb?"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "pregnant",
+        "gender": "none",
+        "pronunciation": "/ˈpɹɛɡnənt/",
+        "definition": "(of a woman and some female animals) having a baby or babies developing inside the womb:",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I am four months pregnant."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "preparation",
+        "gender": "none",
+        "pronunciation": "/pɹɛpəˈɹeɪʃən/",
+        "definition": "The act of preparing or getting ready.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We failed due to a lack of preparation."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "presence",
+        "gender": "none",
+        "pronunciation": "/ˈpɹɛzəns/",
+        "definition": "The fact or condition of being present, or of being within sight or call, or at hand.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "He was still as still in the presence of danger."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "preserve",
+        "gender": "none",
+        "pronunciation": "/pɹəˈzɜːv/",
+        "definition": "to keep something as it is, especially in order to prevent it from decaying or being damaged or destroyed",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We must preserve our peaceful constitution."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "presidential",
+        "gender": "none",
+        "pronunciation": "/pɹɛzɪˈdɛnʃ(ə)l/",
+        "definition": "Pertaining to a president or presidency.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "American politics are interesting to watch, especially during a presidential election."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "price",
+        "gender": "none",
+        "pronunciation": "/pɹaɪs/",
+        "definition": "The cost required to gain possession of something.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "My roommate is prodigal when it comes to spending money on movies; he buys them the day they're released, regardless of price."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "pride",
+        "gender": "none",
+        "pronunciation": "/pɹaɪd/",
+        "definition": "your feelings of your own worth and respect for yourself",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Hey, I may have no money, but I still have my pride."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "primarily",
+        "gender": "none",
+        "pronunciation": "/pɹaɪˈmɛɹəli/",
+        "definition": "(focus) Of a primary or central nature, first and foremost",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Cue cards are used primarily on television to help the actors remember their lines."
+        ],
+        "wordType": "adverb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "prime",
+        "gender": "none",
+        "pronunciation": "/pɹaɪ̯m/",
+        "definition": "main or most important",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "This is a prime example of 1930s architecture."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "principal",
+        "gender": "none",
+        "pronunciation": "/ˈpɹɪnsəpəl/",
+        "definition": "The person in charge of a college, university or school",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The principal severely reproved the students whenever they made a mess in the hallway."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "principle",
+        "gender": "none",
+        "pronunciation": "/ˈpɹɪnsəpəl/",
+        "definition": "a basic idea or rule that explains or controls how something happens or works",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "the principles of the criminal justice system"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "print",
+        "gender": "none",
+        "pronunciation": "/pɹɪnt/",
+        "definition": "to produce a newspaper, magazine, or book in large quantities",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "20,000 copies of the novel will be printed in hardback."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "prior",
+        "gender": "none",
+        "pronunciation": "/ˈpɹaɪɚ/",
+        "definition": "existing or happening before something else, or before a particular time",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "This happened prior to receiving your letter."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "priority",
+        "gender": "none",
+        "pronunciation": "/pɹaɪˈɒɹɨti/",
+        "definition": "An item's relative importance.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We have given your order highest priority."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "privacy",
+        "gender": "none",
+        "pronunciation": "/ˈpɹaɪv.ə.sɪ/",
+        "definition": "someone's right to keep their personal matters and relationships secret",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Reporters do not hesitate to intrude into people's privacy."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "probability",
+        "gender": "none",
+        "pronunciation": "/pɹɒbəˈbɪlɪti/",
+        "definition": "The state of being probable, likelihood.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "There is very little probability of an agreement being reached."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "probable",
+        "gender": "none",
+        "pronunciation": "/ˈpɹɒbəbl̩/",
+        "definition": "Something that is likely.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "It is probable that he will win the speech contest."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "procedure",
+        "gender": "none",
+        "pronunciation": "/pɹəˈsiːdʒə/",
+        "definition": "A particular method for performing a task.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "What is the procedure for getting a visa?"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "proceed",
+        "gender": "none",
+        "pronunciation": "/pɹəˈsiːd/",
+        "definition": "To move, pass, or go forward or onward, to advance, to carry on",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Let's proceed with the items on the agenda."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "process",
+        "gender": "none",
+        "pronunciation": "/ˈpɹoʊsɛs/",
+        "definition": "A series of events which produce a result (the product).",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The advancement of modern medicine was a long process."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "produce",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "To yield, make or manufacture, to generate.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Any universe simple enough to be understood is too simple to produce a mind able to understand it."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "professional",
+        "gender": "none",
+        "pronunciation": "/pɹəˈfɛʃənəl/",
+        "definition": "relating to work that needs special training or education",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Do you have professional experience?"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "program",
+        "gender": "none",
+        "pronunciation": "/ˈpɹəʊɡɹəmɪŋ/",
+        "definition": "A series of instructions that can be put into a computer in order to make it perform an operation",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "It's incredible that you could write such a well-designed program after just picking up programming by imitation."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "progress",
+        "gender": "none",
+        "pronunciation": "/ˈpɹɒɡɹɛs/",
+        "definition": "Movement or advancement through a series of events, or points in time, development through time.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "There cannot be progress without communication."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "progressive",
+        "gender": "none",
+        "pronunciation": "/pɹəˈɡɹɛsɪv/",
+        "definition": "developing or happening gradually",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Especially over the last 20 years, the purported link between progressive welfare policies and economic failure in the Northern European countries seems to point to the difficulty of sustaining both full social welfare and international competitivity."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "prohibit",
+        "gender": "none",
+        "pronunciation": "/pɹəʊˈhɪbɪt/",
+        "definition": "To forbid, disallow, or proscribe officially, to make illegal or illicit.",
+        "synonym": [
+            [
+                "ban",
+                "disallow",
+                "forbid"
+            ]
+        ],
+        "exSentence": [
+            "Many countries have passed laws to prohibit people from smoking in public places."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "project",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "A planned endeavor, usually with a specific goal and accomplished in several steps or stages.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I am proud to be a part of this project."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "promising",
+        "gender": "none",
+        "pronunciation": "/ˈpɹɒmɪsɪŋ/",
+        "definition": "Something that is promising shows signs that it is going to be successful or enjoyable",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "His career prospects at the company are not too promising."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "promotion",
+        "gender": "none",
+        "pronunciation": "/pɹəˈməʊʃən/",
+        "definition": "An advancement in rank or position.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "You are the next in line for promotion."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "prompt",
+        "gender": "none",
+        "pronunciation": "/pɹɒmpt/",
+        "definition": "(of an action) done quickly and without delay, or (of a person) acting quickly or arriving at the arranged time",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Be prompt in dealing with the problem."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "proof",
+        "gender": "none",
+        "pronunciation": "/pɹʉːf/",
+        "definition": "a fact or piece of information that shows that something exists or is true",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "People are often quite skeptical about things unless given believable proof."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "proportion",
+        "gender": "none",
+        "pronunciation": "/pɹəˈpɔːʃən/",
+        "definition": "The number or amount of a group or part of something when compared to the whole",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "You will progress in proportion to your abilities."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "proposal",
+        "gender": "none",
+        "pronunciation": "/pɹəˈpəʊzəl/",
+        "definition": "Something which is proposed, or offered for consideration or acceptance",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "You should have refused such an unfair proposal."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "propose",
+        "gender": "none",
+        "pronunciation": "/pɹəˈpəʊz/",
+        "definition": "to offer or suggest a possible plan or action for other people to consider",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I don't want to propose to you!"
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "prospect",
+        "gender": "none",
+        "pronunciation": "/ˈpɹɒspɛkt/",
+        "definition": "the possibility that something good might happen in the future",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Is there any prospect of the weather improving?"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "protection",
+        "gender": "none",
+        "pronunciation": "/pɹəˈtɛkʃən/",
+        "definition": "The process of keeping (something or someone) safe.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We should lay on a second coat of paint for better protection against the weather."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "protein",
+        "gender": "none",
+        "pronunciation": "/ˈpɹəʊti.ɪn/",
+        "definition": "One of the many substances found in food such as meat, cheese, fish, or eggs, that is necessary for the body to grow and be strong",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "A liter of milk contains about thirty grams of protein."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "protester",
+        "gender": "none",
+        "pronunciation": "/pɹəˈtestəɹ/",
+        "definition": "Someone who shows that they disagree with something by standing somewhere, shouting, carrying signs, etc.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The protester was violently assaulted."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "psychological",
+        "gender": "none",
+        "pronunciation": "/ˌsaɪkəˈlɒdʒɪkl/",
+        "definition": "Relating to the human mind and feelings",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Those selected will have to face extensive medical and psychological tests."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "psychologist",
+        "gender": "none",
+        "pronunciation": "/ˌsaɪˈkɑl.ə.d͡ʒɪst/",
+        "definition": "Someone who studies the human mind and human emotions and behaviour, and how different situations have an effect on people",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "To my surprise, the noted psychologist was accused of a kidnapping."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "psychology",
+        "gender": "none",
+        "pronunciation": "/saɪˈkɒlədʒɪ/",
+        "definition": "The study of the human mind.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "This book deals with psychology."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "publication",
+        "gender": "none",
+        "pronunciation": "/ˌpʌblɪˈkeɪʃən/",
+        "definition": "The act of publishing printed or other matter.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "He was in charge of preparing a magazine for publication."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "publicity",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "The activity of making certain that someone or something attracts a lot of interest or attention from many people, or the attention received as a result of this activity",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "That's just a cheap publicity stunt."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "publishing",
+        "gender": "none",
+        "pronunciation": "/ˈpʌblɪʃɪŋ/",
+        "definition": "the profession or business of producing and selling a book, magazine, or newspaper",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I'd like to place an order for the book with the publishing company."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "this actually counts as a noun as per cambridge dicionary",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "punk",
+        "gender": "none",
+        "pronunciation": "/pʌŋk/",
+        "definition": "A person used for sex, particularly:",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "a culture popular among young people, especially in the late 1970s, involving opposition to authority expressed through shocking behaviour, clothes, and hair, and fast, loud music"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "pupil",
+        "gender": "none",
+        "pronunciation": "/ˈpjuːpəl/",
+        "definition": "A learner under the supervision of a teacher or professor.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "A teacher should never make fun of a pupil who makes a mistake."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "purchase",
+        "gender": "none",
+        "pronunciation": "/ˈpɜːtʃəs/",
+        "definition": "to buy something",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We will purchase a new car next week."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "pure",
+        "gender": "none",
+        "pronunciation": "/ˈpjɔː/",
+        "definition": "complete; only",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We arrived at that plan out of pure desperation, but the book sold well."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "purely",
+        "gender": "none",
+        "pronunciation": "/ˈpjɔːli/",
+        "definition": "Wholly, really, completely.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Rows of houses, each of them different and pleasing with their spacious gardens, are replaced by purely functional blocks of flats which have nothing more to commend them than over-praised 'modern conveniences'."
+        ],
+        "wordType": "adverb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "pursue",
+        "gender": "none",
+        "pronunciation": "/pəˈʃu/",
+        "definition": "To follow urgently, originally with intent to capture or harm, to chase.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Students often pursue their teacher with questions."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "pursuit",
+        "gender": "none",
+        "pronunciation": "/pəˈsʉːt/",
+        "definition": "the act of following or searching for someone or something, in order to catch or attack the person or thing",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We are all in daily pursuit of happiness."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "puzzle",
+        "gender": "none",
+        "pronunciation": "/ˈpʌzəl/",
+        "definition": "to cause someone to feel confused and slightly worried because they cannot understand something",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            [],
+            "The findings of the survey puzzle me - they're not at all what I would have expected."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "questionnaire",
+        "gender": "none",
+        "pronunciation": "/ˌk(w)estjəˈnɛə/",
+        "definition": "A form containing a list of questions, a means of gathering information for a survey",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            [
+                "Visitors to the country have been asked to fill in a detailed questionnaire."
+            ]
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "racial",
+        "gender": "none",
+        "pronunciation": "/ˈɹeɪʃəl/",
+        "definition": "relating to race or to someone's perceived race",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We shall continue our efforts to eradicate racial discrimination."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "racism",
+        "gender": "none",
+        "pronunciation": "/ˈɹeɪsɪzm̩/",
+        "definition": "Belief that there are distinct human races with inherent differences which determine their abilities, and generally that some are superior and others inferior.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "He opposes racism."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "racist",
+        "gender": "none",
+        "pronunciation": "/ˈɹeɪsɪst/",
+        "definition": "A person who believes in or supports racism, a person who believes that a particular race is superior to others.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "That politician put his foot in his mouth when he made those racist comments."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "radiation",
+        "gender": "none",
+        "pronunciation": "/ɹaɪ.di.ˈaɪ.ʃən/",
+        "definition": "a form of energy that comes from a nuclear reaction and that can be very dangerous to health",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The smaller the body, the more likely the person will suffer from the ill effects of radiation."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "rail",
+        "gender": "none",
+        "pronunciation": "/ɹeɪl/",
+        "definition": "the system of transport that uses trains",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Environmentalists argue that more goods should be transported by rail.",
+            "We happened to see a truck run into the guard-rail."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "random",
+        "gender": "none",
+        "pronunciation": "/ˈɹændəm/",
+        "definition": "happening, done, or chosen by chance rather than following a system, plan, or rule",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I used to read novels at random."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "range",
+        "gender": "none",
+        "pronunciation": "/ɹeɪndʒ/",
+        "definition": "the amount, number, or type of something between an upper and a lower limit",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Prices range from as low as $30 to as high as $50."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "rank",
+        "gender": "none",
+        "pronunciation": "/ɹæŋk/",
+        "definition": "a position in an organization, such as the army, showing the importance of the person having it",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "He has just been promoted to the rank of captain.",
+            "The hierarchy of rank has long been fixed."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "rapid",
+        "gender": "none",
+        "pronunciation": "/ˈɹæpɪd/",
+        "definition": "fast or sudden",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Technological innovation brought about the rapid progress of the information industry."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "rapidly",
+        "gender": "none",
+        "pronunciation": "/ˈɹæpɪdli/",
+        "definition": "With speed, in a rapid manner.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "There are marked and rapidly, steadily increasing health benefits to giving up."
+        ],
+        "wordType": "adverb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "rat",
+        "gender": "none",
+        "pronunciation": "/ɹæt/",
+        "definition": "A medium-sized rodent belonging to the genus Rattus.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "He'll be sure to smell a rat if I'm with you."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "rate",
+        "gender": "none",
+        "pronunciation": "/ɹeɪt/",
+        "definition": "the speed at which something happens or changes, or the amount or number of times it happens or changes in a particular period",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "At this rate, we're not likely to be done before the end of the week."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "rating",
+        "gender": "none",
+        "pronunciation": "/ˈɹeɪtɪŋ/",
+        "definition": "a measurement of how good or popular someone or something is",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "It's a very quick way to improve the rating of your language."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "raw",
+        "gender": "none",
+        "pronunciation": "/ɹɔː/",
+        "definition": "(of materials) in a natural state, without having been through any chemical or industrial process",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Oil is an important raw material that can be processed into many different products, including plastics.",
+            "Can you eat raw oysters?"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "reach",
+        "gender": "none",
+        "pronunciation": "/ɹiːt͡ʃ/",
+        "definition": "The act of stretching or extending, extension.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I tried to reach you on the phone, but I was unable to get through."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "realistic",
+        "gender": "none",
+        "pronunciation": "/ˌɹiːjəˈlɪstɪk/",
+        "definition": "Expressed or represented as being accurate, practicable, or not idealistic.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "It's a more realistic plan."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "reasonable",
+        "gender": "none",
+        "pronunciation": "/ˈɹiː.zən.ə.bəl/",
+        "definition": "Having the faculty of reason, rational, reasoning.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I can't agree to your proposal on the ground that it is not fair and reasonable."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "reasonably",
+        "gender": "none",
+        "pronunciation": "/ˈɹiː.zən.ə.bli/",
+        "definition": "In accordance with reason.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We can not reasonably ask more."
+        ],
+        "wordType": "adverb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "rebuild",
+        "gender": "none",
+        "pronunciation": "/ˈɹiːbɪld/",
+        "definition": "A process or result of rebuilding.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The south had no money to rebuild."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "recall",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "The action or fact of calling someone or something back.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I can't recall it."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "receiver",
+        "gender": "none",
+        "pronunciation": "/ɹəˈsiːvə/",
+        "definition": "A person who or thing that receives or is intended to receive something.",
+        "synonym": [
+            [
+                "recipient"
+            ]
+        ],
+        "exSentence": [
+            "I forgot to lift the receiver before dialing the number."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "recession",
+        "gender": "none",
+        "pronunciation": "/ɹɪˈsɛʃn̩/",
+        "definition": "The act or an instance of receding or withdrawing.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "He argued that the new policy was bound to drive the economy into recession."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "reckon",
+        "gender": "none",
+        "pronunciation": "/ˈɹɛkən/",
+        "definition": "to think or believe",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I reckon it's going to rain."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "recognition",
+        "gender": "none",
+        "pronunciation": "/ˌɹɛkəɡˈnɪʃən/",
+        "definition": "The act of recognizing or the condition of being recognized (matching a current observation with a memory of a prior observation of the same entity)",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "When you speak of a pay-raise before recognition, I am inclined to think you are putting the cart before the horse."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "recover",
+        "gender": "none",
+        "pronunciation": "/ɹɪˈkʌvə/",
+        "definition": "To become completely well again after an illness or injury",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "I sincerely hope that you will soon recover from your illness."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "recovery",
+        "gender": "none",
+        "pronunciation": "/ɹəˈkʌvəɹi/",
+        "definition": "The act or process of regaining or repossession of something lost.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Improving corporate performances are behind the stock market recovery."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "recruit",
+        "gender": "none",
+        "pronunciation": "/ɹɪˈkɹuːt/",
+        "definition": "to persuade someone to work for a company or become a new member of an organization, especially the army",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Charities such as Oxfam are always trying to recruit volunteers to help in their work."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "reduction",
+        "gender": "none",
+        "pronunciation": "/ɹiˈdɑk.ʃən/",
+        "definition": "the act of making something, or of something becoming, smaller in size, amount, degree, importance, etc.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We hope to come to an accord with them about arms reduction."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "referee",
+        "gender": "none",
+        "pronunciation": "/ˌɹɛf.əˈɹiː/",
+        "definition": "An umpire or judge, an official who makes sure the rules are followed during a game.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "A fussy referee can ruin a bout."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "refugee",
+        "gender": "none",
+        "pronunciation": "/ɹɛfjʊˈdʒiː/",
+        "definition": "A person seeking refuge in a foreign country out of fear of political persecution or the prospect of such persecution in their home country, i.e., a person seeking political asylum.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The refugee crossed the line safely."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "regard",
+        "gender": "none",
+        "pronunciation": "/ɹɪˈɡɑːd/",
+        "definition": "to consider or have an opinion about something or someone",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Her parents always regarded her as the smartest of their children."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "regional",
+        "gender": "none",
+        "pronunciation": "/ˈɹiːdʒnəl/",
+        "definition": "An entity or event with scope limited to a single region.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Foreign investors backed off because of regional political unrest."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "register",
+        "gender": "none",
+        "pronunciation": "/ˈɹɛdʒ.ɪs.tə/",
+        "definition": "to put information, especially your name, into an official list or record",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Within two weeks of arrival all foreigners had to register with the local police."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "registration",
+        "gender": "none",
+        "pronunciation": "",
+        "definition": "The act of signing up or registering for something.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Does it also work without registration?"
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "regret",
+        "gender": "none",
+        "pronunciation": "/ɹiˈɡɹɛt/",
+        "definition": "Emotional pain on account of something done or experienced in the past, with a wish that it had been different, a looking back with dissatisfaction or with longing.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "When I ask people what they regret most about high school, they nearly all say the same thing: that they wasted so much time."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "regulate",
+        "gender": "none",
+        "pronunciation": "/ˈɹɛɡjəleɪt/",
+        "definition": "To control something, especially by making it work in a particular way",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Traffic lights are used to regulate traffic."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "regulation",
+        "gender": "none",
+        "pronunciation": "/ˌɹɛɡjʊˈleɪʃən/",
+        "definition": "An official rule",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The regulation was abolished, but then it was reenacted."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "reinforce",
+        "gender": "none",
+        "pronunciation": "/ˌɹiːɪnˈfɔː(ɹ)s/",
+        "definition": "To strengthen, especially by addition or augmentation.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Before pouring cement mixture into forms for a foundation, the work crew securely place an armature of steel bars at a predetermined spacing in order to reinforce the finished building's hardened concrete."
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "relatively",
+        "gender": "none",
+        "pronunciation": "[ˈɹɛl.ə.tʰɪv.li]",
+        "definition": "Proportionally, in relation to some larger scale thing.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "The region is relatively rich in mineral resources."
+        ],
+        "wordType": "adverb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "relevant",
+        "gender": "none",
+        "pronunciation": "/ˈɹɛləvənt/",
+        "definition": "Directly related, connected, or pertinent to a topic.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Your question is not relevant to the subject."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "relief",
+        "gender": "none",
+        "pronunciation": "/ɹɪˈliːf/",
+        "definition": "A feeling of happiness that something unpleasant has not happened or has ended",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "After the exam, I felt an incredible sense of relief."
+        ],
+        "wordType": "noun",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    },
+    {
+        "language": "English",
+        "word": "relieve",
+        "gender": "none",
+        "pronunciation": "/ɹɪˈliːv/",
+        "definition": "To ease (a person, person's thoughts etc.) from mental distress, to stop (someone) feeling anxious or worried, to alleviate the distress of.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "Do you have anything to relieve a headache?"
+        ],
+        "wordType": "verb",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": true
+    },
+    {
+        "language": "English",
+        "word": "relieved",
+        "gender": "none",
+        "pronunciation": "/ɹɪˈliːvd/",
+        "definition": "To ease (a person, person's thoughts etc.) from mental distress, to stop (someone) feeling anxious or worried, to alleviate the distress of.",
+        "synonym": [
+            []
+        ],
+        "exSentence": [
+            "We were greatly relieved to find that the worst dangers were over."
+        ],
+        "wordType": "adjective",
+        "difficulty": "B2",
+        "notes": "",
+        "transitivity": false
+    }
+]
