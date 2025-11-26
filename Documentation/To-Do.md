@@ -7,3 +7,4 @@
 - CSS klassen im einheitlichen Schreibstil
 - nutzen einheitlicher Schriftgrößen
 - disable counter buttons, wenn timer nicht aktiviert
+- delete files for filling data bank
