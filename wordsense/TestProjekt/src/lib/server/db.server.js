@@ -1,11 +1,15 @@
 // db.server.js
 import Database from "better-sqlite3";
 
-export const DB_PATH = "wordsense/TestProjekt/src/lib/server/dictionary.db";
+export const DB_PATH = "/dictionary.db";
 
 // Create/open DB
-export const db = new Database(DB_PATH);
 
+export const db = new Database("db/dictionary.db");
+
+
+
+console.log("before dbexec");
 // Create table once
 db.exec(`
 CREATE TABLE IF NOT EXISTS dictionary (

@@ -13,51 +13,42 @@
     let modeIsFree = $state(false);
     let showExSentence = $state(false);
     let timer = $state(10);
-    let selected = $state('English');
+    let selectedLanguage = $state('English');
 
     let difficulty = $state("A1");
 
     function changeLanguage() {
-        language = selected;
+        language = selectedLanguage;
     }
 </script>
+<!-- vielleicht musst du nochmal bei den checkoxes nochmal was machen -->
 
-<div class="mainGameSettings">
+<!-- svelte-ignore component_name_lowercase -->
+<form method="POST" action="?/startGame" class="mainGameSettings">
     <h1 class="popUpHeading">Main Game</h1>
     <div class="popUpHeader">
         <span class="headerLine">
             <h2>Language</h2>
             <span class="dropdown">
-
+                <input type="hidden" name="language" value={language}>
                 <!-- svelte-ignore component_name_lowercase -->
-                <form onsubmit={changeLanguage} class="languageSelectForm">
-                    <select bind:value={selected} class="language">
+                <button onsubmit={changeLanguage} class="languageSelectForm" type = "button">
+                    <select bind:value={selectedLanguage} class="language">
                         {#each availableLanguages as lang}
                             <option value={lang}>
                                 {lang}
                             </option>
                         {/each}
                     </select>
-                </form>
-                <!-- <button class="languageSelectButton"> {language}</button>
-
-                <div class="dropdownContent">
-                     <button on:click={() => (language = "English")}
-                        >English</button
-                    >
-                    <button on:click={() => (language = "Deutsch")}
-                        >Deutsch</button
-                    > 
-                    {#each availableLanguages as lang}
-                        <button onclick={()=> language = lang}> {lang}</button>
-                    {/each} -->
-                <!-- </div> -->
+                </button>
             </span>
         </span>
         <br />
         <span class="headerLine">
+            <input type="hidden" name="mode" value={mode}>
             <h2>Game Mode</h2>
             <button
+                type = "button"
                 class:active={mode === "word"}
                 onclick={() => (mode = "word")}
             >
@@ -65,6 +56,7 @@
             </button>
 
             <button
+                type = "button"
                 class:active={mode === "definition"}
                 onclick={() => (mode = "definition")}
             >
@@ -75,26 +67,19 @@
     <span class="line">
         <h2>Timer</h2>
         <span class="checkboxContainer">
-            <input
-                type="checkbox"
-                class="checkbox"
-                onclick={() => (isTimer = !isTimer)}
-            />
+            <input type="checkbox" name="isTimer" value="isTimer">
         </span>
         <div class="counter">
-            <button class="btn minus" onclick={() => timer > 5 ? timer -= 5 : timer += 0}>-5</button>
-            <button class="btn display" id="counterDisplay"> {timer} {$t.sec}</button>
-            <button class="btn plus" onclick={() => timer < 60 ? timer += 5 : timer += 0}>+5</button>
+             <input type="hidden" name="timerval" value={timer}>
+            <button type="button" class="btn minus" onclick={() => timer > 5 ? timer -= 5 : timer += 0}>-5</button>
+            <button type="button" class="btn display" id="counterDisplay"> {timer} {$t.sec}</button>
+            <button type="button" class="btn plus" onclick={() => timer < 60 ? timer += 5 : timer += 0}>+5</button>
         </div>
     </span>
     <span class="line">
         <h2>free</h2>
         <span class="checkboxContainer">
-            <input
-                type="checkbox"
-                class="checkbox"
-                bind:checked={modeIsFree}
-            />
+            <input type="checkbox" name="isFree" value="isFree">
         </span>
         <span class="emptyLineSpace"></span>
     </span>
@@ -102,10 +87,7 @@
     <span class="line">
         <h2>{$t.exampleSentence}</h2>
         <span class="checkboxContainer">
-            <input
-                type="checkbox"
-                class="checkbox" bind:checked={showExSentence}
-            />
+            <input type="checkbox" name="showExSentence" value="showExSentence">
             <!-- schau mal ob das hier noch schöner geht, sodass die checkbox vielleicht direkt mit der variable verlinkt ist-->
         </span>
         <span class="emptyLineSpace"></span>
@@ -120,9 +102,12 @@
             <div>hard</div>
         </span>
 
+        <input type="hidden" name="difficulty" value={difficulty}>
+
         <div class="diffcultyButtons">
             <span class="difficultyLine">
                 <button
+                    type = "button"
                     class:active={difficulty === "A1"}
                     onclick={() => (difficulty = "A1")}
                 >
@@ -130,6 +115,7 @@
                 </button>
 
                 <button
+                    type = "button"
                     class:active={difficulty === "B1"}
                     onclick={() => (difficulty = "B1")}
                 >
@@ -137,6 +123,7 @@
                 </button>
 
                 <button
+                    type = "button"
                     class:active={difficulty === "C1"}
                     onclick={() => (difficulty = "C1")}
                 >
@@ -145,6 +132,7 @@
             </span>
             <span class="difficultyLine">
                 <button
+                    type = "button"
                     class:active={difficulty === "A2"}
                     onclick={() => (difficulty = "A2")}
                 >
@@ -152,12 +140,14 @@
                 </button>
 
                 <button
+                    type = "button"
                     class:active={difficulty === "B2"}
                     onclick={() => (difficulty = "B2")}
                 >
                     B2
                 </button>
                 <button
+                    type = "button"
                     class:active={difficulty === "C2"}
                     onclick={() => (difficulty = "C2")}
                 >
@@ -168,11 +158,11 @@
     </div>
     <br>
     <div class="startButtonDiv">
-        <button>
+        <button type = "submit">
             {$t.start}
         </button>
     </div>
-</div>
+</form>
 
 <style>
     .mainGameSettings {

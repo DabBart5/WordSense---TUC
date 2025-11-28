@@ -1,5 +1,5 @@
-
 import db from "../server/db.server.js";
+
 
 function getWordByWord(word: string, language: string, difficulty: string) {
     const stmt = db.prepare(`
@@ -12,7 +12,5 @@ function getWordByWord(word: string, language: string, difficulty: string) {
 
     return stmt.get(language, difficulty, word);
 }
-
-
 
 console.log(getWordByWord("motivation", "English", "B2"));

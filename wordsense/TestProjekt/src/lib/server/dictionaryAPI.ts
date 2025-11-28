@@ -1,6 +1,7 @@
-import db from "../server/db.server.js";
+import db from "./db.server.js";
 
-function getWordByWord(word: string, language: string, difficulty: string) {
+export function getWordByWord(word: string, language: string, difficulty: string) {
+    
     const stmt = db.prepare(`
         SELECT *
         FROM dictionary
@@ -12,7 +13,7 @@ function getWordByWord(word: string, language: string, difficulty: string) {
     return stmt.get(language, difficulty, word);
 }
 
-function getWordById(id: number){
+export function getWordById(id: number){
     const stmt = db.prepare(`
         SELECT *
         FROM dictionary
@@ -22,9 +23,9 @@ function getWordById(id: number){
     return stmt.get(id);
 }
 
-function getXRandomWords(x: number, language: string, difficulty:String){
+export function getXRandomWords(x: number, language: string, difficulty:String){
     let rows;
-    if (difficulty == ""){
+    if (difficulty === ""){
         const stmt = db.prepare(`
             SELECT *
             FROM dictionary
@@ -49,7 +50,7 @@ function getXRandomWords(x: number, language: string, difficulty:String){
 return rows;
 }
 
-function get20WordsByWordtype(language: string, wordtype: string, difficulty: string){
+export function get20WordsByWordtype(language: string, wordtype: string, difficulty: string){
 
     const stmt = db.prepare(`
         SELECT *
@@ -61,4 +62,28 @@ function get20WordsByWordtype(language: string, wordtype: string, difficulty: st
         LIMIT 20
     `);
     return stmt.all(language, difficulty, wordtype);
+}
+
+export function getGameSetStandard(language: string, difficulty: string){
+        const stmt = db.prepare(`
+        SELECT *
+        FROM dictionary
+        WHERE language = ?
+        AND difficulty = ?
+        ORDER BY RANDOM()
+        LIMIT 40
+    `);
+
+    console.log(stmt.all(language, difficulty))
+    return stmt.all(language, difficulty);
+}
+export function getAll(language: string){
+            const stmt = db.prepare(`
+        SELECT *
+        FROM dictionary
+        WHERE language = ?
+    `);
+
+    console.log(stmt.all(language))
+    return stmt.all(language);
 }
