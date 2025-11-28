@@ -2,7 +2,7 @@ import Database from "better-sqlite3";
 import fs from "node:fs";
 
 /**
- * @param {{ language: any; word: any; gender: string; pronunciation: any; definition: any; synonym: any; exSentence: any; wordType: any; difficulty: any; transitivity: any; notes: string; }} w
+ * @param {{ language: string; word: string; gender: string; pronunciation: string; definition: string; synonym: any; exSentence: string; wordType: string; difficulty: string; transitivity: boolean; notes: string; }} w
  */
 function normalizeWordEntry(w) {
     return {

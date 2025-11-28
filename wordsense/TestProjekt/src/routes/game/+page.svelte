@@ -1,14 +1,12 @@
-<script lang="ts">
-    // Import the correct generated type
-    import type { PageData } from './$types';
-
-    export let data: PageData;
-
-    const words = data.words;
+<script lang='ts'>
+    export let data;
+    const { words, gameId } = data;
 </script>
 
-{#if words}
-    <pre>{JSON.stringify(words, null, 2)}</pre>
-{:else}
-    <p>No data found.</p>
-{/if}
+<h1 >Game {gameId}</h1>
+
+<ul>
+    {#each words as word}
+        <li>{word.word} — {word.definition}</li>
+    {/each}
+</ul>

@@ -1,5 +1,5 @@
 
-import db from "../server/db.server.js";
+import db from "../server/db.js";
 
 function getWordByWord(word: string, language: string, difficulty: string) {
     const stmt = db.prepare(`

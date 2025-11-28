@@ -1,14 +1,19 @@
+import { db } from '$lib/server/db';
+import { redirect } from '@sveltejs/kit';
 
-export type GameData = {
-    words: any[] | null;
-};
+export async function load({ url }) {
+    const gameId = url.searchParams.get("gameId");
+    if (!gameId) throw redirect(303, "/");
 
+    const result = await db.query(
+        "SELECT data FROM games WHERE id = $1",
+        [gameId]
+    );
 
-// src/routes/game/+page.server.ts
-export function load({ cookies }) {
-    const raw = cookies.get('mydata');
+    if (result.rowCount === 0) throw redirect(303, "/");
 
     return {
-        words: raw ? JSON.parse(raw) : null
+        words: result.rows[0].data,
+        gameId
     };
 }

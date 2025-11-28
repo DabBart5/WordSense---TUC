@@ -2,55 +2,64 @@ import type { Actions } from './$types';
 import { availableLanguages } from "$lib/localisation/languages"
 import { availableDifficulties, availableModes, maxTimer, minTimer } from '$lib/constData.js';
 import { fail } from '@sveltejs/kit';
-import { get20WordsByWordtype, getAll, getGameSetStandard, getWordById, getXRandomWords } from '$lib/server/dictionaryAPI';
 import { redirect } from '@sveltejs/kit';
-
+import { db } from '$lib/server/db';
+import { GETRANDOM } from '$lib/server/dictionaryAPI.js';
 
 export const actions = {
-    startGame: async ({ request, cookies }) => {
+    startGame: async ({ request }) => {
         const form = await request.formData();
 
-        // your logic here
+        //clean up whenever a new game is started
+        db.query(`
+            DELETE FROM games WHERE created_at < NOW() - INTERVAL '1 minuteq';`
+        );
 
-        if (checkData(form) != 0) {
-            return fail(400, { error: 'invalidInput', message: "invalid Input" });
-        };
-
-        // // const isTimer = form.get('isTimer') === 'on';
-        // // const isFree = form.get('isFree') === 'on';
-        // // const showExSentence = form.get('showExSentence') === 'on';
-
+        // validate form
+        if (checkData(form) !== 0) {
+            return fail(400, {
+                error: 'invalidInput',
+                message: 'invalid input'
+            });
+        }
+        // extract form values
         const language = getString(form, 'language');
-        if (language === null) return fail(400, { error: 'invalidInput', message: "invalid Input" });
-
         const difficulty = getString(form, 'difficulty');
-        if (difficulty === null) return fail(400, { error: 'invalidInput', message: "invalid Input" });
 
+        if (!language || !difficulty) {
+            return fail(400, {
+                error: 'invalidInput',
+                message: 'invalid input'
+            });
+        }
 
-        // console.log(form.get('isTimer'));
-        // console.log(form.get('showExSentence'));
-        // console.log(form.get('modeIsFree'));
+        // fetch 4 words
+        const words = await GETRANDOM(language, difficulty);
+        if (!words) {
+            return fail(500, {
+                error: 'noWordsFound',
+                message: 'Could not generate words for this game.'
+            });
+        }
 
+        const data = await words.json();
+        // console.log(data)
 
-        const words = getXRandomWords(8, language, difficulty);
+        // create game id
+        const result = await db.query(
+            `INSERT INTO games (data)
+             VALUES ($1)
+             RETURNING id`,
+            [JSON.stringify(data)]
+        );
 
-        // console.log(words)
+        // get generated id
+        const gameId = result.rows[0].id;
 
-        // console.log("langaugae = " + language);
-        // console.log("difficulty = " +difficulty);
-
-        cookies.set("mydata", JSON.stringify(words), {
-            path: '/',
-            httpOnly: false,      // allow reading from client
-            maxAge: 60 * 20       // 20 minutes
-        });
-
-        throw redirect(303, '/game');
+        // redirect user to game page
+        throw redirect(303, `/game?gameId=${gameId}`);
     }
-
-    //     return { success: true, words};
-    // }
-}
+};
 
 function getString(form: FormData, name: string) {
     const value = form.get(name);
@@ -74,7 +83,7 @@ function checkData(data: FormData) {
     const timer = getString(data, 'timerval');
     if (timer === null) return -1;
 
-    if ((Number(data.get("timer")) < minTimer || Number(data.get("timer")) > maxTimer)) return -1; //timervalue lies between max and min
+    if ((Number(timer) < minTimer || Number(timer) > maxTimer)) return -1; //timervalue lies between max and min
 
     return 0;
 }
