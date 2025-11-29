@@ -1,0 +1,35 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16
+    container_name: myapp-db
+    restart: always
+    environment:
+      POSTGRES_USER: devuser
+      POSTGRES_PASSWORD: devpassword
+      POSTGRES_DB: dictionary_game
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  sveltekit:
+    build: .
+    container_name: myapp-web
+    depends_on:
+      - db
+    ports:
+      - "5173:5173"
+    environment:
+      DATABASE_URL: postgres://devuser:devpassword@localhost:5432/dictionary_game
+      # any other env variables from your .env
+    volumes:
+      - .:/app
+      - /app/node_modules
+
+volumes:
+  postgres_data:
+
+# this should be the commadn you used last time
+  #docker run --name pg -e POSTGRES_PASSWORD=devpassword -e POSTGRES_USER=devuser -e POSTGRES_DB=dictionary_game -p 5432:5432 -d postgres:16

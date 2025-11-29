@@ -21,6 +21,7 @@
 <header>
 	<div class="corner">
 		<!--Logo on the left side-->
+		<img src="WordSenseLogo.svg" alt="WordSense Logo" />
 	</div>
 
 	<nav>
@@ -71,6 +72,7 @@
 	}
 
 	.corner {
+		display: flex;
 		margin-right: 1em;
 		width: 0 em;
 		height: 3em;

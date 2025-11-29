@@ -1,19 +1,26 @@
-import { db } from '$lib/server/db';
+import { GET_GAME_BY_ID } from '$lib/server/dictionaryAPI.js';
 import { redirect } from '@sveltejs/kit';
 
 export async function load({ url }) {
     const gameId = url.searchParams.get("gameId");
     if (!gameId) throw redirect(303, "/");
 
-    const result = await db.query(
-        "SELECT data FROM games WHERE id = $1",
-        [gameId]
-    );
+    try {
+        const result = await GET_GAME_BY_ID(gameId);
 
-    if (result.rowCount === 0) throw redirect(303, "/");
+        console.log("Wordset =", result.nextwords[0].exsentence[0])
 
-    return {
-        words: result.rows[0].data,
-        gameId
-    };
+        return {
+            wordSet: result.nextwords,
+            lives: result.lives,
+            showExSentence: result.showexsentence,
+            maxRounds: result.maxrounds,
+            mode: result.mode,
+            timer: result.timer
+        };
+    }
+    catch {
+        throw redirect(303, "/");
+    }
+
 }

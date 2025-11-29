@@ -4,16 +4,14 @@ import { availableDifficulties, availableModes, maxTimer, minTimer } from '$lib/
 import { fail } from '@sveltejs/kit';
 import { redirect } from '@sveltejs/kit';
 import { db } from '$lib/server/db';
-import { GETRANDOM } from '$lib/server/dictionaryAPI.js';
+import { CLEAN_GAMES, GET_RANDOM, NEW_GAME } from '$lib/server/dictionaryAPI.js';
 
 export const actions = {
     startGame: async ({ request }) => {
         const form = await request.formData();
 
         //clean up whenever a new game is started
-        db.query(`
-            DELETE FROM games WHERE created_at < NOW() - INTERVAL '1 minuteq';`
-        );
+        CLEAN_GAMES();
 
         // validate form
         if (checkData(form) !== 0) {
@@ -25,8 +23,24 @@ export const actions = {
         // extract form values
         const language = getString(form, 'language');
         const difficulty = getString(form, 'difficulty');
+        const isTimer = getString(form, "isTimer") === 'isTimer';
+        const maxRounds = getString(form, "isFree") === 'isFree' ? -1 : 10;
+        const showExSentence = getString(form, "showExSentence") === 'showExSentence';
+        const timerVal = isTimer ? Number(getString(form, 'timerval')): -1;
+        const mode = getString(form, 'mode');
 
-        if (!language || !difficulty) {
+
+        console.log("mode = ", mode);
+        
+        console.log("timerVal = ", timerVal);
+        console.log("maxRounds = ", maxRounds);
+        
+        console.log("showExSentence = ", showExSentence);
+        
+        console.log("difficulty = ", difficulty);
+        console.log("language = ", language);
+
+        if (!language || !difficulty || !mode) {
             return fail(400, {
                 error: 'invalidInput',
                 message: 'invalid input'
@@ -34,7 +48,7 @@ export const actions = {
         }
 
         // fetch 4 words
-        const words = await GETRANDOM(language, difficulty);
+        const words = await GET_RANDOM(language, difficulty);
         if (!words) {
             return fail(500, {
                 error: 'noWordsFound',
@@ -42,19 +56,11 @@ export const actions = {
             });
         }
 
-        const data = await words.json();
+        const wordSet = await words.json();
         // console.log(data)
 
-        // create game id
-        const result = await db.query(
-            `INSERT INTO games (data)
-             VALUES ($1)
-             RETURNING id`,
-            [JSON.stringify(data)]
-        );
-
-        // get generated id
-        const gameId = result.rows[0].id;
+        // create Game, get id
+        const gameId = await NEW_GAME(wordSet, timerVal, mode, showExSentence, maxRounds, 5);
 
         // redirect user to game page
         throw redirect(303, `/game?gameId=${gameId}`);
