@@ -60,7 +60,7 @@ export const actions = {
         // console.log(data)
 
         // create Game, get id
-        const gameId = await NEW_GAME(wordSet, timerVal, mode, showExSentence, maxRounds, 5);
+        const gameId = await NEW_GAME(wordSet, timerVal, mode, showExSentence, maxRounds, 5, language, difficulty);
 
         // redirect user to game page
         throw redirect(303, `/game?gameId=${gameId}`);

@@ -1,16 +1,18 @@
 CREATE EXTENSION IF NOT EXISTS "pgcrypto";
 
 CREATE TABLE IF NOT EXISTS games (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    priorWords JSONB,
+    id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+    priorwords JSONB,
     lives INTEGER,
-    maxRounds INTEGER,
+    maxrounds INTEGER,
     mode TEXT,
-    showExSentence BOOLEAN,
+    showexsentence BOOLEAN,
     timer INTEGER,
-    nextWords JSONB NOT NULL,
-    currentRound INTEGER,
-    roundsWon INTEGER[],
+    nextwords JSONB NOT NULL,
+    currentround INTEGER,
+    roundsWon INTEGER[] NOT NULL DEFAULT '{}'::int[],
+    language TEXT,
+    difficulty TEXT,
     created_at TIMESTAMP DEFAULT NOW()
 );
 

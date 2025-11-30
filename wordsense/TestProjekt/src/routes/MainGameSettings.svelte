@@ -1,17 +1,17 @@
 <script lang="ts">
     import "@awesome.me/webawesome/dist/components/button/button.js";
     import { t } from "../stores/i18n";
-    import Counter from "./Counter.svelte";
-    import { form } from "$app/server";
+    // import Counter from "./Counter.svelte";
+    // import { form } from "$app/server";
     import {availableLanguages} from "$lib/localisation/languages"
     
     //Setting Varaibles
 
     let language = $state("English");
     let mode = $state("word");
-    let isTimer = $state(false);
-    let modeIsFree = $state(false);
-    let showExSentence = $state(false);
+    // let isTimer = $state(false);
+    // let modeIsFree = $state(false);
+    // let showExSentence = $state(false);
     let timer = $state(10);
     let selectedLanguage = $state('English');
 
@@ -35,7 +35,7 @@
                 <button onsubmit={changeLanguage} class="languageSelectForm" type = "button">
                     <select bind:value={selectedLanguage} class="language">
                         {#each availableLanguages as lang}
-                            <option value={lang}>
+                            <option value={lang} onclick={() => language = lang}>
                                 {lang}
                             </option>
                         {/each}

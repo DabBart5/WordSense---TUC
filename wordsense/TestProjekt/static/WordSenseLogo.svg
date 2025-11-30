@@ -3,20 +3,7 @@
      width="400" height="260">
 
   <!-- Centered group -->
-  <g transform="translate(150 100) translate(-30 0)">
-
-    <!-- S behind -->
-    <text x="40" y="40"
-          font-family="Times New Roman, serif"
-          font-size="160"
-          font-weight="750"
-          fill="black"
-          stroke="gray"
-          stroke-width="3"
-          text-anchor="middle"
-          dominant-baseline="middle">
-      S
-    </text>
+  <g transform="translate(165 100) translate(-30 0)">
 
     <!-- W in front -->
     <text x="0" y="0"
@@ -25,11 +12,26 @@
           font-weight="800"
           fill="black"
           stroke="gray"
-          stroke-width="5"
+          stroke-width="6"
           text-anchor="middle"
           dominant-baseline="middle">
       W
     </text>
+
+    <!-- S behind -->
+    <text x="60" y="30"
+          font-family="Times New Roman, serif"
+          font-size="160"
+          font-weight="750"
+          fill="black"
+          stroke="gray"
+          stroke-width="6"
+          text-anchor="middle"
+          dominant-baseline="middle">
+      S
+    </text>
+
+
 
   </g>
 </svg>
