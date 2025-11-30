@@ -15,6 +15,7 @@
 - maybe switch most of the stuff to the client?
 - make sure only words of the same wordtype are in a wordset (while playing)
 - look over the rest of the dictionary
+- use:encance damits angenehmer wird, weniger GET requests, mehr svelte
 
 # frontend
 - buttons should be standardized (-> app.css)
