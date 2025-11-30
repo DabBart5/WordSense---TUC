@@ -23,3 +23,6 @@
 - it should look fine on phones!!
 - more standardisation in general, color themes, maybe rework backgound colors, text size,
 - rework the header (nav bar in the middle could be something else, about page link would have to move then), stop that it reloads all the time
+
+# other
+- get docker to run for build
