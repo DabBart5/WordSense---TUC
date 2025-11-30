@@ -23,6 +23,9 @@
 - it should look fine on phones!!
 - more standardisation in general, color themes, maybe rework backgound colors, text size,
 - rework the header (nav bar in the middle could be something else, about page link would have to move then), stop that it reloads all the time
+- maybe take a look at the logo again
+- the heart emoji could be replaced by something that fits the rest of the page
+- 
 
 # other
 - get docker to run for build
