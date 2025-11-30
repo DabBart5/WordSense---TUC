@@ -9,3 +9,17 @@
 - disable counter buttons, wenn timer nicht aktiviert
 - delete files for filling data bank
 - did you write === everywhere and not just == ???
+
+
+# backend
+- maybe switch most of the stuff to the client?
+- make sure only words of the same wordtype are in a wordset (while playing)
+- look over the rest of the dictionary
+
+# frontend
+- buttons should be standardized (-> app.css)
+- timer should be visualized through a reciding line
+- buttons during play should be the same length
+- it should look fine on phones!!
+- more standardisation in general, color themes, maybe rework backgound colors, text size,
+- rework the header (nav bar in the middle could be something else, about page link would have to move then), stop that it reloads all the time
