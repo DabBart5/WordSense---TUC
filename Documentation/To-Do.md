@@ -30,3 +30,8 @@
 
 # other
 - get docker to run for build
+
+
+# sachen die mich stören:
+- settings für darkscreen laden manchmal erst nach einer sekunde, sollte direkt sein
+einstellungen werden noch nicht gemerkt (schwierigkeit stellt es immer auf A1 zurück, wenn man neues spiel startet)
