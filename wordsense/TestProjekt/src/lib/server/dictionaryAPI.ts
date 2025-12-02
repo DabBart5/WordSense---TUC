@@ -1,9 +1,15 @@
 import { json } from '@sveltejs/kit';
 import { db } from '$lib/server/db';
+import { wordTypes } from '$lib/constData';
 
 export async function GET_RANDOM(language: string, difficulty: string) {
+
+    const rand = Math.floor(Math.random() * 3);
+    const randWortType = wordTypes[rand]; //
     const result = await db.query(`
-        SELECT * FROM dictionary WHERE language = $1 AND difficulty = $2 ORDER BY RANDOM() LIMIT 4`, [language, difficulty]);
+        SELECT * FROM dictionary WHERE language = $1 AND difficulty = $2 AND wordtype = $3 ORDER BY RANDOM() LIMIT 4`, [language, difficulty, randWortType]);
+    
+    console.log("current wordtype = ",randWortType, "rand = ", rand)
     return json(result.rows);
 }
 

@@ -10,11 +10,14 @@ export async function load({ url }) {
     try {
         const result = await GET_GAME_BY_ID(gameId);
 
+        const won = result.lives != 0;
+
         return {
             wordHistory: result.priorwords,
             lives: result.lives,
             maxRounds: result.maxrounds,
-            mode: result.mode
+            mode: result.mode,
+            won: won
         };
     }
     catch {

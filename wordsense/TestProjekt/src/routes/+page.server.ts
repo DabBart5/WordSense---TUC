@@ -30,15 +30,15 @@ export const actions = {
         const mode = getString(form, 'mode');
 
 
-        console.log("mode = ", mode);
+        // console.log("mode = ", mode);
         
-        console.log("timerVal = ", timerVal);
-        console.log("maxRounds = ", maxRounds);
+        // console.log("timerVal = ", timerVal);
+        // console.log("maxRounds = ", maxRounds);
         
-        console.log("showExSentence = ", showExSentence);
+        // console.log("showExSentence = ", showExSentence);
         
-        console.log("difficulty = ", difficulty);
-        console.log("language = ", language);
+        // console.log("difficulty = ", difficulty);
+        // console.log("language = ", language);
 
         if (!language || !difficulty || !mode) {
             return fail(400, {

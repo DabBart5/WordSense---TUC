@@ -7,5 +7,7 @@
   "difficulty": "Difficulty",
   "start": "Start",
   "sec": "s.",
-  "exampleSentence": "Example Sentence"
+  "exampleSentence": "Example Sentence",
+  "beforeVerbTrans": "to",
+  "afterVerbTrans": "sth."
 }

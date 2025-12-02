@@ -109,14 +109,14 @@
 		border-right-color: var(--color-bg-contrast);
 		color: var(--color-bg-contrast);
 		font-size: 1.125em;
-		box-shadow: 0 2px 10px #0002;
+		box-shadow: 0 2px 10px var(--color-bg-contrast);
 		transition: all var(--wa-transition-slow) var(--wa-transition-easing);
 	}
 
 	wa-button.gameButton::part(base):hover {
 		transform: scale(1.05);
 		background: var(--color-bg-contrast);
-		color: var(--background-color);
+		color: var(--color-text);
 	}
 
 	wa-button.gameButton::part(base):active {

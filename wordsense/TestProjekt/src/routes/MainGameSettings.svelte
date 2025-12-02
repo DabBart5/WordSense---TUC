@@ -172,10 +172,9 @@
     }
 
     .popUpHeading {
-        font-size: clamp(3rem, 7vw, 5rem);
+        font-size: var(--h2);
         color: var(--color-text);
         text-align: center;
-        font-family: "Montserrat";
     }
 
     .popUpHeader {
@@ -198,7 +197,7 @@
         font-size: var(--text-size-normal);
         cursor: pointer;
         text-align: center;
-        background-color: var(--color-theme-1);
+        background-color: var(--background-color);
 
 
     }
@@ -209,13 +208,10 @@
         text-align: left;
         margin-left: 10px;
         font-size: var(--text-size-normal);
-        color: var(--color-bg-contrast);
+        color: var(--color-text);
     }
 
     button {
-        background-color: rgba(161, 161, 161, 0.925);
-        color: black;
-        width: 100%;
         flex: 1;
         margin-right: 10px;
         font-size: var(--text-size-normal);
@@ -225,15 +221,10 @@
 
     .active {
         background-color: var(--color-bg-contrast);
-        color: var(--background-color);
+        color: var(--color-text-contrast);
         top: 2px;
         left: 1px;
-        box-shadow: none;
-        border-color: white;
-        box-shadow:
-            inset 0 2px 4px rgba(0, 0, 0, 0.4),
-            0 0 0 rgba(0, 0, 0, 0); /* removes outer shadow */
-
+        border-color: var(--color-bg-contrast);
         transform: translateY(1px); /* subtle depression */
     }
 
@@ -241,7 +232,7 @@
         position: relative;
         flex: 3;
         margin-right: 10px;
-        height: fit-content;
+        height:auto;
         background-color: var(--background-color);
     }
 
@@ -298,7 +289,7 @@
     /* LEFT button: half-circle shape */
     .counter .minus {
         background-color: var(--background-color);
-        color: var(--color-bg-contrast);
+        color: var(--color-text);
         border-radius: 30px 0 0 30px; /* left half round */
         border: solid 1px var(--color-bg-contrast);
         flex: 1;
@@ -310,9 +301,9 @@
 
     /* MIDDLE button: rectangle */
     .counter .display {
-        background-color: #f1f1f1;
-        color: #333;
-        cursor: default; /* optional to disable click highlight */
+        background-color: var(--background-color);
+        color: var(--color-text);
+        cursor: default; 
         border: 1px solid var(--color-bg-contrast);
         border-left: none;
         border-right: none;
@@ -320,12 +311,18 @@
         border-radius: 0;
         flex: 1;
         margin: 0;
+        box-shadow: none;
+    }
+
+    .counter .display:hover{
+        transform: scale(1);
+        box-shadow: none;
     }
 
     /* RIGHT button: half-circle shape */
     .counter .plus {
         background-color: var(--background-color);
-        color: var(--color-bg-contrast);
+        color: var(--color-text);
         border-radius: 0 30px 30px 0; /* right half round */
         border: solid 1px var(--color-bg-contrast);
         flex: 1;
@@ -338,11 +335,13 @@
 
     /* Optional hover effects */
     .counter .minus:hover {
-        background-color: gray;
+        background-color: var(--color-bg-contrast);
+        color: var(--color-text-contrast);
     }
 
     .counter .plus:hover {
-        background-color: gray;
+        background-color: var(--color-bg-contrast);
+        color: var(--color-text-contrast);
     }
 
     .difficultyDiv {
@@ -368,7 +367,7 @@
     }
 
     .startButtonDiv{
-        align-self: right;
+        align-items: right;
         border-top:  1px solid var(--color-bg-contrast);
         padding-top:2px ;
     }

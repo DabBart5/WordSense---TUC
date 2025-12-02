@@ -7,5 +7,7 @@
   "difficulty": "Schwierigkeit",
   "start": "Start",
   "sec": "s.",
-  "exampleSentence": "Beispielsatz"
+  "exampleSentence": "Beispielsatz",
+  "beforeVerbTrans": "etwas",
+  "afterVerbTrans": ""
 }

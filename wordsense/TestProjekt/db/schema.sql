@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS games (
     timer INTEGER,
     nextwords JSONB NOT NULL,
     currentround INTEGER,
-    roundsWon INTEGER[] NOT NULL DEFAULT '{}'::int[],
+    roundswon INTEGER[] NOT NULL DEFAULT '{}'::int[],
     language TEXT,
     difficulty TEXT,
     created_at TIMESTAMP DEFAULT NOW()
@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS dictionary (
     definition TEXT,
     synonym JSONB,
     exSentence JSONB,
-    wordType TEXT,
+    wordtype TEXT,
     difficulty TEXT,
     transitivity BOOLEAN,
     notes TEXT
