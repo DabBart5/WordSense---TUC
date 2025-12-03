@@ -6,6 +6,7 @@
 - disable counter buttons, wenn timer nicht aktiviert
 - delete files for filling data bank
 - did you write === everywhere and not just == ???
+- testen ob das auswählen der sprache in MainGameSettings auf mobile funktioniert, (weil form nicht mit onclick kompatibel war)
 
 
 # backend
