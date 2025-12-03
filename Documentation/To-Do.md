@@ -1,8 +1,5 @@
 # To-Do
 - Buttons beim Sprachen auswählen von der größe her anpassen, sodass sie mit dem button übereinstimmen mit dem man das dropdown menü öffnet
-- Überschrift größe anpassen (evtl. % benutzen)
-- Buttons Maingame von größe her anpassen
-- hier und da farben in light und dark mode anpassen
 - Übersetzen
 - CSS klassen im einheitlichen Schreibstil
 - nutzen einheitlicher Schriftgrößen
@@ -35,3 +32,5 @@
 # sachen die mich stören:
 - settings für darkscreen laden manchmal erst nach einer sekunde, sollte direkt sein
 einstellungen werden noch nicht gemerkt (schwierigkeit stellt es immer auf A1 zurück, wenn man neues spiel startet)
+- umbenennen von dictionaryAPI zu was besserem (dbAPI)
+- constData.ts in static verschieben
