@@ -33,11 +33,6 @@
 			</Trigger>
 		</Modal>
 	</div>
-	<div class="buttonDiv">
-		<wa-button class="gameButton">
-			<span class="button_text">MainGame</span>
-		</wa-button>
-	</div>
 </section>
 
 <style>

@@ -9,11 +9,10 @@ export async function GET_RANDOM(language: string, difficulty: string) {
     const result = await db.query(`
         SELECT * FROM dictionary WHERE language = $1 AND difficulty = $2 AND wordtype = $3 ORDER BY RANDOM() LIMIT 4`, [language, difficulty, randWortType]);
     
-    console.log("current wordtype = ",randWortType, "rand = ", rand)
     return json(result.rows);
 }
 
-//should integrate GET_RANDOM in NEW_GAME!!
+//should integrate GET_RANDOM in NEW_GAME!! (in comparison to calling it on the client)
 export async function NEW_GAME(nextWordSet: any, timerVal: Number, mode: string, showExSentence: boolean, maxRounds: number, lives: number, language: string, difficulty: string) {
     const result = await db.query(
         `INSERT INTO games (nextWords, timer, mode, showExSentence, maxRounds, lives, language, difficulty, currentround) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, 1) RETURNING id`,
@@ -45,7 +44,6 @@ export async function GET_NEXT_GAME(correct: boolean, gameId: string) {
         const difficulty = settings.difficulty;
         const language = settings.language;
 
-        console.log("correct = ", correct)
         // console.log("could fetch settings, difficulty = ", difficulty, ", language = ", language);
 
         // const newNextWords = await (await GET_RANDOM(language, difficulty)).json();
@@ -110,3 +108,17 @@ const nextWordsJson = JSON.stringify(safeNextWords);
 
 
 }//change the return value
+
+export async function INSERT_INTO_REPORTS(issue: string, details: string|null ){
+    console.log("trying to report")
+    const result = await db.query(
+        `INSERT INTO reports (issue, details) VALUES ($1, $2) RETURNING id`,
+        [issue, details]
+    );
+    if (!result.rows[0].id){
+        console.log("couldnt insert ", issue, " and ", details, " into reports")
+        return;
+    }
+    console.log("report finished")
+    return;
+}

@@ -30,3 +30,9 @@ CREATE TABLE IF NOT EXISTS dictionary (
     transitivity BOOLEAN,
     notes TEXT
 );
+
+CREATE TABLE IF NOT EXISTS reports (
+    id SERIAL PRIMARY KEY,
+    issue TEXT NOT NULL,
+    details TEXT
+);

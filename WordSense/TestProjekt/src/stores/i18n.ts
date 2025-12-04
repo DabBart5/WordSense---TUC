@@ -2,7 +2,7 @@ import { writable, derived } from 'svelte/store';
 import en from '../lib/localisation/en.json';
 import de from '../lib/localisation/de.json';
 
-type Locale = 'en' | 'de';
+export type Locale = 'en' | 'de';
 
 type Translations = typeof en;
 

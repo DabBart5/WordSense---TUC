@@ -1,12 +1,13 @@
 import { availableDifficulties } from '$lib/constData.js';
-import { GET_GAME_BY_ID, GET_NEXT_GAME } from '$lib/server/dictionaryAPI.js';
+import { GET_GAME_BY_ID, GET_NEXT_GAME, INSERT_INTO_REPORTS } from '$lib/server/dictionaryAPI.js';
 import { redirect, fail } from '@sveltejs/kit';
 import type {Actions} from './$types';
 
+
 export async function load({ depends,url }) {
 
-        depends("game:state");
-    console.log("in load")
+
+
     const gameId = url.searchParams.get("gameId");
 
     if (!gameId) throw redirect(303, "/");
@@ -14,10 +15,8 @@ export async function load({ depends,url }) {
 
         const result = await GET_GAME_BY_ID(gameId);
 
-        console.log(result)
 
     try{
-        console.log("about to return data")
         return {
             wordSet: result.nextwords,
             lives: result.lives,
@@ -61,7 +60,7 @@ export const actions = {
         }
 
         //set up next Round
-        console.log("about to send data to the server")
+        // console.log("about to send data to the server")
         const nextRound = await GET_NEXT_GAME(answer, gameId);
         if (nextRound.rowCount === 0) {
             return fail(500, {
@@ -70,12 +69,12 @@ export const actions = {
             });
         }
 
-        console.log("data in server updated, current word= ", nextRound.nextwords[0])
+        // console.log("data in server updated, current word= ", nextRound.nextwords[0])
 
         //check if this was the last round
         const thisGame = nextRound;
 
-        console.log("last round = ", thisGame.currentround, "max Rounds = ", thisGame.maxrounds)
+        // console.log("last round = ", thisGame.currentround, "max Rounds = ", thisGame.maxrounds)
         if (thisGame.maxrounds > 0){ //mode != free
             if (((thisGame.currentround - 1 >= thisGame.maxrounds)&& thisGame.maxrounds > 0) || thisGame.lives === 0) {
                 throw redirect(303, `/game/results?gameId=${gameId}`)
@@ -90,6 +89,23 @@ export const actions = {
 
         // throw redirect(303, `/game?gameId=${gameId}`);
         return {success: true};
+    },
+    report: async ({ request }) => {
+        const form = await request.formData();
+
+        console.log(form);
+        const option = getString(form, "reason");
+        if (!option || option === ''){
+            console.log("fail")
+            return; 
+        }
+        
+        const details = getString(form, "details");
+
+        await INSERT_INTO_REPORTS(option, details);
+
+        return {success : true}
+
     }
 }satisfies Actions;
 

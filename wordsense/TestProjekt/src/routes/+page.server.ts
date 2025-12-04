@@ -1,5 +1,5 @@
 import type { Actions } from './$types';
-import { availableLanguages } from "$lib/localisation/languages"
+import { availableLanguages } from "$lib/constData.js"
 import { availableDifficulties, availableModes, maxTimer, minTimer } from '$lib/constData.js';
 import { fail } from '@sveltejs/kit';
 import { redirect } from '@sveltejs/kit';

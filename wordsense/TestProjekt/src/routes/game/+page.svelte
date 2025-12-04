@@ -3,12 +3,12 @@
     import { fly, slide } from "svelte/transition";
     import { invalidate, goto } from "$app/navigation";
     import type { sveltekit } from "@sveltejs/kit/vite";
-    import { onMount } from "svelte";
     import {
         afterTransVerbs,
         beforeTransVerbs,
         getFromLangDict,
     } from "$lib/constData.js";
+    import ReportWord from "$lib/components/ReportWord.svelte";
 
     let { data } = $props();
 
@@ -55,6 +55,7 @@
         correct = false;
         activeButton = -1;
         countdown = data.timer;
+
 
         if (data.timer > 0) {
             timerInterval = setInterval(() => {
@@ -186,6 +187,9 @@
         <input type="hidden" name="gameId" value={gameId} />
         <button type="submit" style="font-weight:600; justify-content:center;"> Answer </button>
     </form>
+    <div>
+        <ReportWord wordSet={wordSet} mode={mode}/>
+    </div>
 </section>
 
 <style>
@@ -216,7 +220,7 @@
         top: 2px;
         left: 1px;
         box-shadow: none;
-        border-color: white;
+        border-color: var(--background-color);
         box-shadow:
             inset 0 2px 4px rgba(0, 0, 0, 0.4),
             0 0 0 rgba(0, 0, 0, 0); /* removes outer shadow */
@@ -259,7 +263,7 @@
     }
 
     .countdownBar {
-        height: 60%;
+        height: 1rem;
         border-radius: 10px 10px 10px 10px;
         background: var(--color-bg-contrast);
         display: flex;
@@ -272,13 +276,13 @@
     }
 
     .lives {
-        flex: 1;
+        flex: 2;
         text-align: left;
         margin-left: 10px;
     }
 
     .rounds {
-        flex: 1;
+        flex: 2;
         text-align: right;
         margin-right: 10px;
     }

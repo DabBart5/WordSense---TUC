@@ -1,8 +1,9 @@
 <script lang="ts">
     import { t } from "$lib/../stores/i18n";
     import { afterTransVerbs, beforeTransVerbs, getFromLangDict } from "$lib/constData.js";
-    import { availableLanguages } from "$lib/localisation/languages";
+    import { availableLanguages } from "$lib/constData";
     import LanguageDropdown from "../../LanguageDropdown.svelte";
+    import { goto } from "$app/navigation";
     let { data } = $props();
 
     const {
@@ -24,11 +25,19 @@
     <h1>Too bad, you lost</h1>
     {/if}
 
+    <span class="buttonLine">
+        <button onclick={() => goto("/")}>
+            return to Main Menu
+        </button>
+        <button>
+            play again
+        </button>
+    </span>
     <p>heres your history</p>
     <div>
         <ul>
             {#each wordHistory as word, i}
-                {#if i % 4 === 0}
+                {#if i % 4 === 0} <!-- words were featured in a game round (always the first one of a set of four)-->
                     <li>
                         <span class="wordHeader">
                             {#if word.wordtype === 'verb'}
@@ -78,5 +87,10 @@
         padding-left: 0.5rem;
         padding-right: 0.5rem;
         margin-bottom: 0.5rem;
+    }
+
+    .buttonLine{
+        display: flex;
+        justify-content: center;
     }
 </style>
