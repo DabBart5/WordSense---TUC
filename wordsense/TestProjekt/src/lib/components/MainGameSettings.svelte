@@ -1,11 +1,14 @@
 <script lang="ts">
     import "@awesome.me/webawesome/dist/components/button/button.js";
-    import { t } from "../stores/i18n";
+    import { t } from "../../stores/i18n";
     import { availableLanguages } from "$lib/constData";
 
     //Setting Varaibles
 
-    let isTimer = $state(true)
+    
+    let showExSentence = $state(false);
+    let isFree = $state(false);
+    let isTimer = $state(true);
     let language = $state("English");
     let mode = $state("word");
     let timer = $state(10);
@@ -60,7 +63,7 @@
         <span class="line">
             <h2>Timer</h2>
             <span class="checkboxContainer" >
-                <input type="checkbox" name="isTimer" value="isTimer" bind:checked={isTimer}/>
+                <input type="checkbox" name="isTimer" value={isTimer} bind:checked={isTimer}/>
             </span>
             <div class:counter={isTimer} class:visually-hidden={!isTimer}>
                 <input type="hidden" name="timerval" value={timer} />
@@ -87,7 +90,7 @@
                 <!-- <img src="info-circle.svg" alt="More Info Free" class="infoI"/> -->
             </h2>
             <span class="checkboxContainer">
-                <input type="checkbox" name="isFree" value="isFree" />
+                <input type="checkbox" name="isFree" value={isFree} bind:checked={isFree}/>
             </span>
             <span class="emptyLineSpace"></span>
         </span>
@@ -100,7 +103,8 @@
                 <input
                     type="checkbox"
                     name="showExSentence"
-                    value="showExSentence"
+                    value={showExSentence}
+                    bind:checked={showExSentence}
                 />
             </span>
             <span class="emptyLineSpace"></span>

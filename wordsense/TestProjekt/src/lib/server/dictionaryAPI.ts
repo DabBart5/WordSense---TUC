@@ -8,7 +8,7 @@ export async function GET_RANDOM(language: string, difficulty: string) {
     const randWortType = wordTypes[rand]; //
     const result = await db.query(`
         SELECT * FROM dictionary WHERE language = $1 AND difficulty = $2 AND wordtype = $3 ORDER BY RANDOM() LIMIT 4`, [language, difficulty, randWortType]);
-    
+
     return json(result.rows);
 }
 
@@ -23,7 +23,7 @@ export async function NEW_GAME(nextWordSet: any, timerVal: Number, mode: string,
 
 export async function CLEAN_GAMES() {
     db.query(`
-            DELETE FROM games WHERE created_at < NOW() - INTERVAL '1 hour';`
+            DELETE FROM games WHERE created_at < NOW() - INTERVAL '1 day';`
     );
 }
 
@@ -39,36 +39,36 @@ export async function GET_NEXT_GAME(correct: boolean, gameId: string) {
 
     // try {
 
-        const settings = await GET_GAME_BY_ID(gameId);
-        // console.log("settings = ",settings)
-        const difficulty = settings.difficulty;
-        const language = settings.language;
+    const settings = await GET_GAME_BY_ID(gameId);
+    // console.log("settings = ",settings)
+    const difficulty = settings.difficulty;
+    const language = settings.language;
 
-        // console.log("could fetch settings, difficulty = ", difficulty, ", language = ", language);
+    // console.log("could fetch settings, difficulty = ", difficulty, ", language = ", language);
 
-        // const newNextWords = await (await GET_RANDOM(language, difficulty)).json();
+    // const newNextWords = await (await GET_RANDOM(language, difficulty)).json();
 
-//         console.log("newNextWords =", newNextWords);
-// console.log("Array.isArray:", Array.isArray(newNextWords));
-// console.log("is null:", newNextWords === null);
-// console.log("stringified:", JSON.stringify(newNextWords));
-
-
-// get data 
-const newNextWordsObj = await (await GET_RANDOM(language, difficulty)).json();
-
-// make absolutely sure it's JSON-safe
-const safeNextWords = JSON.parse(JSON.stringify(newNextWordsObj)); // strips non-serializable things
-
-// stringify for pg
-const nextWordsJson = JSON.stringify(safeNextWords);
-
-// console.log("nextWordsJson type:", typeof nextWordsJson, "len:", nextWordsJson.length);
+    //         console.log("newNextWords =", newNextWords);
+    // console.log("Array.isArray:", Array.isArray(newNextWords));
+    // console.log("is null:", newNextWords === null);
+    // console.log("stringified:", JSON.stringify(newNextWords));
 
 
-        if (correct) {
-            const nextGame = await db.query(
-                    `
+    // get data 
+    const newNextWordsObj = await (await GET_RANDOM(language, difficulty)).json();
+
+    // make absolutely sure it's JSON-safe
+    const safeNextWords = JSON.parse(JSON.stringify(newNextWordsObj)); // strips non-serializable things
+
+    // stringify for pg
+    const nextWordsJson = JSON.stringify(safeNextWords);
+
+    // console.log("nextWordsJson type:", typeof nextWordsJson, "len:", nextWordsJson.length);
+
+
+    if (correct) {
+        const nextGame = await db.query(
+            `
                 UPDATE games
                 SET 
                 priorwords = COALESCE(priorwords, '[]'::jsonb) || COALESCE(nextwords, '[]'::jsonb),
@@ -78,29 +78,28 @@ const nextWordsJson = JSON.stringify(safeNextWords);
                 WHERE id = $2
                 RETURNING *;
                 `,
-                [nextWordsJson, gameId]
-            );
-            return nextGame.rows[0];
-            // console.log("correct was correct, result = ", nextGame.rows[0])
-        }
-        else {
-            const nextGame = await db.query(
-                    `
+            [nextWordsJson, gameId]
+        );
+        return nextGame.rows[0];
+        // console.log("correct was correct, result = ", nextGame.rows[0])
+    }
+    else {
+        const nextGame = await db.query(
+            `
                 UPDATE games
                 SET 
                 priorwords = COALESCE(priorwords, '[]'::jsonb) || COALESCE(nextwords, '[]'::jsonb),
                 nextwords = $1::jsonb,
-                roundswon = COALESCE(roundswon, '{}'::int[]) || currentround,
                 lives = lives -1,
                 currentround = currentround + 1
                 WHERE id = $2
                 RETURNING *;
                 `,
-                [nextWordsJson, gameId]
-            );
-            // console.log("correct was false, result = ", nextGame.rows[0])
-            return nextGame.rows[0];
-        }
+            [nextWordsJson, gameId]
+        );
+        // console.log("correct was false, result = ", nextGame.rows[0])
+        return nextGame.rows[0];
+    }
     // }
     // catch {
     //     return -1;
@@ -109,16 +108,21 @@ const nextWordsJson = JSON.stringify(safeNextWords);
 
 }//change the return value
 
-export async function INSERT_INTO_REPORTS(issue: string, details: string|null ){
+export async function INSERT_INTO_REPORTS(issue: string, details: string | null) {
     console.log("trying to report")
-    const result = await db.query(
-        `INSERT INTO reports (issue, details) VALUES ($1, $2) RETURNING id`,
-        [issue, details]
-    );
-    if (!result.rows[0].id){
-        console.log("couldnt insert ", issue, " and ", details, " into reports")
-        return;
+    try {
+        const result = await db.query(
+            `INSERT INTO reports (issue, details) VALUES ($1, $2) RETURNING id`,
+            [issue, details]
+        );
+        if (!result.rows[0].id) {
+            console.log("couldnt insert ", issue, " and ", details, " into reports")
+            return -1;
+        }
+        console.log("report finished")
+        return 0;
     }
-    console.log("report finished")
-    return;
+    catch {
+        return -1;
+    }
 }

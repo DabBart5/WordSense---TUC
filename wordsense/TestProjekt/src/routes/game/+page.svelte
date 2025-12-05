@@ -45,7 +45,7 @@
     // svelte-ignore state_referenced_locally
     let countdown = $state(timer);
 
-    let form: HTMLFormElement;
+    let form = $state<HTMLFormElement | null>(null);    
 
     $effect(() => {
         // Cleanup previous interval
@@ -122,7 +122,7 @@
     </h1>
     <span class="exampleSentence">
         {#if showExSentence && mode === "word"}
-                {wordSet[0].exsentence[0]}
+                "{wordSet[0].exsentence[0]}"
         {/if}
     </span>
     <form
@@ -187,8 +187,8 @@
         <input type="hidden" name="gameId" value={gameId} />
         <button type="submit" style="font-weight:600; justify-content:center;"> Answer </button>
     </form>
-    <div>
-        <ReportWord wordSet={wordSet} mode={mode}/>
+    <div class="reportContainer">
+        <ReportWord wordSet={wordSet} mode={mode} form={form}/>
     </div>
 </section>
 
@@ -200,7 +200,9 @@
     }
 
     button {
-        padding: 12px;
+        padding: 8px;
+        padding-top: clamp(4px ,1.3vw,12px);
+        padding-bottom: clamp(4px ,1.3vw,12px);
         text-align: center;
         white-space: normal; /* allow wrapping */
         overflow-wrap: break-word;
@@ -256,6 +258,7 @@
     .btnContainer {
         display: flex;
         margin-bottom: 3rem;
+        margin-top: clamp(1rem, 2vh, 2rem);
     }
 
     .barContainer {
@@ -305,5 +308,9 @@
     section {
         display: flex;
         flex-direction: column;
+    }
+
+    .reportContainer{
+        margin-top: 2rem;
     }
 </style>

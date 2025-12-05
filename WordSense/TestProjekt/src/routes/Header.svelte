@@ -99,4 +99,8 @@
 	a:hover {
 		color: var(--color-theme-1);
 	}
+
+	button{
+		border: 1px solid var(--color-bg-contrast);
+	}
 </style>

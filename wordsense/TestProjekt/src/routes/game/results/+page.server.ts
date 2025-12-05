@@ -1,5 +1,7 @@
-import { redirect } from '@sveltejs/kit';
-import { GET_GAME_BY_ID } from '$lib/server/dictionaryAPI';
+import { fail, redirect } from '@sveltejs/kit';
+import { CLEAN_GAMES, GET_GAME_BY_ID, GET_RANDOM, NEW_GAME } from '$lib/server/dictionaryAPI';
+import { availableDifficulties, availableLanguages, availableModes, maxTimer, minTimer } from '$lib/constData';
+import { startNewGame } from '$lib/server/startNewGame.js';
 
 export async function load({ url }) {
 
@@ -12,11 +14,18 @@ export async function load({ url }) {
 
         const won = result.lives != 0;
 
+        console.log( result.roundswon)
+
         return {
+            language: result.language,
+            timer: result.timer,
+            showExSentence: result.showexsentence,
             wordHistory: result.priorwords,
             lives: result.lives,
             maxRounds: result.maxrounds,
             mode: result.mode,
+            difficulty: result.difficulty,
+            roundsWon: result.roundswon,
             won: won
         };
     }
@@ -25,3 +34,25 @@ export async function load({ url }) {
     }
 
 }
+
+export const actions = {
+    startGame: async ({ request }) => {
+        const form = await request.formData();
+
+        const gameId = await startNewGame(form);
+        // redirect user to game page
+
+        console.log("response = ", gameId)
+        // const gameId = response.gameId;
+
+        // if (!response.ok) {
+        //     return fail(500, "could not create new game")
+        // }
+
+        if (typeof gameId === "number" && gameId < 0 ){
+            throw redirect(500, `/error`)
+        }
+
+        throw redirect(303, `/game?gameId=${gameId}`);
+    }
+};

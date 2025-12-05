@@ -2,6 +2,7 @@
     import { enhance } from "$app/forms";
     import { onMount } from "svelte";
     import { on } from "svelte/events";
+    import type { PageProps } from "../../routes/$types";
 
   let open = $state(false);
 
@@ -13,9 +14,11 @@
     "Value5"
   ]);
 
-    let { wordSet, mode } = $props<{
+    let { wordSet, mode, form } = $props<{
     mode: string;
     wordSet: any;
+    form: HTMLFormElement;
+
   }>();
 
     $effect(() => {
@@ -37,9 +40,6 @@
       options[4] = wordSet[3].definition
       }
     });
-
-
-
   
 
   let selectedReason = $state("");
@@ -104,9 +104,12 @@
         </button>
       </div>
     </form>
+  {#if !form?.success}
+    <p>{form.data}</p>
+  {/if}
+
   </div>
 {/if}
-
 <style>
   .report-btn {
     padding: 0.6rem 1rem;
@@ -128,7 +131,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: white;
+    background: var(--background-color);
     padding: 1.5rem;
     border-radius: 10px;
     width: 90%;
@@ -150,6 +153,7 @@
     border-radius: 6px;
     border: 1px solid #ccc;
     resize: vertical;
+    color: var(--color-text);
   }
 
   .actions {
@@ -166,11 +170,26 @@
     border-radius: 6px;
   }
 
+  .cancel:hover{
+    transform:translateY(1px);
+    color:white;
+  }
+
   .submit {
     background: #d9534f;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 6px;
+  }
+  .submit:hover{
+    transform: translateY(1px);
+  }
+  .reason-item{
+    color:var(--color-text);
+  }
+
+  h2{
+    font-weight: 700;
   }
 </style>

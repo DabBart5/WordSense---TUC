@@ -40,16 +40,9 @@ export async function load({ depends,url }) {
 export const actions = {
     submitAnswer: async ({ request }) => {
 
-
         const form = await request.formData();
 
-
-
         const answer = form.get("correct") === 'true';
-
-
-
-
 
         const gameId = getString(form, "gameId");
         if (!gameId) {
@@ -60,7 +53,6 @@ export const actions = {
         }
 
         //set up next Round
-        // console.log("about to send data to the server")
         const nextRound = await GET_NEXT_GAME(answer, gameId);
         if (nextRound.rowCount === 0) {
             return fail(500, {
@@ -69,12 +61,9 @@ export const actions = {
             });
         }
 
-        // console.log("data in server updated, current word= ", nextRound.nextwords[0])
-
         //check if this was the last round
         const thisGame = nextRound;
 
-        // console.log("last round = ", thisGame.currentround, "max Rounds = ", thisGame.maxrounds)
         if (thisGame.maxrounds > 0){ //mode != free
             if (((thisGame.currentround - 1 >= thisGame.maxrounds)&& thisGame.maxrounds > 0) || thisGame.lives === 0) {
                 throw redirect(303, `/game/results?gameId=${gameId}`)
@@ -102,7 +91,11 @@ export const actions = {
         
         const details = getString(form, "details");
 
-        await INSERT_INTO_REPORTS(option, details);
+        const res = await INSERT_INTO_REPORTS(option, details);
+
+        if (res < 0){//this doesnt really do anything, because popup closes before anything is visible (maybe take out later)
+            return{success : false, data: "something went wrong"};
+        }
 
         return {success : true}
 

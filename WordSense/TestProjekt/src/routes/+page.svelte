@@ -4,7 +4,7 @@
 	import { t } from "../stores/i18n";
 	// <wa-button>
 	import "@awesome.me/webawesome/dist/components/button/button.js";
-    import MainGameSettings from "./MainGameSettings.svelte";
+    import MainGameSettings from "$lib/components/MainGameSettings.svelte";
 
 	//import { Modal, Content, Trigger}  from "sv-popup"
 </script>
