@@ -32,8 +32,6 @@
     })
 
     function wordWasAnsweredCorrectly(i: number){
-        console.log("correct? ",i+1, correctAnswers.includes(i+1))
-
         return correctAnswers.includes(i + 1); //AnswerArray starts at 1
     }
 

@@ -1,22 +1,21 @@
 import { availableDifficulties } from '$lib/constData.js';
 import { GET_GAME_BY_ID, GET_NEXT_GAME, INSERT_INTO_REPORTS } from '$lib/server/dictionaryAPI.js';
 import { redirect, fail } from '@sveltejs/kit';
-import type {Actions} from './$types';
+import type { Actions } from './$types';
 
 
-export async function load({ depends,url }) {
+export async function load({ depends, url }) {
 
-
-
+    depends('game:state');
     const gameId = url.searchParams.get("gameId");
 
     if (!gameId) throw redirect(303, "/");
 
 
-        const result = await GET_GAME_BY_ID(gameId);
+    const result = await GET_GAME_BY_ID(gameId);
 
 
-    try{
+    try {
         return {
             wordSet: result.nextwords,
             lives: result.lives,
@@ -29,11 +28,11 @@ export async function load({ depends,url }) {
             randomizedAnswerOrder: shuffleWithOriginalIndex([0, 1, 2, 3])
         };
     }
-    catch{
+    catch {
         throw redirect(303, "/error");
     }
-        
-    
+
+
 
 }
 
@@ -64,8 +63,8 @@ export const actions = {
         //check if this was the last round
         const thisGame = nextRound;
 
-        if (thisGame.maxrounds > 0){ //mode != free
-            if (((thisGame.currentround - 1 >= thisGame.maxrounds)&& thisGame.maxrounds > 0) || thisGame.lives === 0) {
+        if (thisGame.maxrounds > 0) { //mode != free
+            if (((thisGame.currentround - 1 >= thisGame.maxrounds) && thisGame.maxrounds > 0) || thisGame.lives === 0) {
                 throw redirect(303, `/game/results?gameId=${gameId}`)
             }
         }
@@ -77,30 +76,29 @@ export const actions = {
 
 
         // throw redirect(303, `/game?gameId=${gameId}`);
-        return {success: true};
+        return { success: true };
     },
     report: async ({ request }) => {
         const form = await request.formData();
 
-        console.log(form);
         const option = getString(form, "reason");
-        if (!option || option === ''){
-            console.log("fail")
-            return; 
+        if (!option || option === '') {
+            console.log("failed to read reason")
+            return;
         }
-        
+
         const details = getString(form, "details");
 
         const res = await INSERT_INTO_REPORTS(option, details);
 
-        if (res < 0){//this doesnt really do anything, because popup closes before anything is visible (maybe take out later)
-            return{success : false, data: "something went wrong"};
+        if (res < 0) {//this doesnt really do anything, because popup closes before anything is visible (maybe take out later)
+            return { success: false, data: "something went wrong" };
         }
 
-        return {success : true}
+        return { success: true }
 
     }
-}satisfies Actions;
+} satisfies Actions;
 
 function getString(form: FormData, name: string) {
     const value = form.get(name);

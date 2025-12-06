@@ -5,14 +5,14 @@ CREATE TABLE IF NOT EXISTS games (
     priorwords JSONB,
     lives INTEGER,
     maxrounds INTEGER,
-    mode TEXT,
+    mode VARCHAR(20),
     showexsentence BOOLEAN,
     timer INTEGER,
     nextwords JSONB NOT NULL,
     currentround INTEGER,
     roundswon INTEGER[] NOT NULL DEFAULT '{}'::int[],
-    language TEXT,
-    difficulty TEXT,
+    language VARCHAR(20),
+    difficulty VARCHAR(10),
     created_at TIMESTAMP DEFAULT NOW()
 );
 
@@ -20,19 +20,19 @@ CREATE TABLE IF NOT EXISTS dictionary (
     id SERIAL PRIMARY KEY,
     language TEXT NOT NULL,
     word TEXT NOT NULL,
-    gender TEXT,
+    gender VARCHAR(20),
     pronunciation TEXT,
     definition TEXT,
     synonym JSONB,
     exSentence JSONB,
-    wordtype TEXT,
-    difficulty TEXT,
+    wordtype VARCHAR(20),
+    difficulty VARCHAR(20),
     transitivity BOOLEAN,
-    notes TEXT
+    notes VARCHAR(200)
 );
 
 CREATE TABLE IF NOT EXISTS reports (
     id SERIAL PRIMARY KEY,
-    issue TEXT NOT NULL,
-    details TEXT
+    issue VARCHAR(300) NOT NULL,
+    details VARCHAR(300)
 );

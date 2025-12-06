@@ -86,7 +86,7 @@
 		justify-content: center;
 		align-items: center;
 		list-style: none;
-		background: var(--color-bg-1);
+		background: var(--background-color);
 		background-size: contain;
 	}
 

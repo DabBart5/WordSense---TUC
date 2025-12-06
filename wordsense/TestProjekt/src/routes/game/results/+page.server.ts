@@ -6,15 +6,13 @@ import { startNewGame } from '$lib/server/startNewGame.js';
 export async function load({ url }) {
 
     const gameId = url.searchParams.get("gameId");
-    const currentRound = Number(url.searchParams.get("r"));
+
     if (!gameId) throw redirect(303, "/");
 
     try {
         const result = await GET_GAME_BY_ID(gameId);
 
         const won = result.lives != 0;
-
-        console.log( result.roundswon)
 
         return {
             language: result.language,
@@ -41,9 +39,6 @@ export const actions = {
 
         const gameId = await startNewGame(form);
         // redirect user to game page
-
-        console.log("response = ", gameId)
-        // const gameId = response.gameId;
 
         // if (!response.ok) {
         //     return fail(500, "could not create new game")

@@ -45,7 +45,7 @@
     // svelte-ignore state_referenced_locally
     let countdown = $state(timer);
 
-    let form = $state<HTMLFormElement | null>(null);    
+    let form = $state<HTMLFormElement | null>(null);
 
     $effect(() => {
         // Cleanup previous interval
@@ -55,7 +55,6 @@
         correct = false;
         activeButton = -1;
         countdown = data.timer;
-
 
         if (data.timer > 0) {
             timerInterval = setInterval(() => {
@@ -91,7 +90,20 @@
 <section>
     <!-- headline: lives, timer, round/rounds -->
     <span class="headline">
-        <div class="lives">{lives} ❤️</div>
+        <div class="lives">
+            {lives}
+            <svg
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5
+             2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09
+             C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5
+             c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                />
+            </svg>
+        </div>
         <div class="barContainer">
             {#if countdown > 0}
                 <span
@@ -122,7 +134,7 @@
     </h1>
     <span class="exampleSentence">
         {#if showExSentence && mode === "word"}
-                "{wordSet[0].exsentence[0]}"
+            "{wordSet[0].exsentence[0]}"
         {/if}
     </span>
     <form
@@ -160,9 +172,9 @@
                                     type="button"
                                     class:active={activeButton === i}
                                     onclick={() => {
-                                correct = position.originalIndex === 0;
-                                activeButton = i;
-                            }}
+                                        correct = position.originalIndex === 0;
+                                        activeButton = i;
+                                    }}
                                 >
                                     {#if wordSet[position.value].wordtype === "verb"}
                                         {getFromLangDict(
@@ -185,10 +197,12 @@
             {/if}
         </div>
         <input type="hidden" name="gameId" value={gameId} />
-        <button type="submit" style="font-weight:600; justify-content:center;"> Answer </button>
+        <button type="submit" style="font-weight:600; justify-content:center;">
+            Answer
+        </button>
     </form>
     <div class="reportContainer">
-        <ReportWord wordSet={wordSet} mode={mode} form={form}/>
+        <ReportWord {wordSet} {mode} {form} />
     </div>
 </section>
 
@@ -201,8 +215,8 @@
 
     button {
         padding: 8px;
-        padding-top: clamp(4px ,1.3vw,12px);
-        padding-bottom: clamp(4px ,1.3vw,12px);
+        padding-top: clamp(4px, 1.3vw, 12px);
+        padding-bottom: clamp(4px, 1.3vw, 12px);
         text-align: center;
         white-space: normal; /* allow wrapping */
         overflow-wrap: break-word;
@@ -212,7 +226,7 @@
         justify-content: left;
 
         /* This makes each cell auto-fit to the largest button */
-        width:100%;
+        width: 100%;
         height: 100%;
         column-width: 1;
     }
@@ -282,15 +296,19 @@
         flex: 2;
         text-align: left;
         margin-left: 10px;
+        font-size: var(--text-size-normal);
+
+
     }
 
     .rounds {
         flex: 2;
         text-align: right;
         margin-right: 10px;
+                font-size: var(--text-size-normal);
     }
 
-    .exampleSentence{
+    .exampleSentence {
         color: var(--color-bg-contrast);
         font-size: var(--text-size-normal);
         font-weight: 500;
@@ -310,7 +328,15 @@
         flex-direction: column;
     }
 
-    .reportContainer{
+    .reportContainer {
         margin-top: 2rem;
     }
+
+    svg{
+    height: 1.2em;
+    width: auto;
+    vertical-align: -0.125em;
+    fill: var(--color-bg-contrast);
+    }
+
 </style>

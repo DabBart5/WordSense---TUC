@@ -27,9 +27,9 @@
 				<MainGameSettings />
 			</Content>
 			<Trigger>
-				<wa-button class="gameButton">
-					<span class="button_text">MainGame</span>
-				</wa-button>
+				<button class="gameButton">
+					MainGame
+				</button>
 			</Trigger>
 		</Modal>
 	</div>
@@ -59,15 +59,6 @@
 		color: var(--color-text);
 	}
 
-	.button_text {
-		content: "";
-		display: block; /* make text a block-level element */
-		width: 100%; /* span fills the button */
-		text-align: justify; /* stretches text edge to edge */
-		text-justify: inter-word; /* spacing between words */
-		font-size: clamp(2rem, 15vw, 5rem);
-	}
-
 	.buttonDiv {
 		width: 100%;
 		display: block;
@@ -76,54 +67,28 @@
 		margin: 0.5rem 0;
 	}
 
-	wa-button.gameButton {
+	.gameButton {
+		flex:1;
 		display: flex;
 		width: 100%;
+		height: fit-content;
 		justify-content: center; /* centers content horizontally */
 		align-items: center; /* centers vertically */
-		min-height: 3rem;
-		padding: 12px;
-		position: relative;
+		padding: clamp(4px, 2vh, 12px);
 		font-family: "Montserrat";
 		color: var(--color-bg-contrast);
 		text-align: center;
-	}
-	wa-button.gameButton::part(base) {
-		border-radius: 2px;
-		border: solid 2px;
-		display: block;
-		min-height: 5rem;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		border-radius: 4px;
-		background: var(--background-color);
-		border-top-color: var(--color-bg-contrast);
-		border-left-color: var(--color-bg-contrast);
-		border-bottom-color: var(--color-bg-contrast);
-		border-right-color: var(--color-bg-contrast);
-		color: var(--color-bg-contrast);
-		font-size: 1.125em;
-		box-shadow: 0 2px 10px var(--color-bg-contrast);
-		transition: all var(--wa-transition-slow) var(--wa-transition-easing);
+		font-size: var(--h2);
 	}
 
-	wa-button.gameButton::part(base):hover {
-		transform: scale(1.05);
+
+	.gameButton:hover{
+		transform: scale(1.03);
 		background: var(--color-bg-contrast);
-		color: var(--color-text);
+		color: var(--color-text-contrast);
 	}
 
-	wa-button.gameButton::part(base):active {
-		border-top-color: var(--color-bg-contrast);
-		border-right-color: var(--color-bg-contrast);
-		border-bottom-color: var(--color-bg-contrast);
-		border-left-color: var(--color-bg-contrast);
+	.gameButton:active{
 		transform: translateY(1px);
-	}
-
-	wa-button.gameButton::part(base):focus-visible {
-		outline: dashed 2px var(--color-bg-contrast);
-		outline-offset: 4px;
 	}
 </style>

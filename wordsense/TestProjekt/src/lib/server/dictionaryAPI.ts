@@ -100,16 +100,12 @@ export async function GET_NEXT_GAME(correct: boolean, gameId: string) {
         // console.log("correct was false, result = ", nextGame.rows[0])
         return nextGame.rows[0];
     }
-    // }
-    // catch {
-    //     return -1;
-    // }
 
 
-}//change the return value
+
+}
 
 export async function INSERT_INTO_REPORTS(issue: string, details: string | null) {
-    console.log("trying to report")
     try {
         const result = await db.query(
             `INSERT INTO reports (issue, details) VALUES ($1, $2) RETURNING id`,
@@ -119,7 +115,6 @@ export async function INSERT_INTO_REPORTS(issue: string, details: string | null)
             console.log("couldnt insert ", issue, " and ", details, " into reports")
             return -1;
         }
-        console.log("report finished")
         return 0;
     }
     catch {

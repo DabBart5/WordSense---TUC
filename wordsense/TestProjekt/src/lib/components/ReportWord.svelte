@@ -4,6 +4,7 @@
     import { on } from "svelte/events";
     import type { PageProps } from "../../routes/$types";
 
+  const maxDetailLength = 200;
   let open = $state(false);
 
     let options = $state([
@@ -92,7 +93,9 @@
         name="details"
         placeholder="Optional: Describe the issue…"
         bind:value={description}
+        maxlength={maxDetailLength}
       ></textarea>
+      <p>{description.length}/{maxDetailLength}</p>
 
       <!-- Buttons -->
       <div class="actions">
@@ -104,7 +107,7 @@
         </button>
       </div>
     </form>
-  {#if !form?.success}
+  {#if !form?.success} <!--this doesnt really do anything since the modal disappears after clicking...-->
     <p>{form.data}</p>
   {/if}
 
@@ -151,7 +154,8 @@
     margin-top: 10px;
     padding: 8px;
     border-radius: 6px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-bg-contrast);
+    background-color: var(--background-color);
     resize: vertical;
     color: var(--color-text);
   }

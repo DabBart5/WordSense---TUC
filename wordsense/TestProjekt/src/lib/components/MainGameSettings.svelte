@@ -65,8 +65,9 @@
             <span class="checkboxContainer" >
                 <input type="checkbox" name="isTimer" value={isTimer} bind:checked={isTimer}/>
             </span>
+            <input type="hidden" name="timerval" value={timer} />
             <div class:counter={isTimer} class:visually-hidden={!isTimer}>
-                <input type="hidden" name="timerval" value={timer} />
+                
                 <button
                     type="button"
                     class="btn minus"
