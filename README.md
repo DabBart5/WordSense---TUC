@@ -13,7 +13,7 @@ In the Terminal:
     cd WordSense---TUC/WordSense/TestProjekt
     cp .enc.example .env
 
-Feel free to edit the env with your data
+Feel free to edit the env with your name and password
 
 ---
 
