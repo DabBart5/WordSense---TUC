@@ -13,5 +13,14 @@ Git-Clone
 
 initialize db
 start docker
+you need two terminals:
+Terminal 1:
 
-    docker exec -i WordSense-db psql -U devuser -d dictionary_game < ./backup.sql #havent checked this yet
+    docker compose build
+    docker compose up db
+    cat backup.sql | docker exec -i my_postgres psql -U your_username -d your_database
+    #docker exec -i WordSense-db psql -U devuser -d dictionary_game < ./backup.sql #this should work too, havent checked tho
+
+stop the process (str + c)
+
+    docker compose up
