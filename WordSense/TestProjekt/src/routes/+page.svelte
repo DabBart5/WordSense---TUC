@@ -1,13 +1,12 @@
 <script lang="ts">
-	
+	import { Modal, Content, Trigger } from "sv-popup";
 	import Counter from "./Counter.svelte";
-	import { t } from '../stores/i18n';
+	import { t } from "../stores/i18n";
 	// <wa-button>
 	import "@awesome.me/webawesome/dist/components/button/button.js";
+    import MainGameSettings from "$lib/components/MainGameSettings.svelte";
 
 	//import { Modal, Content, Trigger}  from "sv-popup"
-
-
 </script>
 
 <svelte:head>
@@ -15,22 +14,24 @@
 	<meta name="description" content="Train your Vocabulary with WordSense" />
 </svelte:head>
 
+<!--<section class = "main-column"> taken out for now-->
 <section>
 	<h1>{$t.page_title}</h1>
 
 	<p>
 		{$t.mainPage_Description}
 	</p>
-
 	<div class="buttonDiv">
-		<wa-button class="gameButton">
-			<div class="button_text">MainGame</div>
-		</wa-button>
-	</div>
-	<div class="buttonDiv">
-		<wa-button class="gameButton">
-			<div class="button_text">MainGame</div>
-		</wa-button>
+		<Modal button={false}>
+			<Content>
+				<MainGameSettings />
+			</Content>
+			<Trigger>
+				<button class="gameButton">
+					MainGame
+				</button>
+			</Trigger>
+		</Modal>
 	</div>
 </section>
 
@@ -47,77 +48,47 @@
 		width: 100%;
 		text-align: center;
 		font-family: "Montserrat";
-		font-size: 8vw;
+		font-size: var(--h1);
 		color: var(--color-text);
 	}
 
 	p {
 		width: 100%;
-		font-size: 2vw;
+		font-size: var(--text-size-normal);
 		text-align: center;
 		color: var(--color-text);
 	}
 
 	.buttonDiv {
 		width: 100%;
-		display: flex;
-		justify-content: center; 
-		align-items: center; 
-		margin: 1rem 0; 
+		display: block;
+		justify-content: center;
+		align-items: center;
+		margin: 0.5rem 0;
 	}
 
-	.button_text {
-		position: relative;
-		font-size: 5em;
-		font-family: "Montserrat";
+	.gameButton {
+		flex:1;
+		display: flex;
 		width: 100%;
-		height: 100%;
-		top: 0;
+		height: fit-content;
+		justify-content: center; /* centers content horizontally */
+		align-items: center; /* centers vertically */
+		padding: clamp(4px, 2vh, 12px);
+		font-family: "Montserrat";
 		color: var(--color-bg-contrast);
 		text-align: center;
+		font-size: var(--h2);
 	}
 
-	wa-button.gameButton{
-		display: block;
-		width: 50%;
-	}
-	wa-button.gameButton::part(base) {
-		border-radius: 2px;
-		border: solid 2px;
-		display: block;
-		min-width:100% ;
-		min-height: 6em;
-		display: flex;
-  		justify-content: center; 
-  		align-items: center;
-		border-radius: 4px;
-		background: var(--background-color);
-		border-top-color: var(--color-bg-contrast);
-		border-left-color: var(--color-bg-contrast);
-		border-bottom-color: var(--color-bg-contrast);
-		border-right-color: var(--color-bg-contrast);
-		color: var(--color-bg-contrast);
-		font-size: 1.125em;
-		box-shadow: 0 2px 10px #0002;
-		transition: all var(--wa-transition-slow) var(--wa-transition-easing);
-	}
 
-	wa-button.gameButton::part(base):hover {
-		transform: scale(1.05);
+	.gameButton:hover{
+		transform: scale(1.03);
 		background: var(--color-bg-contrast);
-		color: var(--background-color);
+		color: var(--color-text-contrast);
 	}
 
-	wa-button.gameButton::part(base):active {
-		border-top-color: var(--color-bg-contrast);
-		border-right-color: var(--color-bg-contrast);
-		border-bottom-color: var(--color-bg-contrast);
-		border-left-color: var(--color-bg-contrast);
+	.gameButton:active{
 		transform: translateY(1px);
-	}
-
-	wa-button.gameButton::part(base):focus-visible {
-		outline: dashed 2px var(--color-bg-contrast);
-		outline-offset: 4px;
 	}
 </style>

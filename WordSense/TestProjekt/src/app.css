@@ -7,16 +7,23 @@
 	--font-mono: 'Fira Mono', monospace;
 	--color-bg-0: rgb(211, 211, 211);
 	--color-bg-1: hsl(0, 0%, 82%);
-	--background-color:rgb(211, 211, 211);
-	--color-theme-1: rgb(211, 211, 211);
+	--background-color:rgb(230, 230, 230);
+	--color-theme-1: rgb(230, 230, 230);
 	--color-theme-2: #555555;
 	--color-bg-contrast: rgb(73, 73, 73);
-	--color-text: rgba(59, 48, 48, 0.9);
+	--color-text: rgb(73, 73, 73);
+	--color-text-contrast: var(--background-color);
 	--color-text-1: rgba(87, 60, 60, 0.7);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
 	font-family: var(--font-body);
 	color: var(--color-text);
+	--h1: clamp(3rem, 5vw + 2rem, 8rem);
+	--h2: clamp(2rem, 2vw + 1rem, 4rem);
+	--text-size-normal: clamp(1rem, 0.5vw + 0.5rem, 1.5rem);
+	--text-size-bigger: clamp(1.3rem, 1vw + 1rem, 2.0rem);
+	--gap-vertical: clamp(0.5rem, calc(2vh - 6px), 2rem);
+	color: var(--color-bg-contrast)
 }
 
 .dark {
@@ -31,6 +38,7 @@
 	--color-theme-2: #555555;
 	--color-bg-contrast: hsl(0, 0%, 82%);
 	--color-text: rgba(255, 255, 255, 0.9);
+	--color-text-contrast: rgb(0, 0, 0);
 	--color-text-1: rgba(185, 134, 134, 0.7);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
@@ -42,7 +50,7 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	background-attachment: fixed;
-	background-color: var(--color-bg-1);
+	background-color: var(--background-color);
 	background-size: 100vw 100vh;
 }
 
@@ -50,6 +58,7 @@ h1,
 h2,
 p {
 	font-weight: 400;
+	color:var(--color-text);
 }
 
 p {
@@ -57,7 +66,7 @@ p {
 }
 
 a {
-	color: var(--color-theme-1);
+	color: var(--color-text);
 	text-decoration: none;
 }
 
@@ -66,12 +75,14 @@ a:hover {
 }
 
 h1 {
-	font-size: 2rem;
+	font-size: var(--h1);
 	text-align: center;
+	color: var(--color-text);
 }
 
 h2 {
 	font-size: 1rem;
+	color: var(--color-text);
 }
 
 pre {
@@ -94,10 +105,39 @@ pre {
 	margin: 0 auto;
 }
 
+.main-column {
+	display: flex;
+	max-width: 48rem;
+	flex: 0.6;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+}
+
 input,
 button {
 	font-size: inherit;
 	font-family: inherit;
+	border-radius: 4px;
+	border: solid 2px var(--color-bg-contrast);
+	box-shadow: 0 2px 10px #0002;
+	background: var(--background-color);
+	background-color: var(--background-color);
+	border-color: var(--color-bg-contrast);
+	color: var(--color-text);
+	align-items: center;
+
+}
+
+button:hover {
+	background: var(--color-bg-contrast);
+	color: var(--color-text-contrast);
+	border-color: var(--background-color);
+}
+
+button:active{
+	border-color: var(--background-color);
+	transform: translateY(1px);
 }
 
 button:focus:not(:focus-visible) {

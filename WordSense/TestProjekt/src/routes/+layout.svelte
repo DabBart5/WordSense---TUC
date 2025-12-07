@@ -37,9 +37,10 @@
 
 		<footer>
 			<p>
-				visit <a href="https://svelte.dev/docs/kit"
-					>svelte.dev/docs/kit</a
-				> to learn about SvelteKit
+				visit <a href="https://github.com/DabBart5/WordSense---TUC/"
+					>WordSense on GitHub</a
+				> 
+				to learn more
 			</p>
 		</footer>
 	</div>

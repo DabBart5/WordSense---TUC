@@ -1,0 +1,41 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "devuser", "-d", "dictionary_game"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    container_name: WordSense-db
+    restart: always
+    environment:
+      POSTGRES_USER: devuser
+      POSTGRES_PASSWORD: devpassword
+      POSTGRES_DB: dictionary_game
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  sveltekit:
+    build: .
+    container_name: WordSense-web
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "5173:5173"          # Exposes SvelteKit dev server to host
+    environment:
+      DATABASE_URL: postgres://devuser:devpassword@db:5432/dictionary_game
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm run dev -- --host 0.0.0.0
+
+volumes:
+  postgres_data:
+
+# this should be the commadn you used last time
+  #docker run --name pg -e POSTGRES_PASSWORD=devpassword -e POSTGRES_USER=devuser -e POSTGRES_DB=dictionary_game -p 5432:5432 -d postgres:16
