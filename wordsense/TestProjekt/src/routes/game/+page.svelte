@@ -158,7 +158,7 @@
                                 activeButton = i;
                             }}
                         >
-                            {wordSet[position.value].definition} --- {position.originalIndex}
+                            {wordSet[position.value].definition}
                         </button>
                     {/each}
                 </ul>

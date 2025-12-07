@@ -2,10 +2,10 @@ import { readFileSync } from 'fs';
 import { Client } from 'pg';
 
 // Load JSON file
-const data = JSON.parse(readFileSync('./db/B2withPhonetics.json', 'utf8'));
+const data = JSON.parse(readFileSync('./db/C2.json', 'utf8'));
 
 for (const entry of data) {
-    console.log("TRANSITIVITY:", JSON.stringify(entry.transitivity));
+    // console.log("TRANSITIVITY:", JSON.stringify(entry.transitivity));
     // ... insert logic ...
 }
 
