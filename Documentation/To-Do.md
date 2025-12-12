@@ -24,7 +24,18 @@
 - get docker to run for build
 
 
+
+# extra
+- statistiken
+- zeit anpassen an inhlalt
+- compose datei anlegen für medien informatik server
+- wordsense.apps.tucmi.de addresse wenn das dann auf dem uniserver läuft
+
+
 # sachen die mich stören:
 - einstellungen werden noch nicht gemerkt (schwierigkeit stellt es immer auf A1 zurück, wenn man neues spiel startet)
 - umbenennen von dictionaryAPI zu was besserem (dbAPI)
 - constData.ts in static verschieben
+- wenn man answer spamt kommt irgendwie der Gewinn screen????
+  - anfrage wird abgeschickt, server bearbeitet das, -> das braucht zeit, in der zeit kommt neue anfrage mit gleichen daten, server fügt game neue daten hinzu ...
+  - solution maybe?: abgabe blockieren nachdem eine gesendet wurde, bis load function wieder fertig
