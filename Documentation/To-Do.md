@@ -22,7 +22,7 @@
 
 # other
 - get docker to run for build
-
+- !!make a about page, credit all people and pages that i took ressources from
 
 
 # extra
