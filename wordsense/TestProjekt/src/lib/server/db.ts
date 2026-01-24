@@ -1,9 +1,9 @@
 import { Pool } from 'pg';
-import { POSTGRES_URL } from '$env/static/private';
+import { env } from '$env/dynamic/private';
 
 export const db = new Pool({
-    
-    connectionString: POSTGRES_URL,
-    ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false
-    
+  connectionString: env.POSTGRES_URL,
+  ssl: env.POSTGRES_URL.includes('localhost')
+    ? false
+    : { rejectUnauthorized: false }
 });

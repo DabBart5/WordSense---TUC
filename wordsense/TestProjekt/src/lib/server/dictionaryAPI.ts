@@ -40,18 +40,14 @@ export async function GET_NEXT_GAME(correct: boolean, gameId: string) {
     // try {
 
     const settings = await GET_GAME_BY_ID(gameId);
-    // console.log("settings = ",settings)
     const difficulty = settings.difficulty;
     const language = settings.language;
 
-    // console.log("could fetch settings, difficulty = ", difficulty, ", language = ", language);
+
 
     // const newNextWords = await (await GET_RANDOM(language, difficulty)).json();
 
-    //         console.log("newNextWords =", newNextWords);
-    // console.log("Array.isArray:", Array.isArray(newNextWords));
-    // console.log("is null:", newNextWords === null);
-    // console.log("stringified:", JSON.stringify(newNextWords));
+
 
 
     // get data 
@@ -63,7 +59,6 @@ export async function GET_NEXT_GAME(correct: boolean, gameId: string) {
     // stringify for pg
     const nextWordsJson = JSON.stringify(safeNextWords);
 
-    // console.log("nextWordsJson type:", typeof nextWordsJson, "len:", nextWordsJson.length);
 
 
     if (correct) {
@@ -81,7 +76,7 @@ export async function GET_NEXT_GAME(correct: boolean, gameId: string) {
             [nextWordsJson, gameId]
         );
         return nextGame.rows[0];
-        // console.log("correct was correct, result = ", nextGame.rows[0])
+
     }
     else {
         const nextGame = await db.query(
@@ -97,7 +92,7 @@ export async function GET_NEXT_GAME(correct: boolean, gameId: string) {
                 `,
             [nextWordsJson, gameId]
         );
-        // console.log("correct was false, result = ", nextGame.rows[0])
+
         return nextGame.rows[0];
     }
 

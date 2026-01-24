@@ -1,4 +1,4 @@
-import { availableDifficulties } from '$lib/constData.js';
+import { availableDifficulties, getAverageSizeOfWord } from '$lib/constData.js';
 import { GET_GAME_BY_ID, GET_NEXT_GAME, INSERT_INTO_REPORTS } from '$lib/server/dictionaryAPI.js';
 import { redirect, fail } from '@sveltejs/kit';
 import type { Actions } from './$types';
@@ -14,6 +14,8 @@ export async function load({ depends, url }) {
 
     const result = await GET_GAME_BY_ID(gameId);
 
+    const timerVal = calcTimerVal(Number(result.timer), result.nextwords, result.showexsentence, result.language);
+
 
     try {
         return {
@@ -22,7 +24,7 @@ export async function load({ depends, url }) {
             showExSentence: result.showexsentence,
             maxRounds: result.maxrounds,
             mode: result.mode,
-            timer: result.timer,
+            timer: timerVal,
             currentRound: result.currentround,
             gameId: gameId,
             randomizedAnswerOrder: shuffleWithOriginalIndex([0, 1, 2, 3])
@@ -45,9 +47,9 @@ export const actions = {
 
         const gameId = getString(form, "gameId");
         if (!gameId) {
-            return fail(500, {
+            return fail(422, {
                 error: 'noWordsFound',
-                message: 'couldnt get gameId'
+                message: 'couldnt get gameId from User'
             });
         }
 
@@ -120,4 +122,35 @@ function shuffleWithOriginalIndex(array: Array<number>) {
     }
 
     return tagged;
+}
+
+function calcTimerVal(timerVal : number, wordSet: any, showExSentence: boolean, language: string){
+
+    if (timerVal != -2) return timerVal; // is not auto
+    let totalLength = 0;
+    wordSet.forEach((word: { definition: string; }) => {
+        totalLength += word.definition.length;
+    });
+
+    if (showExSentence) {
+        if (wordSet[0].exsentence != null){
+            totalLength += wordSet[0].exsentence.length;
+        }
+    }
+    let averageWordSize = 3; //if i cant make a better guess, assume a short word size
+    if(language != null){
+        const result = getAverageSizeOfWord(language);
+        if(result != null){
+            averageWordSize = result;
+        }
+    }
+
+    console.log("average word size for ",language,": ", averageWordSize);
+
+    const estimatedWordCount = (totalLength/averageWordSize) * 5/6; //average of five characters per word in english, this may not be applicable to other languages, excluding empty spaces
+    const estimatedSecondsPerWord = 0.3; //0.2s per word estimated for a native speaker, learner estimated 50% slower
+
+    const estimatedTimeNeeded = estimatedWordCount * estimatedSecondsPerWord + 3; //absolute value at the end as time to think (some base leeway)
+    console.log("calculated time: ",estimatedTimeNeeded)
+    return estimatedTimeNeeded;
 }

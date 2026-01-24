@@ -5,7 +5,8 @@ FROM node:20-slim
 WORKDIR /app
 
 # Copy package files
-COPY package*.json ./
+# 1. Copy only dependency files first
+COPY package.json package-lock.json ./
 
 # Install all dependencies for development
 RUN npm install
@@ -17,4 +18,4 @@ COPY . .
 EXPOSE 5173
 
 # Start SvelteKit in dev mode (watch mode)
-CMD ["npm", "run", "dev", "--", "--host"]
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]

@@ -2,7 +2,8 @@ import { readFileSync } from 'fs';
 import { Client } from 'pg';
 
 // Load JSON file
-const data = JSON.parse(readFileSync('./db/C2.json', 'utf8'));
+const file = "./db/C2Lower.json";
+const data = JSON.parse(readFileSync(file, 'utf8'));
 
 for (const entry of data) {
     // console.log("TRANSITIVITY:", JSON.stringify(entry.transitivity));
@@ -29,16 +30,17 @@ function normalizeSynonyms(syn: any) {
 async function seed() {
     await client.connect();
 
-    console.log(`Seeding ${data.length} dictionary entries...\n`);
+    console.log(`Seeding ${data.length} dictionary entries... based on file: ${file}\n`);
 
     
 
     for (const entry of data) {
-
-        console.log("TRANSITIVITY:", entry.transitivity);
-
+        if(entry.wordtype === "verb"){
+            console.log("Verb:", entry.word,"   TRANSITIVITY:", entry.transitivity);
+        }
         const flatSynonyms = normalizeSynonyms(entry.synonym);
 
+        if (entry.reviewed !== true) { continue; }  // skip unreviewed entries
         await client.query(
             `
             INSERT INTO dictionary

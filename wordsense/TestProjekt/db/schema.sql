@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS dictionary (
     pronunciation TEXT,
     definition TEXT,
     synonym JSONB,
-    exSentence JSONB,
+    exsentence JSONB,
     wordtype VARCHAR(20),
     difficulty VARCHAR(20),
     transitivity BOOLEAN,

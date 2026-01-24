@@ -7,7 +7,7 @@ export async function startNewGame(form: FormData){
             //clean up whenever a new game is started
             CLEAN_GAMES();
 
-            // console.log("isTimer = ", getString(form, "isTimer"), ", timer = ", getString(form, "timerval") )
+            console.log(form)
             // console.log("isTimer = ", getString(form, "isFree"), ", timer = ", getString(form, "showExSentence") )
           
             // validate form
@@ -18,19 +18,28 @@ export async function startNewGame(form: FormData){
             // extract form values
             const language = getString(form, 'language');
             const difficulty = getString(form, 'difficulty');
-            const isTimer = getString(form, "isTimer") === 'true';
             const maxRounds = getString(form, "isFree") === 'true' ? -1 : 10;
             const showExSentence = getString(form, "showExSentence") === 'true';
-            const timerVal = isTimer ? Number(getString(form, 'timerval')): -1;
             const mode = getString(form, 'mode');
 
+            const timer = getString(form, "timer");
+            let tmp = -1;
+            if(timer === 'auto') {
+                tmp = -2;
+            } else if (timer === 'none') {
+                tmp = -1;
+            } else if (timer === "timer") {
+                tmp = Number(getString(form, 'timerval'));
+            }
+            else console.log("unexpected error, timer is not part of acceptable values, check failed")
+            const timerVal = tmp;
 
-    
             if (!language || !difficulty || !mode) {
                 return -2;
             }
     
             // fetch 4 words
+            // i should really put this into the new game function...
             const words = await GET_RANDOM(language, difficulty);
             if (!words) {
                 return -3;
@@ -66,12 +75,17 @@ function checkData(data: FormData) {
     if (mode === null) return -1;
     if (!availableModes.includes(mode)) return -1;//mode is part of possible modes
 
-    const timer = getString(data, 'timerval');
-    
-    if (timer === null) return -1;
+    console.log("before timer check in check data")
+    const timer = getString(data, 'timer');
+    if (timer != 'timer' && timer != 'auto' && timer != 'none') return -1;
 
-    if (Number(timer) != -1){
-         if ((Number(timer) < minTimer || Number(timer) > maxTimer)) return -1; //timervalue lies between max and min
+    const timerVal = getString(data, 'timerval');
+    
+    if (timerVal === null) return -1;
+
+    console.log("before timerval check")
+    if (Number(timerVal) > -1){ //changed
+         if ((Number(timerVal) < minTimer || Number(timerVal) > maxTimer)) return -1; //timervalue lies between max and min
     }
 
     return 0;

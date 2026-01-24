@@ -5,10 +5,9 @@
 
     //Setting Varaibles
 
-    
     let showExSentence = $state(false);
     let isFree = $state(false);
-    let isTimer = $state(true);
+    let isTimerClassic = $state(false);
     let language = $state("English");
     let mode = $state("word");
     let timer = $state(10);
@@ -26,19 +25,16 @@
         <h1 style="font-size: var(--h2);">Main Game</h1>
         <div class="popUpHeader">
             <input type="hidden" name="language" value={language} />
-            <button
-                onsubmit={changeLanguage}
-                class="languageSelectBtn"
-                type="button"
+
+            <select
+                bind:value={selectedLanguage}
+                onchange={changeLanguage}
+                class="languageSelect"
             >
-                <select bind:value={selectedLanguage} class="language">
-                    {#each availableLanguages as lang}
-                        <option value={lang} onclick={() => (language = lang)} >
-                            {lang}
-                        </option>
-                    {/each}
-                </select>
-            </button>
+                {#each availableLanguages as lang}
+                    <option value={lang}>{lang}</option>
+                {/each}
+            </select>
 
             <span class="headerLine">
                 <input type="hidden" name="mode" value={mode} />
@@ -61,55 +57,79 @@
             </span>
         </div>
         <span class="line">
-            <h2>Timer</h2>
-            <span class="checkboxContainer" >
-                <input type="checkbox" name="isTimer" value={isTimer} bind:checked={isTimer}/>
+            <span class="break">
+                <h2>Timer</h2>
+                <br>
+                <span class="timerCheckboxes">
+                    <label>
+                    Auto 
+                    <input type="radio" name="timer" value="auto" checked onclick={() => {isTimerClassic = false}}>
+                    </label>
+
+                    <label style="justify-self:center;">
+                    Classic 
+                    <input type="radio" name="timer" value=timer onclick={() => {isTimerClassic = true}}/>
+                    </label>
+
+                    <label style="jusfify-self:end;">
+                    None
+                    <input type="radio" name="timer" value="none" onclick={() => {isTimerClassic = false}}>
+                    </label>
+                </span>
             </span>
             <input type="hidden" name="timerval" value={timer} />
-            <div class:counter={isTimer} class:visually-hidden={!isTimer}>
-                
+            <div class:counter={isTimerClassic} class:visually-hidden={!isTimerClassic}>
                 <button
                     type="button"
                     class="btn minus"
                     onclick={() => (timer > 5 ? (timer -= 5) : (timer += 0))}
                     >-5</button
                 >
-                <button type="button" class="btn display" id="counterDisplay">
+                <button type="button" class="btn display" id="counterDisplay" tabindex="-1">
                     {timer} {$t.sec}</button
                 >
                 <button
                     type="button"
                     class="btn plus"
-                    onclick={() => (timer < 60 ? (timer += 5) : (timer += 0))}
+                    onclick={() => (timer < 100 ? (timer += 5) : (timer += 0))}
                     >+5</button
                 >
             </div>
-            <span class:visually-hidden={isTimer} class:emptyLineSpace={!isTimer}></span>
-        </span>
-        <span class="line">
-            <h2>Free 
-                <!-- <img src="info-circle.svg" alt="More Info Free" class="infoI"/> -->
-            </h2>
-            <span class="checkboxContainer">
-                <input type="checkbox" name="isFree" value={isFree} bind:checked={isFree}/>
-            </span>
-            <span class="emptyLineSpace"></span>
+            <span
+                class:visually-hidden={isTimerClassic}
+                class:emptyLineSpace={!isTimerClassic}
+            ></span>
         </span>
 
-        <span class="line">
-            <h2>{$t.exampleSentence} 
-                <!-- <img src="info-circle.svg" alt="More Info Example-Sentence" class="infoI"/> -->
+        <div class="advancedSettingsDiv">
+            <h2>
+                Advanced Settings
             </h2>
-            <span class="checkboxContainer">
+            <span style="display:flex; align-content:space-between;">
+                <p style="flex:1; font-size:var(--text-size-normal)">
+                    No Roundlimit
+                </p>
                 <input
-                    type="checkbox"
-                    name="showExSentence"
-                    value={showExSentence}
-                    bind:checked={showExSentence}
-                />
+                        type="checkbox"
+                        name="isFree"
+                        value={isFree}
+                        bind:checked={isFree}
+                    />
             </span>
-            <span class="emptyLineSpace"></span>
-        </span>
+            <span style="display:flex; align-content:space-between;">
+                <p style="flex:1; font-size:var(--text-size-normal)">
+                    Show an example Sentence
+                </p>
+                <input
+                        type="checkbox"
+                        name="showExSentence"
+                        value={showExSentence}
+                        bind:checked={showExSentence}
+                    />
+                
+            </span>
+        </div>
+       
         <div class="difficultyDiv">
             <!-- difficulty -->
             <h2>{$t.difficulty}</h2>
@@ -184,61 +204,66 @@
     .popUp {
         height: 100%;
         width: 100%;
-        display: block;
+        display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
         background-color: var(--background-color);
         border: 1px solid var(--color-bg-contrast);
         border-radius: 0px;
         padding: 1rem;
+        color: var(--color-text);
     }
 
     .popUpHeader {
-
-        margin-bottom: var(--gap-vertical);
+        margin-bottom: clamp(1rem, var(--gap-vertical), 2rem);
     }
 
     .headerLine {
         display: flex;
+        padding-bottom: clamp(4px, var(--gap-vertical), 8px);
+        border-bottom: solid 1px var(--color-bg-contrast);
     }
 
     .headerLine Button {
         flex: 1;
-        margin-bottom: 0.5rem;
         margin: 0px 0.1rem 0px 0.1rem;
         height: 100%;
         height: clamp(2.5rem, 2.5vh, 5rem);
     }
 
-    .languageSelectBtn {
+    .languageSelect {
         width: 100%;
         height: clamp(3.2rem, 3.5vh, 7rem);
-        font-size: var(--h2);
+        font-size: var(--text-size-bigger);
         cursor: pointer;
         text-align: center;
         margin-bottom: var(--gap-vertical);
         padding: 0px;
         border: 1px solid var(--color-bg-contrast);
+        background-color: var(--background-color);
+        color: var(--color-text);
     }
 
-    .languageSelectBtn:hover {
+    .languageSelect:hover {
         transform: scale(1);
-
         border: var(--color-bg-contrast);
         border: 1px solid var(--color-bg-contrast);
     }
 
-    h2 {
-        flex: 2;
-        width: 100%;
+    .line h2 {
+        flex: 7;
         text-align: left;
         font-size: var(--text-size-normal);
-        color: var(--color-text);
     }
 
-    button {
+    h2 {
+        font-size: var(--text-size-normal);
+    }
+
+    Button {
         flex: 1;
         font-size: var(--text-size-normal);
         height: min-content;
-        margin-left: 0px;
     }
 
     .active {
@@ -250,30 +275,22 @@
         transform: translateY(1px); /* subtle depression */
     }
 
-    .language {
-        background-color: var(--background-color);
-        text-align: center;
-        font-size: var(--text-size-normal);
-        color: var(--color-bg-contrast);
-        height: 100%;
-        width: 100%;
-        padding: 0.5rem;
-        border: 0px;
-    }
-
     .line {
         display: flex;
         border-bottom: 1px solid var(--color-bg-contrast);
+        flex-wrap: wrap;
+        padding-bottom: var(--gap-vertical);
         margin-top: var(--gap-vertical);
-        margin-bottom: var(--gap-vertical);
     }
 
     .line h2 {
-        flex: 2;
+        flex: 7;
     }
 
-    .checkboxContainer {
-        flex: 1;
+    .advancedSettingsDiv{
+        border-top: solid 1px var(--color-bg-contrast);
+        border-bottom: solid 1px var(--color-bg-contrast);
+        padding-top: var(--gap-vertical);
     }
 
     .emptyLineSpace {
@@ -281,6 +298,7 @@
     }
 
     .counter {
+        margin-top: var(--gap-vertical);
         display: flex;
         flex: 3;
     }
@@ -300,6 +318,7 @@
         color: var(--color-text);
         border-radius: 2rem 0 0 2rem; /* left half round */
         border: solid 1px var(--color-bg-contrast);
+        border-right: none;
         flex: 1;
         padding: 0px;
         padding-left: 0.5rem;
@@ -313,18 +332,17 @@
         color: var(--color-text);
         cursor: default;
         border: 1px solid var(--color-bg-contrast);
-        border-left: none;
-        border-right: none;
-        width:fit-content;
+
+        width: fit-content;
         border-radius: 0;
         flex: 1;
         box-shadow: none;
-        padding-left: calc(var(--text-size-normal)/2);
-        padding-right: calc(var(--text-size-normal)/2);
+        padding-left: calc(var(--text-size-normal) / 2);
+        padding-right: calc(var(--text-size-normal) / 2);
     }
 
     .counter .display:hover {
-        transform: scale(1);
+        transform: scale(1.0);
         box-shadow: none;
     }
 
@@ -334,11 +352,10 @@
         color: var(--color-text);
         border-radius: 0 2rem 2rem 0; /* right half round */
         border: solid 1px var(--color-bg-contrast);
+        border-left: none;
         flex: 1;
         padding: 0px;
         padding-right: 0.5rem;
-        margin: 0;
-        margin-right: 0.5rem;
         text-align: center;
     }
 
@@ -354,6 +371,7 @@
     }
 
     .difficultyDiv {
+        margin-top: var(--gap-vertical);
         display: block;
     }
 
@@ -376,15 +394,33 @@
         padding-top: 0.125rem;
         display: flex;
         min-height: 3rem;
-
     }
 
     .startButtonDiv Button {
         height: 100%;
         flex: 1;
         width: 100%;
-        margin-right: 0px;
         min-height: 3rem;
     }
 
+    .break {
+        flex-basis: 100%;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        justify-content: space-between;
+    }
+
+    .timerCheckboxes{
+        display: grid;
+        grid-template-columns:auto 1fr auto;
+        align-items: center;
+    }
+
+    .timerCheckboxes label{
+        color: var(--color-text);
+        vertical-align: center;
+        font-size: var(--text-size-normal);
+        gap: 0.4em;
+
+    }
 </style>

@@ -26,7 +26,7 @@
 			<Content>
 				<MainGameSettings />
 			</Content>
-			<Trigger>
+			<Trigger as="Button">
 				<button class="gameButton">
 					MainGame
 				</button>

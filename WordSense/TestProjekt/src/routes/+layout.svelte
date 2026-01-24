@@ -28,6 +28,10 @@
 	let { children } = $props();
 </script>
 
+<svelte:head>
+  <title>WordSense</title>
+</svelte:head>
+
 	<div class="app">
 		<Header onToggleTheme={toggleTheme} />
 
@@ -37,10 +41,13 @@
 
 		<footer>
 			<p>
-				visit <a href="https://github.com/DabBart5/WordSense---TUC/"
+				visit 
+				<a href="https://github.com/DabBart5/WordSense---TUC/"
 					>WordSense on GitHub</a
 				> 
-				to learn more
+				or the 
+				<a href="/about">about</a>
+				page to learn more
 			</p>
 		</footer>
 	</div>

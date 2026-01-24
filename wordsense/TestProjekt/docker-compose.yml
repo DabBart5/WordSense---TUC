@@ -24,7 +24,7 @@ services:
     ports:
       - "5173:5173"          # Exposes SvelteKit dev server to host
     environment:
-      DATABASE_URL: postgres://devuser:devpassword@db:5432/dictionary_game
+      DATABASE_URL: postgres://devuser:devpassword@db:5432/dictionary_game # use db instead of localhost for prod
     volumes:
       - .:/app
       - /app/node_modules

@@ -1,7 +1,7 @@
 [
     {
         "language": "English",
-        "word": "abate",
+        "word": "ABATE",
         "gender": "none",
         "pronunciation": "/əˈbeɪt/",
         "definition": "to become less intense or widespread",
@@ -12,29 +12,32 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "aberration",
+        "word": "ABERRATION",
         "gender": "none",
         "pronunciation": "/ˌæb.əˈɹeɪ.ʃn̩/",
         "definition": "a deviation from what is normal or expected",
         "synonym": [],
         "exSentence": [
-            "It wasn't an aberration."
+            "It wasn't an aberration.",
+            "Occasional '''aberrations''' of intellect"
         ],
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "abhor",
+        "word": "ABHOR",
         "gender": "none",
         "pronunciation": "/æbˈhɔːr/",
-        "definition": "to hate intensely or regard with disgust",
+        "definition": "To regard (someone or something) as horrifying or detestable; to feel great repugnance toward.",
         "synonym": [],
         "exSentence": [
             "I abhor spiders."
@@ -42,14 +45,15 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "abiding",
+        "word": "ABIDING",
         "gender": "none",
         "pronunciation": "/əˈbaɪ.dɪŋ/",
-        "definition": "lasting or enduring over time",
+        "definition": "continue or persist in the same state: lasting, enduring; steadfast.",
         "synonym": [],
         "exSentence": [
             "He maintained an abiding belief in the power of education."
@@ -57,29 +61,32 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "absolve",
+        "word": "ABSOLVE",
         "gender": "none",
         "pronunciation": "/əbˈzɒlv/",
-        "definition": "to free someone from blame or responsibility",
+        "definition": "To set free, release or discharge (from obligations, debts, responsibility etc.).",
         "synonym": [],
         "exSentence": [
-            "I absolve you from your sins."
+            "I absolve you from your sins.",
+            "To make confession and to be '''absolved'''."
         ],
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "abstain",
+        "word": "ABSTAIN",
         "gender": "none",
         "pronunciation": "/əbˈsteɪn/",
-        "definition": "to deliberately avoid doing or consuming something",
+        "definition": "refrain from (something or doing something); keep from doing, especially an indulgence.",
         "synonym": [],
         "exSentence": [
             "Athletes usually abstain from smoking."
@@ -87,11 +94,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "abstention",
+        "word": "ABSTENTION",
         "gender": "none",
         "pronunciation": "/æbˈstɛnʃən/",
         "definition": "acts of choosing not to vote or participate",
@@ -102,44 +110,49 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "abstruse",
+        "word": "ABSTRUSE",
         "gender": "none",
         "pronunciation": "/əbˈstɹuːs/",
-        "definition": "difficult to understand because of complexity",
+        "definition": "difficult to comprehend or understand; obscure",
         "synonym": [],
         "exSentence": [
-            "No one could solve such an abstruse problem."
+            "No one could solve such an abstruse problem.",
+            "In a thousand ways he smoothed for me the path of knowledge, and made the most '''abstruse''' inquiries clear and facile to my apprehension."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "accentuate",
+        "word": "ACCENTUATE",
         "gender": "none",
         "pronunciation": "/ækˈsɛntʃueɪt/",
-        "definition": "to highlight or make more noticeable",
+        "definition": "To bring out distinctly; to make more noticeable or prominent; to emphasize.",
         "synonym": [],
         "exSentence": [
-            "Make-up can accentuate your cheekbones."
+            "Make-up can accentuate your cheekbones.",
+            "our danger and insolation only '''accentuated''' the incompatibility"
         ],
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "acclaim",
+        "word": "ACCLAIM",
         "gender": "none",
         "pronunciation": "/əˈkleɪm/",
-        "definition": "to praise enthusiastically and publicly",
+        "definition": "To express great approval (for).",
         "synonym": [],
         "exSentence": [
             "The audience acclaimed the actors for their performance."
@@ -147,14 +160,15 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "accede",
+        "word": "ACCEDE",
         "gender": "none",
         "pronunciation": "/əkˈsiːd/",
-        "definition": "to agree to a request or proposal",
+        "definition": "To agree or assent to a proposal or a view; to give way.",
         "synonym": [],
         "exSentence": [
             "African countries voluntarily accede to the APRM with the hope of enhancing progress in governance, democracy, and economic development."
@@ -162,41 +176,44 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "accolade",
+        "word": "ACCOLADE",
         "gender": "none",
         "pronunciation": "/ˈæk.ə.ˌleɪd/",
         "definition": "an expression of high praise or honor",
         "synonym": [],
         "exSentence": [
-            "Although she was merited with many an accolade, we still donâ€™t know what she did to deserve them."
+            "Although she was merited with many an accolade, we still don't know what she did to deserve them."
         ],
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "accredit",
+        "word": "ACCREDIT",
         "gender": "none",
         "pronunciation": "/ə.ˈkɹɛd.ɪt/",
         "definition": "to officially recognize or authorize",
         "synonym": [],
         "exSentence": [
-            "They accredit him with the secret charity."
+            "The version of early Roman history which was '''accredited''' in the fifth century."
         ],
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "accreditation",
+        "word": "ACCREDITATION",
         "gender": "none",
         "pronunciation": "[əˌkɹɛd.ɪˈteɪ.ʃən]",
         "definition": "official certification that standards have been met",
@@ -207,11 +224,12 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "accrue",
+        "word": "ACCRUE",
         "gender": "none",
         "pronunciation": "/əˈkruː/",
         "definition": "to accumulate or gather over time",
@@ -222,26 +240,29 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "acerbic",
+        "word": "ACERBIC",
         "gender": "none",
         "pronunciation": "/əˈsɜː(ɹ)bɪk/",
         "definition": "sharp or biting in tone or expression",
         "synonym": [],
         "exSentence": [
-            "I'll try to stay on your good side, lest I get cut in two by that acerbic tongue of yours."
+            "I'll try to stay on your good side, lest I get cut in two by that acerbic tongue of yours.",
+            "[H]e is one of the most '''acerbic''' people in his field, quick to take offense and not shy about telling people with whom he disagrees how much he thinks they have failed in thought and action."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "acquiescence",
+        "word": "ACQUIESCENCE",
         "gender": "none",
         "pronunciation": "/ˈæk.wiːˌɛs.əns/",
         "definition": "reluctant but passive acceptance",
@@ -252,11 +273,12 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "acquiesce",
+        "word": "ACQUIESCE",
         "gender": "none",
         "pronunciation": "/ˌækwiˈɛs/",
         "definition": "to accept something reluctantly without protest",
@@ -267,11 +289,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "acquit",
+        "word": "ACQUIT",
         "gender": "none",
         "pronunciation": "/əˈkwɪt/",
         "definition": "to declare someone not guilty",
@@ -282,11 +305,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "acrimonious",
+        "word": "ACRIMONIOUS",
         "gender": "none",
         "pronunciation": "/ˌæk.rɪˈməʊ.ni.əs/",
         "definition": "bitter and hostile in tone or manner",
@@ -297,14 +321,15 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "acrimony",
+        "word": "ACRIMONY",
         "gender": "none",
         "pronunciation": "/ˈæk.rɪ.mə.ni/",
-        "definition": "sharp bitterness or hostility",
+        "definition": "A sharp and bitter hatred.",
         "synonym": [],
         "exSentence": [
             "The president-elect's cabinet selection process appeared in disarray, even as his fawning acolytes disputed multiple news reports of backbiting, vendettas, infighting and persistent, bitter acrimony."
@@ -312,14 +337,15 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "acuity",
+        "word": "ACUITY",
         "gender": "none",
         "pronunciation": "/əˈkjuːɪti/",
-        "definition": "sharpness of perception or thought",
+        "definition": "The ability to think, see or hear clearly.",
         "synonym": [],
         "exSentence": [
             "The hearing acuity of dogs is superior by far to that of humans."
@@ -327,11 +353,12 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "adamant",
+        "word": "ADAMANT",
         "gender": "none",
         "pronunciation": "/ˈæ.də.mænt/",
         "definition": "firmly refusing to change one’s mind",
@@ -342,11 +369,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "adherence",
+        "word": "ADHERENCE",
         "gender": "none",
         "pronunciation": "/ədˈhɪər.əns/",
         "definition": "firm commitment to rules or principles",
@@ -357,41 +385,44 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "admittance",
+        "word": "ADMITTANCE",
         "gender": "none",
         "pronunciation": "/ədˈmɪt.n̩s/",
         "definition": "permission to enter a place",
         "synonym": [],
         "exSentence": [
-            "No admittance during the performance."
+            "The club has the right to refuse admittance to anyone."
         ],
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "admonish",
+        "word": "ADMONISH",
         "gender": "none",
         "pronunciation": "/ədˈmɒn.ɪʃ/",
-        "definition": "to warn or firmly advise against wrongdoing",
+        "definition": "To inform or notify of a fault; to rebuke in a serious tone; to tell off.",
         "synonym": [],
         "exSentence": [
-            "No words were able to admonish him."
+            "His mother admonished him for eating too quickly."
         ],
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "adroit",
+        "word": "ADROIT",
         "gender": "none",
         "pronunciation": "/əˈdɹɔɪt/",
         "definition": "skilled and resourceful in handling situations",
@@ -402,41 +433,28 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "afflatus",
-        "gender": "none",
-        "pronunciation": "/əˈfleɪtəs/",
-        "definition": "a sudden creative inspiration",
-        "synonym": [],
-        "exSentence": [
-            "The painter felt a sudden afflatus, completing the canvas in a single night."
-        ],
-        "wordType": "noun",
-        "difficulty": "C2",
-        "notes": "",
-        "transitivity": false
-    },
-    {
-        "language": "English",
-        "word": "affinity",
+        "word": "AFFINITY",
         "gender": "none",
         "pronunciation": "/əˈfɪnɪti/",
         "definition": "a natural liking or connection",
         "synonym": [],
         "exSentence": [
-            "This case has an affinity with that one."
+            "She seems to have a natural affinity for water."
         ],
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "alacrity",
+        "word": "ALACRITY",
         "gender": "none",
         "pronunciation": "[əˈlækɹɨti]",
         "definition": "eager willingness or promptness",
@@ -447,14 +465,15 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "albeit",
+        "word": "ALBEIT",
         "gender": "none",
         "pronunciation": "/ɔːlˈbiː.ɪt/",
-        "definition": "although",
+        "definition": "although, despite (it) being.",
         "synonym": [],
         "exSentence": [
             "Many software companies offer free versions of their products, albeit with limited functionality."
@@ -462,11 +481,12 @@
         "wordType": "conjunction",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "alleviate",
+        "word": "ALLEVIATE",
         "gender": "none",
         "pronunciation": "/əˈli.vi.eɪt/",
         "definition": "to reduce the severity of something",
@@ -477,11 +497,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "allude",
+        "word": "ALLUDE",
         "gender": "none",
         "pronunciation": "/əˈluːd/",
         "definition": "to refer to indirectly",
@@ -492,11 +513,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "aloof",
+        "word": "ALOOF",
         "gender": "none",
         "pronunciation": "/əˈluːf/",
         "definition": "emotionally distant or detached",
@@ -507,14 +529,15 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "altruistic",
+        "word": "ALTRUISTIC",
         "gender": "none",
         "pronunciation": "/ˌɑl.tɹuˈɪs.tɪk/",
-        "definition": "selflessly concerned for others’ welfare",
+        "definition": "showing a wish to help or bring advantages to others, even if it results in disadvantage for yourself",
         "synonym": [],
         "exSentence": [
             "Peter was an altruistic video game player; he would give items to people who needed them, rather than selling them for personal profit."
@@ -522,44 +545,48 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "amenable",
+        "word": "AMENABLE",
         "gender": "none",
         "pronunciation": "/əˈmɛn.ə.bəl/",
         "definition": "willing to be persuaded or controlled",
         "synonym": [],
         "exSentence": [
-            "This kind of case is amenable to statistical treatment."
+            "This kind of case is amenable to statistical treatment.",
+            "The communal nature of ostriches may have made these birds more '''amenable''' to life in captivity."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "ambivalent",
+        "word": "AMBIVALENT",
         "gender": "none",
         "pronunciation": "/æmˈbɪv.ə.lənt/",
-        "definition": "having mixed or conflicting feelings",
+        "definition": "experiencing or expressing oppose or contradictory feelings, beliefs, motivations, or meanings.",
         "synonym": [],
         "exSentence": [
-            "Professional language producers can be expected to be ambivalent about clichÃ©s."
+            "Professional language producers can be expected to be ambivalent about clichés."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "ambrosial",
+        "word": "AMBROSIAL",
         "gender": "none",
         "pronunciation": "/æmˈbrəʊ.zi.əl/",
-        "definition": "exceptionally pleasing to taste or smell",
+        "definition": "Pertaining to or worthy of the gods.",
         "synonym": [],
         "exSentence": [
             "So saying, she turned, and all refulgent showed / her roseate neck, and heavenly fragrance sweet / was breathed from her ambrosial hair."
@@ -567,14 +594,15 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "ameliorate",
+        "word": "AMELIORATE",
         "gender": "none",
         "pronunciation": "/əˈmiːli.əɹeɪt/",
-        "definition": "to improve or make better",
+        "definition": "To make better, or improve, something perceived to be in a negative condition.",
         "synonym": [],
         "exSentence": [
             "Financial reforms may ameliorate the current economic difficulties."
@@ -582,59 +610,64 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "anachronistic",
+        "word": "ANACHRONISTIC",
         "gender": "none",
         "pronunciation": "/əˌnæk.ɹəˈnɪs.tɪk/",
-        "definition": "belonging to a time other than the present",
+        "definition": "existing out of its time in history",
         "synonym": [],
         "exSentence": [
-            "This is an anachronistic moment."
+            "He described the law as anachronistic and ridiculous."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "analogous",
+        "word": "ANALOGOUS",
         "gender": "none",
         "pronunciation": "/əˈnæl.ə.ɡəs/",
-        "definition": "comparable in certain respects",
+        "definition": "Having analogy, the status of an analogue; corresponding to something else; bearing some resemblance or similar proportion (often followed by \"to\".)",
         "synonym": [],
         "exSentence": [
-            "Your situation is analogous to mine."
+            "Your situation is analogous to mine.",
+            "Decay of public spirit, which may be considered '''analogous''' to natural death."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "animosity",
+        "word": "ANIMOSITY",
         "gender": "none",
         "pronunciation": "/æn.əˈmɑs.ɪ.ti/",
         "definition": "strong hostility or resentment",
         "synonym": [],
         "exSentence": [
-            "Then that animosity is being passed on down to us?"
+            "Of course we're competitive, but there's no personal animosity between us."
         ],
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "annum",
+        "word": "ANNUM",
         "gender": "none",
         "pronunciation": "/ˈænəm/",
-        "definition": "a year, used in financial contexts",
+        "definition": "a year, used in financial contexts (most often used as \"per annum\")",
         "synonym": [],
         "exSentence": [
             "The investment yields a five percent return per annum."
@@ -642,26 +675,29 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "anomaly",
+        "word": "ANOMALY",
         "gender": "none",
         "pronunciation": "/əˈnɒm.ə.li/",
-        "definition": "something that deviates from the norm",
+        "definition": "A deviation from a rule or from what is regarded as normal; an outlier.",
         "synonym": [],
         "exSentence": [
-            "We found an anomaly."
+            "We found an anomaly.",
+            "This ardent exploration, absorbing all his energy and interest, made him forget for the moment the mystery of his heritage and the '''anomaly''' that cut him off from all his fellows."
         ],
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "antagonize",
+        "word": "ANTAGONIZE",
         "gender": "none",
         "pronunciation": "/ænˈtæɡ.ə.naɪz/",
         "definition": "to provoke hostility in someone",
@@ -672,14 +708,15 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "antipathy",
+        "word": "ANTIPATHY",
         "gender": "none",
         "pronunciation": "/ænˈtɪpəθi/",
-        "definition": "a strong feeling of dislike",
+        "definition": "a strong feeling of dislike, opposition or anger",
         "synonym": [],
         "exSentence": [
             "I experienced a feeling of antipathy towards the speaker."
@@ -687,29 +724,32 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "antiquated",
+        "word": "ANTIQUATED",
         "gender": "none",
         "pronunciation": "/ˈæntɪˌkweɪtɪd/",
-        "definition": "outdated or old-fashioned",
+        "definition": "old-fashioned, out of date",
         "synonym": [],
         "exSentence": [
-            "Your ideas are a little antiquated."
+            "Your ideas are a little antiquated.",
+            "Coming to the third proposition, von Hertling says, with justice, that the doctrine of the balance of power is a more or less '''antiquated''' doctrine."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "antiquity",
+        "word": "ANTIQUITY",
         "gender": "none",
         "pronunciation": "/ænˈtɪk.wɪ.ti/",
-        "definition": "ancient times",
+        "definition": "The state of being ancient or of ancient lineage.",
         "synonym": [],
         "exSentence": [
             "The cicada has represented insouciance since antiquity."
@@ -717,11 +757,12 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "antithesis",
+        "word": "ANTITHESIS",
         "gender": "none",
         "pronunciation": "/æn.ˈtɪ.θə.sɪs/",
         "definition": "the direct opposite of something",
@@ -732,11 +773,12 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "apathetic",
+        "word": "APATHETIC",
         "gender": "none",
         "pronunciation": "/æp.əˈθɛt.ɪk/",
         "definition": "showing little or no interest or emotion",
@@ -747,14 +789,15 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "apostle",
+        "word": "APOSTLE",
         "gender": "none",
         "pronunciation": "/əˈpɒs(ə)l/",
-        "definition": "a vigorous advocate of a belief or cause",
+        "definition": "A pioneer or early advocate of a particular cause, prophet of a belief.",
         "synonym": [],
         "exSentence": [
             "Mahatma Gandhi, the apostle of nonviolence, was born in 1869."
@@ -762,11 +805,12 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "appease",
+        "word": "APPEASE",
         "gender": "none",
         "pronunciation": "/əˈpiːz/",
         "definition": "to calm or pacify by yielding to demands",
@@ -777,26 +821,29 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "apprehensive",
+        "word": "APPREHENSIVE",
         "gender": "none",
         "pronunciation": "/ˌæp.rəˈhɛn.sɪv/",
-        "definition": "anxious or fearful about the future",
+        "definition": "feeling worried about something that you are going to do or that is going to happen",
         "synonym": [],
         "exSentence": [
-            "I am apprehensive of the outcome."
+            "I am apprehensive of the outcome.",
+            "I'm very apprehensive about tomorrow's meeting."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "arduous",
+        "word": "ARDUOUS",
         "gender": "none",
         "pronunciation": "/ˈɑːdjuːəs/",
         "definition": "requiring great effort or endurance",
@@ -807,14 +854,15 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "arguably",
+        "word": "ARGUABLY",
         "gender": "none",
         "pronunciation": "/ˈɑːɡ.ju.ə.bli/",
-        "definition": "possibly, based on reasonable evidence",
+        "definition": "As can be supported or proven by sound logical deduction, evidence, and precedent, but without absolute certainty.",
         "synonym": [],
         "exSentence": [
             "This place is arguably the best restaurant in London."
@@ -822,11 +870,12 @@
         "wordType": "adverb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "ascertain",
+        "word": "ASCERTAIN",
         "gender": "none",
         "pronunciation": "/ˌæsəˈteɪn/",
         "definition": "to find out with certainty",
@@ -837,41 +886,46 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "assiduous",
+        "word": "ASSIDUOUS",
         "gender": "none",
         "pronunciation": "/əˈsɪdjuːəs/",
-        "definition": "showing great care and persistence",
+        "definition": "hard-working, diligent or regular (in attendance or work); industrious.",
         "synonym": [],
         "exSentence": [
-            "He is assiduous in reading as many Russian books as possible."
+            "He is assiduous in reading as many Russian books as possible.",
+            "The government has been assiduous in the fight against inflation."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "assuage",
+        "word": "ASSUAGE",
         "gender": "none",
         "pronunciation": "/əˈsweɪdʒ/",
         "definition": "to ease an unpleasant feeling",
         "synonym": [],
         "exSentence": [
-            "It would never occur to Tom to keep a confidence if he thought that revealing it might assuage his soap bubble of an ego."
+            "It would never occur to Tom to keep a confidence if he thought that revealing it might assuage his soap bubble of an ego.",
+            "to '''assuage''' the sorrows of a desolate old man"
         ],
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "astute",
+        "word": "ASTUTE",
         "gender": "none",
         "pronunciation": "/əsˈtjuːt/",
         "definition": "keenly perceptive or shrewd",
@@ -882,11 +936,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "auspicious",
+        "word": "AUSPICIOUS",
         "gender": "none",
         "pronunciation": "/ɔːˈspɪʃəs/",
         "definition": "showing signs of future success",
@@ -897,29 +952,31 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "austere",
+        "word": "AUSTERE",
         "gender": "none",
         "pronunciation": "/ɒstɪə(ɹ)/",
-        "definition": "strict or uncompromising in manner",
+        "definition": "Lacking decoration; trivial; not extravagant or gaudy.",
         "synonym": [],
         "exSentence": [
-            "Eichler had a notorious reputation for being austere to her students."
+            "The courtroom was a large, dark chamber, an austere place."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "avarice",
+        "word": "AVARICE",
         "gender": "none",
         "pronunciation": "/əˈvəɹəs/",
-        "definition": "Extreme greed for wealth.",
+        "definition": "excessive or inordinate desire of gain; greed for wealth",
         "synonym": [],
         "exSentence": [
             "Young men are apt to fall a victim to their own avarice."
@@ -927,14 +984,15 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "axiomatic",
+        "word": "AXIOMATIC",
         "gender": "none",
         "pronunciation": "/ˌæk.si.əˈmæt.ɪk/",
-        "definition": "Self-evidently true.",
+        "definition": "self-evident or unquestionable.",
         "synonym": [],
         "exSentence": [
             "You think it's axiomatic, but I think we need to prove it."
@@ -942,11 +1000,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "backlash",
+        "word": "BACKLASH",
         "gender": "none",
         "pronunciation": "/ˈbækˌlæʃ/",
         "definition": "Strong negative public reaction.",
@@ -957,29 +1016,31 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "baleful",
+        "word": "BALEFUL",
         "gender": "none",
         "pronunciation": "/ˈbeɪl.fəl/",
         "definition": "Threatening harm or evil.",
         "synonym": [],
         "exSentence": [
-            "Each loosened side / through many a gaping seam lets in the baleful tide."
+            "He gave me a baleful look."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "banal",
+        "word": "BANAL",
         "gender": "none",
         "pronunciation": "/bəˈnæl/",
-        "definition": "Lacking originality or freshness.",
+        "definition": "common in a boring way, to the point of being predictable; containing nothing new or fresh.",
         "synonym": [],
         "exSentence": [
             "Much of the riots' coverage was taken from the cell phones of passersby, saving local news outlets valuable film which they would later use for banal \"human\" \"interest\" \"stories.\""
@@ -987,11 +1048,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "belie",
+        "word": "BELIE",
         "gender": "none",
         "pronunciation": "/bɪˈlʌɪ/",
         "definition": "To give a false impression of.",
@@ -1002,14 +1064,15 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "bellicose",
+        "word": "BELLICOSE",
         "gender": "none",
         "pronunciation": "/ˈbɛl.ɪ.kəʊs/",
-        "definition": "Inclined to aggression or conflict.",
+        "definition": "warlike in nature; aggressive; hostile.",
         "synonym": [],
         "exSentence": [
             "They would unquestionably diminish his bellicose outbursts."
@@ -1017,26 +1080,28 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "belligerent",
+        "word": "BELLIGERENT",
         "gender": "none",
         "pronunciation": "/bəˈlɪdʒ.ər.ənt/",
         "definition": "Hostile and ready to fight.",
         "synonym": [],
         "exSentence": [
-            "Tom is belligerent."
+            "Watch out! Lee's in a belligerent mood."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "benevolent",
+        "word": "BENEVOLENT",
         "gender": "none",
         "pronunciation": "/bəˈnɛvələnt/",
         "definition": "Showing kindness or goodwill.",
@@ -1047,11 +1112,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "bequeath",
+        "word": "BEQUEATH",
         "gender": "none",
         "pronunciation": "/bɪˈkwiːð/",
         "definition": "To leave property to someone by will.",
@@ -1062,14 +1128,15 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "bequest",
+        "word": "BEQUEST",
         "gender": "none",
         "pronunciation": "/bɪˈkwɛst/",
-        "definition": "Property left to someone in a will.",
+        "definition": "The transfer of property upon the owner's death according to the will of the deceased or that which has been transferred.",
         "synonym": [],
         "exSentence": [
             "His generous bequest enabled the church to continue funding the youth group."
@@ -1077,14 +1144,15 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "berate",
+        "word": "BERATE",
         "gender": "none",
         "pronunciation": "/bɪˈɹeɪt/",
-        "definition": "To scold harshly.",
+        "definition": "To chide or scold vehemently.",
         "synonym": [],
         "exSentence": [
             "If you berate me like that again, I will quit."
@@ -1092,14 +1160,15 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "beset",
+        "word": "BESET",
         "gender": "none",
         "pronunciation": "/bɪˈsɛt/",
-        "definition": "To trouble or surround persistently.",
+        "definition": "having a lot of trouble with something, or having to deal with a lot of something that causes problems",
         "synonym": [],
         "exSentence": [
             "The problem was beset with difficulties."
@@ -1107,11 +1176,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "besotted",
+        "word": "BESOTTED",
         "gender": "none",
         "pronunciation": "/bɪˈsɒtɪd/",
         "definition": "Infatuated to the point of foolishness.",
@@ -1122,26 +1192,29 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "betrayal",
+        "word": "BETRAYAL",
         "gender": "none",
         "pronunciation": "/bɪˈtɹeɪəl/",
         "definition": "The act of being disloyal or treacherous.",
         "synonym": [],
         "exSentence": [
-            "This report confirms his betrayal."
+            "This report confirms his betrayal.",
+            "One of our own has joined with the alien. If you see him, do not hesitate to let him know what the Roekaar think of this '''betrayal'''."
         ],
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "bewitching",
+        "word": "BEWITCHING",
         "gender": "none",
         "pronunciation": "/bəˈwɪtʃɪŋ/",
         "definition": "Powerfully attractive or enchanting.",
@@ -1152,11 +1225,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "bilateral",
+        "word": "BILATERAL",
         "gender": "none",
         "pronunciation": "/baɪˈlæt(ə)ɹəl/",
         "definition": "Involving two sides, parties, or countries.",
@@ -1167,44 +1241,49 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "blatant",
+        "word": "BLATANT",
         "gender": "none",
         "pronunciation": "/ˈbleɪtənt/",
-        "definition": "Done openly and unashamedly.",
+        "definition": "obvious, on show; unashamed; loudly obtrusive or offensive.",
         "synonym": [],
         "exSentence": [
-            "That's a blatant lie."
+            "That's a blatant lie.",
+            "Glory, that '''blatant''' word, which haunts some military minds like the bray of the trumpet."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "bleak",
+        "word": "BLEAK",
         "gender": "none",
         "pronunciation": "/bliːk/",
         "definition": "Dreary, cold, and forbidding; or without hope.",
         "synonym": [],
         "exSentence": [
-            "The outlook is bleak."
+            "The outlook is bleak.",
+            "When she came out she looked as pale and as '''bleak''' as one that were laid out dead."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "bombastic",
+        "word": "BOMBASTIC",
         "gender": "none",
         "pronunciation": "/bɒmˈbæstɪk/",
-        "definition": "High-sounding but with little meaning; inflated.",
+        "definition": "showy in speech and given to using flowery or elaborate terms; grandiloquent; pompous",
         "synonym": [],
         "exSentence": [
             "His speech was too bombastic for me."
@@ -1212,41 +1291,46 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "boon",
+        "word": "BOON",
         "gender": "none",
         "pronunciation": "/buːn/",
         "definition": "A helpful or beneficial thing.",
         "synonym": [],
         "exSentence": [
-            "This new app is a boon to music lovers."
+            "This new app is a boon to music lovers.",
+            "I gave you life. Can you not return the '''boon''' by giving me death, my lord?"
         ],
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "brash",
+        "word": "BRASH",
         "gender": "none",
         "pronunciation": "/bɹæʃ/",
-        "definition": "Self-assertive in a rude or overbearing way.",
+        "definition": "overly bold or self-assertive to the point of being insensitive, tactless or impudent; shameless.",
         "synonym": [],
         "exSentence": [
-            "It sounds like a brash and oversimplified way to talk about something complicated."
+            "It sounds like a brash and oversimplified way to talk about something complicated.",
+            "Trouble with Silzer is, he’s too '''brash'''—shoots off his mouth too much—likes to hear himself talk."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "bravado",
+        "word": "BRAVADO",
         "gender": "none",
         "pronunciation": "/bɹəˈvɑː.doʊ/",
         "definition": "A bold manner or a show of boldness to intimidate.",
@@ -1257,14 +1341,15 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "brevity",
+        "word": "BREVITY",
         "gender": "none",
         "pronunciation": "/ˈbɹɛv.ɪ.ti/",
-        "definition": "Concise and exact use of words in writing or speech.",
+        "definition": "The quality of being brief in duration.",
         "synonym": [],
         "exSentence": [
             "He admired the brevity and wit of the work."
@@ -1272,11 +1357,12 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "broach",
+        "word": "BROACH",
         "gender": "none",
         "pronunciation": "/bɹoʊtʃ/",
         "definition": "To raise a sensitive or difficult subject for discussion.",
@@ -1287,11 +1373,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "burgeon",
+        "word": "BURGEON",
         "gender": "none",
         "pronunciation": "/ˈbɜːdʒ(ə)n/",
         "definition": "To begin to grow or increase rapidly; flourish.",
@@ -1302,14 +1389,15 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "burnish",
+        "word": "BURNISH",
         "gender": "none",
         "pronunciation": "/ˈbɜːnɪʃ/",
-        "definition": "To polish (something, especially metal) by rubbing.",
+        "definition": "to rub metal until it is smooth and shiny",
         "synonym": [],
         "exSentence": [
             "She began to burnish a brass fender."
@@ -1317,11 +1405,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "calamitous",
+        "word": "CALAMITOUS",
         "gender": "none",
         "pronunciation": "/kəˈlæmɪtəs/",
         "definition": "Involving or leading to disaster; catastrophic.",
@@ -1332,11 +1421,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "candid",
+        "word": "CANDID",
         "gender": "none",
         "pronunciation": "/ˈkændɪd/",
         "definition": "Truthful and straightforward; frank.",
@@ -1347,59 +1437,64 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "capitulate",
+        "word": "CAPITULATE",
         "gender": "none",
         "pronunciation": "/kəˈpɪtʃəleɪt/",
-        "definition": "To surrender or give in.",
+        "definition": "To surrender on stipulated terms, end all resistance, give up, go along with or comply.",
         "synonym": [],
         "exSentence": [
-            "I must capitulate."
+            "The Irish, after holding out a week, '''capitulated'''."
         ],
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "capricious",
+        "word": "CAPRICIOUS",
         "gender": "none",
         "pronunciation": "/kəˈpɹɪʃ.əs/",
-        "definition": "Given to sudden and unaccountable changes of mood.",
+        "definition": "impulsive and unpredictable; determined by chance, impulse, or whim.",
         "synonym": [],
         "exSentence": [
-            "This capricious weather is a real challenge."
+            "This capricious weather is a real challenge.",
+            "I am heere with thee, and thy Goats, as the moſt '''capricious''' Poet honeſt ''Ouid'' was among Gothes."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "caustic",
+        "word": "CAUSTIC",
         "gender": "none",
         "pronunciation": "/ˈkɒstɪk/",
         "definition": "Corrosive; or sarcastically biting and cutting.",
         "synonym": [],
         "exSentence": [
-            "Though common in cleaning products, ammonia is caustic."
+            "She's famous in the office for her caustic wit."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "censure",
+        "word": "CENSURE",
         "gender": "none",
         "pronunciation": "/ˈsɛnʃə/",
-        "definition": "Strong disapproval or criticism.",
+        "definition": "The act of blame, criticize, or condemning as wrong; reprehension.",
         "synonym": [],
         "exSentence": [
             "Will you screen me from public censure?"
@@ -1407,14 +1502,15 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "chagrin",
+        "word": "CHAGRIN",
         "gender": "none",
         "pronunciation": "/ʃəˈgɹɪn/",
-        "definition": "Distress caused by failure or humiliation.",
+        "definition": "disappointment or anger, especially when caused by a failure or mistake",
         "synonym": [],
         "exSentence": [
             "To the chagrin of young job seekers the world over, McDonald's now requires a bachelor's in philosophy for its cashiers."
@@ -1422,11 +1518,12 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "chastise",
+        "word": "CHASTISE",
         "gender": "none",
         "pronunciation": "/tʃæsˈtaɪz/",
         "definition": "To rebuke or reprimand severely.",
@@ -1437,11 +1534,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "chicanery",
+        "word": "CHICANERY",
         "gender": "none",
         "pronunciation": "/ʃɪˈkeɪn.ɚ.i/",
         "definition": "The use of trickery to achieve a political, financial, or legal purpose.",
@@ -1452,14 +1550,15 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "circumspect",
+        "word": "CIRCUMSPECT",
         "gender": "none",
         "pronunciation": "/ˈsɜːkəmspekt/",
-        "definition": "Wary and unwilling to take risks.",
+        "definition": "careful aware of all circumstances; considerate of all that is pertinent, careful not to take risks",
         "synonym": [],
         "exSentence": [
             "They are being circumspect in all their dealings."
@@ -1467,26 +1566,29 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "clandestine",
+        "word": "CLANDESTINE",
         "gender": "none",
         "pronunciation": "/klænˈdɛstɪn/",
         "definition": "Kept secret or done secretly, especially because of wrongdoing.",
         "synonym": [],
         "exSentence": [
-            "Tom and Mary had a clandestine affair."
+            "Tom and Mary had a clandestine affair.",
+            "As I stand at the edge of existence; nameless shores of infinity. Perpetual unbirth unraveling distance, '''clandestine''' truths unveiled."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "cognizant",
+        "word": "COGNIZANT",
         "gender": "none",
         "pronunciation": "/ˈkɒɡnɪzənt/",
         "definition": "Having knowledge or being aware of.",
@@ -1497,11 +1599,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "comely",
+        "word": "COMELY",
         "gender": "none",
         "pronunciation": "/ˈkʌmli/",
         "definition": "Pleasant to look at; attractive.",
@@ -1512,14 +1615,15 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "commodious",
+        "word": "COMMODIOUS",
         "gender": "none",
         "pronunciation": "/kəˈmoʊdiəs/",
-        "definition": "Roomy and comfortable.",
+        "definition": "spacious and convenient; roomy and comfortable.",
         "synonym": [],
         "exSentence": [
             "We moved to a more commodious apartment."
@@ -1527,14 +1631,15 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "conciliatory",
+        "word": "CONCILIATORY",
         "gender": "none",
         "pronunciation": "/kənˈsɪli.ətɔː.ri/",
-        "definition": "Intended or likely to placate or pacify.",
+        "definition": "showing willingness to end a disagreement, or trying to make someone less angry",
         "synonym": [],
         "exSentence": [
             "The conciliatory tone of the letter was a welcome change."
@@ -1542,11 +1647,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "concur",
+        "word": "CONCUR",
         "gender": "none",
         "pronunciation": "/kənˈkɜː/",
         "definition": "To agree or be of the same opinion.",
@@ -1557,14 +1663,15 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "condone",
+        "word": "CONDONE",
         "gender": "none",
         "pronunciation": "/kənˈdoʊn/",
-        "definition": "To accept and allow (behavior) to continue, despite it being wrong.",
+        "definition": "To allow, accept or permit (something that is considered morally wrong, offensive, or generally disliked).",
         "synonym": [],
         "exSentence": [
             "I don't condone his behavior."
@@ -1572,14 +1679,15 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "confluence",
+        "word": "CONFLUENCE",
         "gender": "none",
         "pronunciation": "/ˈkɒnfluːəns/",
-        "definition": "A coming together of two things.",
+        "definition": "a situation in which two things join or come together",
         "synonym": [],
         "exSentence": [
             "The confluence of two rivers creates a wider channel."
@@ -1587,29 +1695,32 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "contemptuous",
+        "word": "CONTEMPTUOUS",
         "gender": "none",
         "pronunciation": "/kənˈtɛmptʃu.əs/",
-        "definition": "Showing contempt; scornful.",
+        "definition": "Showing contempt; expressing disdain; showing a lack of respect.",
         "synonym": [],
         "exSentence": [
-            "She gave him a contemptuous look."
+            "She gave him a contemptuous look.",
+            "Sir George burst into a loud fit of '''contemptuous''' laughter."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "contingent",
+        "word": "CONTINGENT",
         "gender": "none",
         "pronunciation": "/kənˈtɪndʒənt/",
-        "definition": "Subject to chance; dependent on conditions.",
+        "definition": "dependent on something that is undetermined or unknown, that may or may not occur.",
         "synonym": [],
         "exSentence": [
             "Future events are contingent."
@@ -1617,14 +1728,15 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "contrived",
+        "word": "CONTRIVED",
         "gender": "none",
         "pronunciation": "/kənˈtɹaɪvd/",
-        "definition": "Deliberately created rather than arising naturally.",
+        "definition": "artificial and difficult to believe",
         "synonym": [],
         "exSentence": [
             "I found the ending of the book very contrived."
@@ -1632,26 +1744,29 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "contumacious",
+        "word": "CONTUMACIOUS",
         "gender": "none",
         "pronunciation": "/ˌkɒntjuːˈmeɪʃəs/",
         "definition": "Stubbornly or willfully disobedient to authority.",
         "synonym": [],
         "exSentence": [
-            "The contumacious child refused to go to his room."
+            "The contumacious child refused to go to his room.",
+            "In all places too are Dissident Priests; whom the Legislative will have to deal with: '''contumacious''' individuals, working on that angriest of passions; plotting, enlisting."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "convoluted",
+        "word": "CONVOLUTED",
         "gender": "none",
         "pronunciation": "/ˌkɒnvəˈluːtɪd/",
         "definition": "Extremely intricate and difficult to follow.",
@@ -1662,14 +1777,15 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "copious",
+        "word": "COPIOUS",
         "gender": "none",
         "pronunciation": "/ˈkoʊpi.əs/",
-        "definition": "Vast in quantity or number, profuse, abundant, taking place on a large scale.",
+        "definition": "vast in quantity or number, profuse, abundant; taking place on a large scale.",
         "synonym": [],
         "exSentence": [
             "She took copious notes."
@@ -1677,41 +1793,44 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "coquettish",
+        "word": "COQUETTISH",
         "gender": "none",
         "pronunciation": "",
-        "definition": "Of or relating to a young, flirtatious girl.",
+        "definition": "trying to attract attention by pretending to be sexually interested in someone, in a pleasant but not serious way",
         "synonym": [],
         "exSentence": [
-            "She is quite coquettish."
+            "She greeted him with a coquettish smile."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "cordial",
+        "word": "CORDIAL",
         "gender": "none",
         "pronunciation": "",
-        "definition": "A concentrated noncarbonated soft drink which is diluted with water before drinking.",
+        "definition": "friendly, but formal and polite",
         "synonym": [],
         "exSentence": [
             "I express my cordial thanks for what you have done for this city."
         ],
-        "wordType": "noun",
+        "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "corroborate",
+        "word": "CORROBORATE",
         "gender": "none",
         "pronunciation": "/kəˈɹɒbəɹeɪ̯t/",
         "definition": "To confirm or support something with additional evidence, to attest or vouch for.",
@@ -1722,11 +1841,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "covet",
+        "word": "COVET",
         "gender": "none",
         "pronunciation": "/ˈkʌvɪt/",
         "definition": "To wish for with eagerness, to desire possession of, often enviously.",
@@ -1737,44 +1857,48 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "craven",
+        "word": "CRAVEN",
         "gender": "none",
         "pronunciation": "/ˈkɹeɪ.vən/",
-        "definition": "A coward.",
+        "definition": "Unwilling to fight; lacking even the rudiments of courage; extremely cowardly.",
         "synonym": [],
         "exSentence": [
-            "Some in flight / rush diverse to the ships and trusty tide; / some, craven-hearted, in ignoble fright, / make for the horse and, clambering up the side, / deep in the treacherous womb, their well-known refuge, hide."
+            "The poor '''craven''' bridegroom said never a word.",
+            "To abet Trump’s fake reality, the '''craven''' House Republicans refused to put up a plaque honoring the police officers and others who defended the Capitol that awful day."
         ],
-        "wordType": "noun",
+        "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "credulous",
+        "word": "CREDULOUS",
         "gender": "none",
         "pronunciation": "/kɹɛdjələs/",
         "definition": "Excessively ready to believe things, gullible.",
         "synonym": [],
         "exSentence": [
-            "Lyusya is a very naÃ¯ve and credulous girl."
+            "The media (and politicians) are replete with '''credulous''' stories about machine learning and AI, but these stories are often based on commercial claims."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "culminate",
+        "word": "CULMINATE",
         "gender": "none",
         "pronunciation": "/ˈkʌlmɪneɪt/",
-        "definition": "Of a heavenly body, to be at the highest point, reach its greatest altitude.",
+        "definition": "To reach the (physical or figurative) summit, highest point, peak etc.",
         "synonym": [],
         "exSentence": [
             "I find striptease frustrating, as it doesn't often culminate in actual sex."
@@ -1782,11 +1906,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "culpable",
+        "word": "CULPABLE",
         "gender": "none",
         "pronunciation": "/ˈkʌlpəbəl/",
         "definition": "Meriting condemnation, censure or blame, especially as something wrong, harmful or injurious, blameworthy.",
@@ -1797,11 +1922,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "culprit",
+        "word": "CULPRIT",
         "gender": "none",
         "pronunciation": "[ˈkʰʌɫpɹɪt]",
         "definition": "The person or thing at fault for a problem or crime.",
@@ -1812,41 +1938,45 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "cunning",
+        "word": "CUNNING",
         "gender": "none",
         "pronunciation": "/ˈkʌnɪŋ/",
         "definition": "Sly, crafty, clever in surreptitious behaviour.",
         "synonym": [],
         "exSentence": [
-            "The potter's lost his cunning."
+            "They are resolved to be '''cunning'''; let others run the hazard of being sincere.",
+            "One important detail was missing from her cunning plan."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "cupidity",
+        "word": "CUPIDITY",
         "gender": "none",
         "pronunciation": "/kjuːˈpɪdəti/",
         "definition": "Extreme greed, especially for wealth.",
         "synonym": [],
         "exSentence": [
-            "The robber baron's cruelty may sometimes sleep, his cupidity may at some point be satiated; but those who torment us for our own good will torment us without end, for they do so with the approval of their own conscience."
+            "A bargain is a social evil; one man's loss, tempting another man's '''cupidity'''."
         ],
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "cursory",
+        "word": "CURSORY",
         "gender": "none",
         "pronunciation": "/ˈkɵː.sɘ.ɹi/",
         "definition": "Hasty, superficial, careless",
@@ -1857,13 +1987,14 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "daft",
+        "word": "DAFT",
         "gender": "none",
-        "pronunciation": "",
+        "pronunciation": "/dæft/",
         "definition": "Foolish, silly, stupid.",
         "synonym": [],
         "exSentence": [
@@ -1872,29 +2003,31 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "daunting",
+        "word": "DAUNTING",
         "gender": "none",
         "pronunciation": "/ˈdɔːntɪŋ/",
-        "definition": "To discourage, intimidate.",
+        "definition": "appear to be difficult; challenging#Adjective.",
         "synonym": [],
         "exSentence": [
-            "The challenges are daunting, but we can overcome them."
+            "But there are tens of thousands more in England, young and old, who read even their own tongue only haltingly: to them Latin is as '''daunting''' as Magyar is to the rest of us."
         ],
-        "wordType": "verb",
+        "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "dawdle",
+        "word": "DAWDLE",
         "gender": "none",
         "pronunciation": "/ˈdɔːdəl/",
-        "definition": "A dawdler.",
+        "definition": "An act of move or walk lackadaisically, a dawdling; a leisurely or slow walk or other journey.",
         "synonym": [],
         "exSentence": [
             "Don't dawdle on the way home."
@@ -1902,44 +2035,47 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "dearth",
+        "word": "DEARTH",
         "gender": "none",
-        "pronunciation": "",
-        "definition": "A period or condition when food is rare and hence expensive, famine.",
+        "pronunciation": "/dɝːθ/",
+        "definition": "scarcity; a lack or short supply.",
         "synonym": [],
         "exSentence": [
-            "For a writer there is no dearth of detractors."
+            "For a writer there is no dearth of detractors.",
+            "The '''dearth''' of A.I. chips has been exacerbated because Nvidia, a longtime provider of the chips, has a virtual lock on the market."
         ],
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "debilitate",
+        "word": "DEBILITATE",
         "gender": "none",
         "pronunciation": "/dɪˈbɪlɪteɪt/",
         "definition": "To make feeble, to weaken.",
         "synonym": [],
         "exSentence": [
-            [],
             "The American Dream suffered a debilitating effect after the subprime crisis."
         ],
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "debunk",
+        "word": "DEBUNK",
         "gender": "none",
-        "pronunciation": "",
+        "pronunciation": "/ˌdiːˈbʌŋk/",
         "definition": "To discredit, or expose to ridicule the falsehood or the exaggerated claims of something.",
         "synonym": [],
         "exSentence": [
@@ -1948,13 +2084,14 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "deceitful",
+        "word": "DECEITFUL",
         "gender": "none",
-        "pronunciation": "/-fl̩/",
+        "pronunciation": "/dɪˈsiːt.fəl/",
         "definition": "Deliberately misleading or cheating.",
         "synonym": [],
         "exSentence": [
@@ -1963,11 +2100,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "decrepit",
+        "word": "DECREPIT",
         "gender": "none",
         "pronunciation": "/dɪˈkɹɛp.ɪt/",
         "definition": "Weakened or worn out from age or wear.",
@@ -1978,71 +2116,77 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "decorous",
+        "word": "DECOROUS",
         "gender": "none",
         "pronunciation": "/ˈdɛkəɹəs/",
-        "definition": "Marked by proper behavior.",
+        "definition": "behaving politely and in a controlled way",
         "synonym": [],
         "exSentence": [
-            []
+            "The green eyes in the carefully sweet face were turbulent, willful, lusty with life, distinctly at variance with her '''decorous''' demeanor."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "defamation",
+        "word": "DEFAMATION",
         "gender": "none",
         "pronunciation": "/ˌdɛfəˈmeɪʃən/",
         "definition": "The act of injuring another person's reputation by any slanderous communication, written or oral, the wrong of maliciously injuring the good name of another.",
         "synonym": [],
         "exSentence": [
-            "The daughter of envy is defamation."
+            "The daughter of envy is defamation.",
+            "An hour later, when the Fox board approved the wire payment for $787.5 million — one of the largest known '''defamation''' settlements in history — Fox acknowledged what we needed it to acknowledge: spreading false claims comes with a huge price tag."
         ],
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "deference",
+        "word": "DEFERENCE",
         "gender": "none",
         "pronunciation": "/ˈdɛfəɹəns/",
-        "definition": "Great respect.",
+        "definition": "Great respect and politeness.",
         "synonym": [],
         "exSentence": [
-            "Then I'll work on the principle that deference is no substitute for obedience."
+            "She covered her head in deference to Muslim custom."
         ],
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "definitive",
+        "word": "DEFINITIVE",
         "gender": "none",
         "pronunciation": "/dɪˈfɪn.ɪt.ɪv/",
-        "definition": "(grammar) a word, such as a definite article or demonstrative pronoun, that defines or limits something",
+        "definition": "definite, authoritative and complete",
         "synonym": [],
         "exSentence": [
             "We are moving toward a dictatorship of relativism which does not recognize anything as definitive and has as its highest value one's own ego and one's own desires."
         ],
-        "wordType": "noun",
+        "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "deflate",
+        "word": "DEFLATE",
         "gender": "none",
         "pronunciation": "/diːˈfleɪt/",
         "definition": "To remove air or some other gas from within an elastic container, e.g. a balloon or tyre",
@@ -2053,41 +2197,28 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "defunct",
+        "word": "DEFUNCT",
         "gender": "none",
         "pronunciation": "/dɪˈfʌŋkt/",
-        "definition": "The dead person (referred to).",
+        "definition": "No longer in use or active, nor expected to be again.",
         "synonym": [],
         "exSentence": [
             "If you look over there, you can see a defunct water tower."
         ],
-        "wordType": "noun",
+        "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "dehort",
-        "gender": "none",
-        "pronunciation": "/diː-/",
-        "definition": "To dissuade.",
-        "synonym": [],
-        "exSentence": [
-            []
-        ],
-        "wordType": "verb",
-        "difficulty": "C2",
-        "notes": "",
-        "transitivity": false
-    },
-    {
-        "language": "English",
-        "word": "deity",
+        "word": "DEITY",
         "gender": "none",
         "pronunciation": "/ˈdeɪ.ɪ.tɪ/",
         "definition": "A supernatural divine being, a god or goddess.",
@@ -2098,14 +2229,15 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "deleterious",
+        "word": "DELETERIOUS",
         "gender": "none",
-        "pronunciation": "",
-        "definition": "Harmful often in a subtle or unexpected way.",
+        "pronunciation": "/ˌdel.ɪˈtɪr.i.əs/",
+        "definition": "Harmful, often in a subtle or unexpected way.",
         "synonym": [],
         "exSentence": [
             "We cannot continue to ignore the deleterious effects of these policies on our country."
@@ -2113,11 +2245,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "deliberation",
+        "word": "DELIBERATION",
         "gender": "none",
         "pronunciation": "/dɪˌlɪbəˈɹeɪʃən/",
         "definition": "The act of deliberating, or of weighing and examining the reasons for and against a choice or measure, careful consideration, mature reflection.",
@@ -2128,44 +2261,47 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "delineate",
+        "word": "DELINEATE",
         "gender": "none",
         "pronunciation": "/dɪˈlɪniːeɪt/",
-        "definition": "To sketch out, draw or trace an outline.",
+        "definition": "to describe or mark the edge of something",
         "synonym": [],
         "exSentence": [
-            "Action will delineate and define you."
+            "The boundary of the car park is delineated by a low brick wall."
         ],
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "deplorable",
+        "word": "DEPLORABLE",
         "gender": "none",
         "pronunciation": "/dɪˈplɔːɹəbəɫ/",
-        "definition": "A person or thing that is to be deplored.",
+        "definition": "very bad",
         "synonym": [],
         "exSentence": [
-            "It is deplorable that she is so selfish."
+            "I thought his behaviour was absolutely deplorable."
         ],
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "deplore",
+        "word": "DEPLORE",
         "gender": "none",
         "pronunciation": "/dɪˈplɔː/",
-        "definition": "To bewail, to weep bitterly over, to feel sorrow for.",
+        "definition": "To condemn; to express strong disapproval of.",
         "synonym": [],
         "exSentence": [
             "One must deplore such bad behavior."
@@ -2173,26 +2309,28 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "derelict",
+        "word": "DERELICT",
         "gender": "none",
         "pronunciation": "/ˈdɛɹəlɪkt/",
         "definition": "Property abandoned by its former owner, especially a ship abandoned at sea.",
         "synonym": [],
         "exSentence": [
-            "including two that arrived unexpectedly after a trip across the Pacific, trapped in the hull of a derelict fishing boat."
+            "Even in cities where land is scarce and expensive, substantial amounts of it are left derelict."
         ],
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "deride",
+        "word": "DERIDE",
         "gender": "none",
         "pronunciation": "/dɪˈɹaɪd/",
         "definition": "To harshly mock, ridicule.",
@@ -2203,11 +2341,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "despondent",
+        "word": "DESPONDENT",
         "gender": "none",
         "pronunciation": "/dɪˈspɒndənt/",
         "definition": "In low spirits from loss of hope or courage.",
@@ -2218,14 +2357,15 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "destitute",
+        "word": "DESTITUTE",
         "gender": "none",
         "pronunciation": "/ˈdɛstɪtjuːt/",
-        "definition": "(followed by the preposition \"of\") Lacking something, devoid",
+        "definition": "Lacking money, poor, impoverished; especially, extremely so.",
         "synonym": [],
         "exSentence": [
             "The worst solitude is to be destitute of sincere friendship."
@@ -2233,26 +2373,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "detachment",
-        "gender": "none",
-        "pronunciation": "/dɪˈtæt͡ʃmənt/",
-        "definition": "The action of detaching, separation.",
-        "synonym": [],
-        "exSentence": [
-            "I had retinal detachment five years ago."
-        ],
-        "wordType": "noun",
-        "difficulty": "C2",
-        "notes": "",
-        "transitivity": false
-    },
-    {
-        "language": "English",
-        "word": "detestable",
+        "word": "DETESTABLE",
         "gender": "none",
         "pronunciation": "",
         "definition": "Stimulating disgust or detestation, offensive, shocking.",
@@ -2263,11 +2389,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "detrimental",
+        "word": "DETRIMENTAL",
         "gender": "none",
         "pronunciation": "/ˌdɛtɹɪˈmɛntəl/",
         "definition": "Causing damage or harm.",
@@ -2278,11 +2405,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "deviation",
+        "word": "DEVIATION",
         "gender": "none",
         "pronunciation": "/diviˈeɪʃən/",
         "definition": "The act of deviating, wandering off the correct or true path or road",
@@ -2293,11 +2421,12 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "devious",
+        "word": "DEVIOUS",
         "gender": "none",
         "pronunciation": "/ˈdiːvi.əs/",
         "definition": "Cunning or deceiving, not straightforward or honest, not frank",
@@ -2308,41 +2437,44 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "devoid",
+        "word": "DEVOID",
         "gender": "none",
         "pronunciation": "/dɪˈvɔɪd/",
-        "definition": "To empty out, to remove.",
+        "definition": "Completely without; having none of.",
         "synonym": [],
         "exSentence": [
             "The room was devoid of furniture."
         ],
-        "wordType": "verb",
+        "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "dexterous",
+        "word": "DEXTEROUS",
         "gender": "none",
         "pronunciation": "/ˈdɛkstɹəs/",
         "definition": "Skillful with one's hands.",
         "synonym": [],
         "exSentence": [
-            "Tom is very dexterous."
+            "She is pleasingly '''dexterous''' with the chopsticks, and keeps one hand lying palm up on her lap."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "diaphanous",
+        "word": "DIAPHANOUS",
         "gender": "none",
         "pronunciation": "/daɪˈæf.ən.əs/",
         "definition": "Transparent or translucent, allowing light to pass through, capable of being seen through.",
@@ -2353,26 +2485,28 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "diatribe",
+        "word": "DIATRIBE",
         "gender": "none",
         "pronunciation": "/ˈdaɪ.əˌtɹaɪb/",
         "definition": "An abusive, bitter, attack or criticism: denunciation.",
         "synonym": [],
         "exSentence": [
-            "I don't have the time to read Tom's latest diatribe."
+            "You know, it’s all this racial '''diatribe''', and very strong language, screaming at the top of his lungs into the telephone."
         ],
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "didactic",
+        "word": "DIDACTIC",
         "gender": "none",
         "pronunciation": "/daɪˈdæk.tɪk/",
         "definition": "A treatise on teaching or education.",
@@ -2383,56 +2517,60 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "diffident",
+        "word": "DIFFIDENT",
         "gender": "none",
         "pronunciation": "/ˈdɪfɪdənt/",
-        "definition": "Lacking confidence in others, distrustful.",
+        "definition": "Lacking self-confidence; timid; modest",
         "synonym": [],
         "exSentence": [
-            "Tom is such a diffident man."
+            "Having therefore—but hold, as we are '''diffident''' of our own abilities, let us here invite a superior power to our assistance."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "dilatory",
+        "word": "DILATORY",
         "gender": "none",
         "pronunciation": "/ˈdɪlət(ə)ɹi/",
-        "definition": "Relating to dilation, dilative",
+        "definition": "Intentionally delaying (someone or something), intended to cause delay, gain time, or adjourn decision.",
         "synonym": [],
         "exSentence": [
-            []
+            "Alva, as usual, brought his '''dilatory''' policy to bear upon his adversary with great effect."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "diligently",
+        "word": "DILIGENTLY",
         "gender": "none",
         "pronunciation": "",
-        "definition": "In a diligent manner, with appropriate effort, carefully.",
+        "definition": "in a way that is careful and uses a lot of effort",
         "synonym": [],
         "exSentence": [
-            "Tom works more diligently now."
+            "Instead, empty bags were folded '''diligently''' into the corners of underpacked suitcases, waiting to be jammed full with the familiar objects of home."
         ],
         "wordType": "adverb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "dingy",
+        "word": "DINGY",
         "gender": "none",
         "pronunciation": "/ˈdɪn.dʒi/",
         "definition": "Drab, shabby, dirty, squalid",
@@ -2443,14 +2581,15 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "discern",
+        "word": "DISCERN",
         "gender": "none",
-        "pronunciation": "",
-        "definition": "To detect with the senses, especially with the eyes.",
+        "pronunciation": "/dɪˈsɝːn/",
+        "definition": "To perceive, recognize, or comprehend with the mind; to descry.",
         "synonym": [],
         "exSentence": [
             "It is hard to discern between the true and the false."
@@ -2458,11 +2597,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "disciple",
+        "word": "DISCIPLE",
         "gender": "none",
         "pronunciation": "/dɪˈsaɪpl̩/",
         "definition": "A person who learns from another, especially one who then teaches others.",
@@ -2473,11 +2613,12 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "discordant",
+        "word": "DISCORDANT",
         "gender": "none",
         "pronunciation": "/dɪsˈkɔːdənt/",
         "definition": "Not in harmony or accord",
@@ -2488,11 +2629,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "discrepancy",
+        "word": "DISCREPANCY",
         "gender": "none",
         "pronunciation": "/dɪsˈkɹɛpənsi/",
         "definition": "An inconsistency between facts or sentiments.",
@@ -2503,29 +2645,32 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "disdain",
+        "word": "DISDAIN",
         "gender": "none",
         "pronunciation": "/dɪsˈdeɪn/",
         "definition": "A feeling of contempt or scorn.",
         "synonym": [],
         "exSentence": [
-            "Joyful let the soul be in the present, let it disdain to trouble about what is beyond and temper bitterness with a laugh."
+            "Joyful let the soul be in the present, let it disdain to trouble about what is beyond and temper bitterness with a laugh.",
+            "'''Disdain''' and scorn ride sparkling in her eyes."
         ],
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "disaffection",
+        "word": "DISAFFECTION",
         "gender": "none",
         "pronunciation": "/dɪsəˈfɛkʃən/",
-        "definition": "Discontent, unrest.",
+        "definition": "t\nhe quality of no longer supporting or being satisfied with a system, organization, or idea",
         "synonym": [],
         "exSentence": [
             "If we don't create opportunity for all people, the disaffection and division that has stalled our progress will only sharpen in years to come."
@@ -2533,28 +2678,30 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "dishevelled",
+        "word": "DISHEVELLED",
         "gender": "none",
         "pronunciation": "/dɪˈʃɛvəld/",
-        "definition": "To throw into disorder, upheave.",
+        "definition": "disorderly or untidy in appearance.",
         "synonym": [],
         "exSentence": [
             "Mary was sleeping; she was still wearing her torn white dress, and her long black hair, resting in a dishevelled manner upon her shoulders, contrasted strongly with the paleness of her face."
         ],
-        "wordType": "verb",
+        "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "disillusionment",
+        "word": "DISILLUSIONMENT",
         "gender": "none",
-        "pronunciation": "",
+        "pronunciation": "/ˌdɪs.ɪˈluː.ʒən.mənt/",
         "definition": "A feeling of disappointment, akin to depression, arising from the realization that something is not what it was expected or believed to be, possibly accompanied by philosophical angst from having one's beliefs challenged.",
         "synonym": [],
         "exSentence": [
@@ -2563,11 +2710,12 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "disinterested",
+        "word": "DISINTERESTED",
         "gender": "none",
         "pronunciation": "/dɪˈsɪnt(ə)ɹɛstɪd/",
         "definition": "Having no stake or interest in the outcome, free of bias, impartial.",
@@ -2578,11 +2726,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "disjointed",
+        "word": "DISJOINTED",
         "gender": "none",
         "pronunciation": "/dɪsˈdʒɔɪn.tɪd/",
         "definition": "Not connected, coherent, or continuous.",
@@ -2593,11 +2742,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "dismay",
+        "word": "DISMAY",
         "gender": "none",
         "pronunciation": "/dɪsˈmeɪ/",
         "definition": "A sudden or complete loss of courage and firmness in the face of trouble or danger, overwhelming and disabling terror, a sinking of the spirits",
@@ -2608,14 +2758,15 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "disparage",
+        "word": "DISPARAGE",
         "gender": "none",
         "pronunciation": "/dɪsˈpæɹɪd͡ʒ/",
-        "definition": "Inequality in marriage, marriage with an inferior.",
+        "definition": "to criticize someone or something in a way that shows you do not respect or value him, her, or it",
         "synonym": [],
         "exSentence": [
             "We shouldn't disparage other people."
@@ -2623,11 +2774,12 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "dispassionate",
+        "word": "DISPASSIONATE",
         "gender": "none",
         "pronunciation": "/dɪsˈpæʃənət/",
         "definition": "Not showing, and not affected by, emotion, bias, or prejudice",
@@ -2638,26 +2790,28 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "dispense",
+        "word": "DISPENSE",
         "gender": "none",
         "pronunciation": "/dɪsˈpɛns/",
-        "definition": "Cost, expenditure.",
+        "definition": "to give out things, especially products, services, or amounts of money",
         "synonym": [],
         "exSentence": [
-            "It seems unlikely that any society could completely dispense with myths."
+            "There is a vending machine on the platform that dispenses snacks."
         ],
-        "wordType": "noun",
+        "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "disregard",
+        "word": "DISREGARD",
         "gender": "none",
         "pronunciation": "/dɪsɹɪˈɡɑːd/",
         "definition": "The act or state of deliberately not paying attention or caring about, misregard.",
@@ -2668,11 +2822,12 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "disseminate",
+        "word": "DISSEMINATE",
         "gender": "none",
         "pronunciation": "/dɪˈsɛmɪˌneɪt/",
         "definition": "To sow and scatter principles, ideas, opinions, etc, or concrete things, for growth and propagation, like seeds.",
@@ -2683,11 +2838,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "dissertation",
+        "word": "DISSERTATION",
         "gender": "none",
         "pronunciation": "/ˌdɪsəˈteɪʃən/",
         "definition": "A formal exposition of a subject, especially a research paper that students write in order to complete the requirements for a doctoral degree, a thesis.",
@@ -2698,14 +2854,15 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "dissolution",
+        "word": "DISSOLUTION",
         "gender": "none",
         "pronunciation": "/ˌdɪsəˈl(j)uːʃən/",
-        "definition": "The termination of an organized body or legislative assembly, especially a formal dismissal.",
+        "definition": "the act or process of ending an official organization or legal agreement",
         "synonym": [],
         "exSentence": [
             "Justice without mercy is cruelty; mercy without justice is the mother of dissolution."
@@ -2713,14 +2870,15 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "dissonance",
+        "word": "DISSONANCE",
         "gender": "none",
         "pronunciation": "/ˈdɪsənəns/",
-        "definition": "A harsh, discordant combination of sounds.",
+        "definition": "A state of disagreement or conflict.",
         "synonym": [],
         "exSentence": [
             "Her conflicting desires to consume chocolate and to lose weight resulted in her experiencing cognitive dissonance."
@@ -2728,44 +2886,47 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "dogged",
+        "word": "DOGGED",
         "gender": "none",
-        "pronunciation": "",
-        "definition": "To pursue with the intent to catch.",
+        "pronunciation": "/ˈdɑː.ɡɪd/",
+        "definition": "very determined to continue doing something, or trying to do something, even when this is difficult or takes a long time",
         "synonym": [],
         "exSentence": [
-            "She is dogged by misfortune."
+            "She was a dogged advocate of the struggle against injustice."
         ],
-        "wordType": "verb",
+        "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "dogmatic",
+        "word": "DOGMATIC",
         "gender": "none",
         "pronunciation": "/dɒɡˈmatɪk/",
-        "definition": "One of an ancient sect of physicians who went by general principles, opposed to the empiric.",
+        "definition": "Adhering only to principles which are true ''a priori'', rather than truths based on evidence or deduction.",
         "synonym": [],
         "exSentence": [
             "It's profound ignorance that inspires the dogmatic tone of speaking."
         ],
-        "wordType": "noun",
+        "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "domicile",
+        "word": "DOMICILE",
         "gender": "none",
         "pronunciation": "/ˈdɑmɪsaɪl/",
-        "definition": "A home or residence.",
+        "definition": "A residence at a particular place accompanied with an intention to remain there for an unlimited time; a residence accepted as a final abode.",
         "synonym": [],
         "exSentence": [
             "The company moved its corporate domicile to Hong Kong for tax purposes."
@@ -2773,26 +2934,28 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "dormant",
+        "word": "DORMANT",
         "gender": "none",
         "pronunciation": "/ˈdɔːmənt/",
-        "definition": "A crossbeam or joist.",
+        "definition": "inactive, sleeping, asleep, suspended.",
         "synonym": [],
         "exSentence": [
-            "Asama is now dormant."
+            "It is by lying '''dormant''' a long time, or being at first very rarely exercised, that arbitrary power steals upon a people."
         ],
-        "wordType": "noun",
+        "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "drawback",
+        "word": "DRAWBACK",
         "gender": "none",
         "pronunciation": "/ˈdɹɔːˌbæk/",
         "definition": "A disadvantage, something that detracts or takes away.",
@@ -2803,14 +2966,15 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "dubious",
+        "word": "DUBIOUS",
         "gender": "none",
         "pronunciation": "/ˈdjuːbi.əs/",
-        "definition": "(of a statement) Arousing doubt, questionable, open to suspicion.",
+        "definition": "Arousing doubt; questionable; open to suspicion.",
         "synonym": [],
         "exSentence": [
             "Students are expected to stay away from dubious places."
@@ -2818,26 +2982,28 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "duplicity",
+        "word": "DUPLICITY",
         "gender": "none",
-        "pronunciation": "/dju-/",
-        "definition": "Intentional deceptiveness, double-dealing.",
+        "pronunciation": "/duːˈplɪs.ə.t̬i/",
+        "definition": "dishonest talk or behaviour, especially by saying different things to two people",
         "synonym": [],
         "exSentence": [
-            "Tom is often accused of duplicity."
+            "They were accused of duplicity in their dealings with both sides."
         ],
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "dwindle",
+        "word": "DWINDLE",
         "gender": "none",
         "pronunciation": "",
         "definition": "To decrease, shrink, diminish, reduce in size or intensity.",
@@ -2848,11 +3014,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "dynasty",
+        "word": "DYNASTY",
         "gender": "none",
         "pronunciation": "/ˈdɪnəsti/",
         "definition": "A series of rulers or dynasts from one family.",
@@ -2863,14 +3030,15 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "ebullient",
+        "word": "EBULLIENT",
         "gender": "none",
         "pronunciation": "/ɪˈbʊljənt/",
-        "definition": "Enthusiastic, high-spirited.",
+        "definition": "enthusiastic; high-spirited.",
         "synonym": [],
         "exSentence": [
             "Emma is obviously ecstatic with her ebullient expressions after answering something excruciatingly difficult."
@@ -2878,71 +3046,77 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "eccentric",
+        "word": "ECCENTRIC",
         "gender": "none",
-        "pronunciation": "",
-        "definition": "One who does not behave like others.",
+        "pronunciation": "/ɪkˈsen.trɪk/",
+        "definition": "Deviating from the norm; behaving unexpectedly or differently; unconventional and slightly strange.",
         "synonym": [],
         "exSentence": [
-            "Smith is famous for his eccentric life style."
-        ],
-        "wordType": "noun",
-        "difficulty": "C2",
-        "notes": "",
-        "transitivity": false
-    },
-    {
-        "language": "English",
-        "word": "eclectic",
-        "gender": "none",
-        "pronunciation": "/ɛkˈlɛk.tɪk/",
-        "definition": "Someone who selects according to the eclectic method.",
-        "synonym": [],
-        "exSentence": [
-            "Her eclectic taste was evident from the unusual decor of the room."
-        ],
-        "wordType": "noun",
-        "difficulty": "C2",
-        "notes": "",
-        "transitivity": false
-    },
-    {
-        "language": "English",
-        "word": "efficacious",
-        "gender": "none",
-        "pronunciation": "/ɛf.ɪ.ˈkeɪ.ʃəs/",
-        "definition": "Effective, possessing efficacy.",
-        "synonym": [],
-        "exSentence": [
-            "Goldman Sachs, the American financial powerhouse, is trying to factor into its investment decisions and counsel all possible Omicron outcomes â€” from a worst-case scenario of greater virulence and vaccine-evasion to the nice surprise that the vaccines remain efficacious, and Omicron turns out to be more benign than its forerunner."
+            "Smith is famous for his eccentric life style.",
+            "There can be no doubt that as a matter of fact a religious life, exclusively pursued, does tend to make the person exceptional and '''eccentric'''."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "effusive",
+        "word": "ECLECTIC",
+        "gender": "none",
+        "pronunciation": "/ɛkˈlɛk.tɪk/",
+        "definition": "Selecting a mixture of what appears to be best of various doctrines, methods or styles.",
+        "synonym": [],
+        "exSentence": [
+            "It was an eclectic mix of our ethnic foods and traditional Thanksgiving food."
+        ],
+        "wordType": "adjective",
+        "difficulty": "C2",
+        "notes": "",
+        "transitivity": false,
+        "reviewed": true
+    },
+    {
+        "language": "English",
+        "word": "EFFICACIOUS",
+        "gender": "none",
+        "pronunciation": "/ɛf.ɪ.ˈkeɪ.ʃəs/",
+        "definition": "effective; possessing efficacy.",
+        "synonym": [],
+        "exSentence": [
+            "We believe that educational or counselling schemes are a more efficacious way of dealing with this problem than harsh sanctions."
+        ],
+        "wordType": "adjective",
+        "difficulty": "C2",
+        "notes": "",
+        "transitivity": false,
+        "reviewed": true
+    },
+    {
+        "language": "English",
+        "word": "EFFUSIVE",
         "gender": "none",
         "pronunciation": "/ɪˈfjuːsɪv/",
         "definition": "Gushy, unrestrained, extravagant or excessive (in emotional expression).",
         "synonym": [],
         "exSentence": [
-            "Tom's very effusive."
+            "They gave us such an effusive welcome it was quite embarrassing"
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "egregious",
+        "word": "EGREGIOUS",
         "gender": "none",
         "pronunciation": "/əˈɡɹiː.dʒi.əs/",
         "definition": "Usually in a negative sense: conspicuous, exceptional, outstanding.",
@@ -2953,26 +3127,28 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "elated",
+        "word": "ELATED",
         "gender": "none",
         "pronunciation": "",
-        "definition": "To make joyful or proud.",
+        "definition": "extremely happy and excited, often because something has happened or been achieved",
         "synonym": [],
         "exSentence": [
-            "Tom was elated."
+            "The prince was reported to be elated at/by the birth of his daughter."
         ],
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "elicit",
+        "word": "ELICIT",
         "gender": "none",
         "pronunciation": "/ɪˈlɪsɪt/",
         "definition": "To evoke, educe (emotions, feelings, responses, etc.), to generate, obtain, or provoke as a response or answer.",
@@ -2983,11 +3159,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "eloquent",
+        "word": "ELOQUENT",
         "gender": "none",
         "pronunciation": "/ˈɛl.əˌkwənt/",
         "definition": "Fluently persuasive and articulate",
@@ -2998,11 +3175,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "elucidate",
+        "word": "ELUCIDATE",
         "gender": "none",
         "pronunciation": "/əˈluː.sɪ.de͡ɪt/",
         "definition": "To make clear, to clarify, to shed light upon.",
@@ -3013,11 +3191,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "elusive",
+        "word": "ELUSIVE",
         "gender": "none",
         "pronunciation": "/iˈluːsɪv/",
         "definition": "Evading capture, comprehension or remembrance.",
@@ -3028,11 +3207,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "emaciated",
+        "word": "EMACIATED",
         "gender": "none",
         "pronunciation": "/əˈmeɪʃieɪtɪd/",
         "definition": "To make extremely thin or wasted.",
@@ -3043,11 +3223,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "embellish",
+        "word": "EMBELLISH",
         "gender": "none",
         "pronunciation": "/ɛm-/",
         "definition": "To make more beautiful and attractive, to decorate.",
@@ -3058,30 +3239,31 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "embroil",
+        "word": "EMBROIL",
         "gender": "none",
         "pronunciation": "/ɪmˈbɹɔɪl/",
         "definition": "To draw into a situation, to cause to be involved.",
         "synonym": [],
         "exSentence": [
-            [],
             "Avoid him. He will embroil you in his fights."
         ],
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "emulate",
+        "word": "EMULATE",
         "gender": "none",
         "pronunciation": "/ˈɛm.jə.leɪt/",
-        "definition": "To attempt to equal or be the same as.",
+        "definition": "To copy or imitate, especially a person.",
         "synonym": [],
         "exSentence": [
             "As children are known to emulate the values of adults, it is often pointed out such \"education mamas\" instill a warped sense of values in their children."
@@ -3089,75 +3271,79 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "endemic",
+        "word": "ENDEMIC",
         "gender": "none",
-        "pronunciation": "",
-        "definition": "An individual or species that is endemic to a region.",
+        "pronunciation": "/enˈdem.ɪk/",
+        "definition": "prevalent in a particular area or region, persistent within a population.",
         "synonym": [],
         "exSentence": [
             "It was discovered that less than one child in a hundred had been inoculated against endemic disease."
         ],
-        "wordType": "noun",
+        "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "enervate",
+        "word": "ENERVATE",
         "gender": "none",
-        "pronunciation": "",
+        "pronunciation": "/ˈen.ɚ.veɪt/",
         "definition": "To reduce strength or energy, debilitate.",
         "synonym": [],
         "exSentence": [
-            [],
             "After being laid off three times in a row, she felt too enervated to look for another job."
         ],
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "engender",
+        "word": "ENGENDER",
         "gender": "none",
-        "pronunciation": "",
-        "definition": "To beget (of a man), to bear or conceive (of a woman).",
+        "pronunciation": "/ɪnˈdʒen.dɚ/",
+        "definition": "to make people have a particular feeling or make a situation start to exist",
         "synonym": [],
         "exSentence": [
-            []
+            "Her latest book has engendered a lot of controversy."
         ],
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "enigma",
+        "word": "ENIGMA",
         "gender": "none",
         "pronunciation": "/əˈnɪɡmə/",
         "definition": "Something or someone puzzling, mysterious or inexplicable.",
         "synonym": [],
         "exSentence": [
-            "Tom is an enigma."
+            "Watching a coast as it slips by the ship is like thinking about an '''enigma'''."
         ],
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "enigmatic",
+        "word": "ENIGMATIC",
         "gender": "none",
         "pronunciation": "/ˌɛnɪɡˈmætɪk/",
-        "definition": "Pertaining to an enigma.",
+        "definition": "mysterious.",
         "synonym": [],
         "exSentence": [
             "The Mona Lisa has an enigmatic smile."
@@ -3165,11 +3351,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "enmity",
+        "word": "ENMITY",
         "gender": "none",
         "pronunciation": "/ˈɛn.mɪ.tɪ/",
         "definition": "The quality of being an enemy, hostile or unfriendly disposition.",
@@ -3180,41 +3367,44 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "enthrall",
+        "word": "ENTHRALL",
         "gender": "none",
         "pronunciation": "",
         "definition": "To hold spellbound, to bewitch, charm or captivate.",
         "synonym": [],
         "exSentence": [
-            "Once had your hands,' said Calchas, 'dared profane / Minerva's gift, dire plagues' (which Heaven forestall / or turn on him) 'should Priam's realm sustain; / but if by Trojan aid it scaled your wall, / proud Asia then should Pelops' sons enthrall, / and children rue the folly of the sire."
+            "The baseball game completely enthralled the crowd."
         ],
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "enticing",
+        "word": "ENTICING",
         "gender": "none",
-        "pronunciation": "",
+        "pronunciation": "/ɪnˈtaɪ.sɪŋ/",
         "definition": "To lure, to attract by arousing desire or hope.",
         "synonym": [],
         "exSentence": [
-            "It was enticing."
+            "It was an enticing job offer"
         ],
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "ephemeral",
+        "word": "EPHEMERAL",
         "gender": "none",
         "pronunciation": "/əˈfɛ.mə.ɹəl/",
         "definition": "Something which lasts for a short period of time.",
@@ -3225,14 +3415,15 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "epitome",
+        "word": "EPITOME",
         "gender": "none",
         "pronunciation": "",
-        "definition": "The embodiment or encapsulation of a class of items.",
+        "definition": "The height; the best; the most vivid; t\nhe embodiment or encapsulation of a class of items.",
         "synonym": [],
         "exSentence": [
             "The old man is the epitome of kindness."
@@ -3240,26 +3431,28 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "epitomise",
+        "word": "EPITOMISE",
         "gender": "none",
-        "pronunciation": "",
-        "definition": "To make an epitome of, to shorten, to condense.",
+        "pronunciation": "/ɪˈpɪt̬.ə.maɪz/",
+        "definition": "to be a perfect example of a quality or type of thing",
         "synonym": [],
         "exSentence": [
-            []
+            "With little equipment and unsuitable footwear, she epitomizes the inexperienced and unprepared mountain walker."
         ],
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "epoch",
+        "word": "EPOCH",
         "gender": "none",
         "pronunciation": "/ˈiːˌpɒk/",
         "definition": "A particular period of history, especially one considered noteworthy or remarkable.",
@@ -3270,56 +3463,60 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "equanimity",
+        "word": "EQUANIMITY",
         "gender": "none",
         "pronunciation": "/ˌiːkwəˈnɪmɪtiː/",
         "definition": "The state of being calm, stable and composed, especially under stress.",
         "synonym": [],
         "exSentence": [
-            "To say that she was perfectly content and satisfied with these arrangements, and regarded them as being no business of hers, and that she took her arms and legs as they came, and allowed them to dispose of themselves just as it happened, is to render faint justice to her equanimity."
+            "Few people are capable of expressing with '''equanimity''' opinions which differ from the prejudices of their social environment."
         ],
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "equivocal",
+        "word": "EQUIVOCAL",
         "gender": "none",
         "pronunciation": "/əˈkwɪvəkəl/",
-        "definition": "A word or expression capable of different meanings, an ambiguous term.",
+        "definition": "Capable of being ascribed to different motives, or of signifying opposite feelings, purposes, or characters; deserving to be suspected.",
         "synonym": [],
         "exSentence": [
-            "The prime minister's answer was equivocal."
+            "For the beauties of Shakespeare are not of so dim or '''equivocal''' a nature as to be visible only to learned eyes."
         ],
-        "wordType": "noun",
+        "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "erotic",
+        "word": "EROTIC",
         "gender": "none",
         "pronunciation": "/ɪˈɹɒtɪk/",
-        "definition": "An amorous composition or poem.",
+        "definition": "Relating to or tending to arouse sexual desire or excitement.",
         "synonym": [],
         "exSentence": [
             "What's the difference between erotic and kinky?"
         ],
-        "wordType": "noun",
+        "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "err",
+        "word": "ERR",
         "gender": "none",
         "pronunciation": "/ɛə(ɹ)/",
         "definition": "To make a mistake.",
@@ -3330,11 +3527,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "erstwhile",
+        "word": "ERSTWHILE",
         "gender": "none",
         "pronunciation": "/ˈɜː(ɹ)st.waɪl/",
         "definition": "Former, previous.",
@@ -3345,11 +3543,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "erudite",
+        "word": "ERUDITE",
         "gender": "none",
         "pronunciation": "/ˈɛɹ.ʊ.daɪt/",
         "definition": "A learned or scholarly person",
@@ -3360,13 +3559,14 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "eschew",
+        "word": "ESCHEW",
         "gender": "none",
-        "pronunciation": "",
+        "pronunciation": "/esˈtʃuː/",
         "definition": "To avoid, to shun, to shy away from.",
         "synonym": [],
         "exSentence": [
@@ -3375,86 +3575,92 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "escort",
+        "word": "ESCORT",
         "gender": "none",
         "pronunciation": "/ɛˈskɔːt/",
-        "definition": "A group of people or vehicles, generally armed, who go with a person or people of importance to safeguard them on a journey or mission.",
+        "definition": "To attend to in order to guard and protect; to accompany as a safeguard (for the person escorted or for others); to give honorable or ceremonious attendance to.",
         "synonym": [],
         "exSentence": [
             "May I escort you home?"
         ],
-        "wordType": "noun",
+        "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "esoteric",
+        "word": "ESOTERIC",
         "gender": "none",
-        "pronunciation": "",
-        "definition": "An esoteric doctrine or treatise, esoteric philosophy.",
+        "pronunciation": "/ˌes.əˈter.ɪk/",
+        "definition": "Intended for or likely to be understood by only a small number of people with a specialized knowledge or interest, or an enlightened inner circle.",
         "synonym": [],
         "exSentence": [
             "Belinda tried strict diets, grueling exercise routines, and some sort of esoteric New Age detox, all amounting to nothing--she had curves, and that was that."
         ],
-        "wordType": "noun",
+        "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "esteem",
+        "word": "ESTEEM",
         "gender": "none",
         "pronunciation": "[ɛsˈtiːm]",
-        "definition": "Favourable regard.",
+        "definition": "To look upon something in a particular way (often favorable)",
         "synonym": [],
         "exSentence": [
             "I esteem it an honor to address this audience."
         ],
-        "wordType": "noun",
+        "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "euphemism",
+        "word": "EUPHEMISM",
         "gender": "none",
         "pronunciation": "/ˈjuː.fəˌmɪ.z(ə)m/",
         "definition": "The use of a word or phrase to replace another with one that is considered less offensive, blunt or vulgar than the word or phrase which it replaces.",
         "synonym": [],
         "exSentence": [
-            "Is that a euphemism for something?"
+            "Euphemistic language turns up in many areas of American life in a variety of situations. Not all '''euphemisms''' are alike, but they have one thing in common: They obscure meaning rather than enhance it; they shade the truth."
         ],
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "evanescent",
+        "word": "EVANESCENT",
         "gender": "none",
         "pronunciation": "/iːvə-/",
-        "definition": "Disappearing, vanishing.",
+        "definition": "Barely there; almost imperceptible.",
         "synonym": [],
         "exSentence": [
-            "Time and elasticity of boyhood had so closed the sharp but evanescent wound in Billy's heart that he could stand the trial of being groomsman where he had wanted to be groomâ€”more especially since he was supported through the emergency by a little sister of Lottie's who promised to be wondrously like her by the time Billy could stand up in the more enviable capacity."
+            "Her face too was fresh in colour, but it was of a totally different quality—soft and '''evanescent''', like the light under a heap of rose-petals."
         ],
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "exacerbate",
+        "word": "EXACERBATE",
         "gender": "none",
         "pronunciation": "/ɪkˈsæs-/",
         "definition": "To make worse (a problem, bad situation, negative feeling, etc.), aggravate, exasperate.",
@@ -3465,11 +3671,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "exacting",
+        "word": "EXACTING",
         "gender": "none",
         "pronunciation": "",
         "definition": "To demand and enforce the payment or performance of, sometimes in a forcible or imperious way.",
@@ -3480,11 +3687,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "exalt",
+        "word": "EXALT",
         "gender": "none",
         "pronunciation": "/ɪɡˈzɔːlt/",
         "definition": "To honor, to hold in high esteem.",
@@ -3495,26 +3703,26 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "excoriate",
+        "word": "EXCORIATE",
         "gender": "none",
         "pronunciation": "",
         "definition": "To wear off the skin of, to chafe or flay.",
         "synonym": [],
-        "exSentence": [
-            []
-        ],
+        "exSentence": [],
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "excruciating",
+        "word": "EXCRUCIATING",
         "gender": "none",
         "pronunciation": "/ɛkˈskɹuːʃiːeɪtɪŋ/",
         "definition": "Causing great pain or anguish, agonizing",
@@ -3525,11 +3733,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "execrable",
+        "word": "EXECRABLE",
         "gender": "none",
         "pronunciation": "/ˈɛkskɹəbl/",
         "definition": "Of the poorest quality.",
@@ -3540,11 +3749,12 @@
         "wordType": "adjective",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "exemplify",
+        "word": "EXEMPLIFY",
         "gender": "none",
         "pronunciation": "/ɛɡˈzɛmplɪfaɪ/",
         "definition": "To show or illustrate by example.",
@@ -3555,11 +3765,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "exonerate",
+        "word": "EXONERATE",
         "gender": "none",
         "pronunciation": "",
         "definition": "To relieve (someone or something) of a load, to unburden (a load).",
@@ -3570,11 +3781,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "exquisite",
+        "word": "EXQUISITE",
         "gender": "none",
         "pronunciation": "/ɪkˈskwɪzɪt/",
         "definition": "Fop, dandy.",
@@ -3585,11 +3797,12 @@
         "wordType": "noun",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "expedite",
+        "word": "EXPEDITE",
         "gender": "none",
         "pronunciation": "",
         "definition": "To accelerate the progress of.",
@@ -3600,11 +3813,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "extol",
+        "word": "EXTOL",
         "gender": "none",
         "pronunciation": "/ɪkˈstəʊl/",
         "definition": "To praise, to make high.",
@@ -3615,11 +3829,12 @@
         "wordType": "verb",
         "difficulty": "C2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
-        "word": "extraneous",
+        "word": "EXTRANEOUS",
         "gender": "none",
         "pronunciation": "/ekˈstɹæɪ.ni.əs/",
         "definition": "Not belonging to, or dependent upon, a thing, without or beyond a thing, foreign",

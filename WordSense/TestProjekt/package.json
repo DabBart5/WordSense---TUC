@@ -1,7 +1,7 @@
 {
-	"name": "testprojekt",
+	"name": "wordsense",
 	"private": true,
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
@@ -16,9 +16,9 @@
 		"@neoconfetti/svelte": "^2.2.2",
 		"@rollup/plugin-json": "^6.1.0",
 		"@sveltejs/adapter-auto": "^7.0.0",
+		"@sveltejs/adapter-node": "^5.5.2",
 		"@sveltejs/kit": "^2.47.1",
 		"@sveltejs/vite-plugin-svelte": "^6.2.1",
-		"@types/better-sqlite3": "^7.6.13",
 		"@types/pg": "^8.15.6",
 		"esbuild": "^0.27.0",
 		"sv-popup": "^0.2.5",

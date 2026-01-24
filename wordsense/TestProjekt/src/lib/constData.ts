@@ -14,15 +14,24 @@ export const beforeTransVerbs = {
     "English": "to",
     "Deutsch": ""
 }
+const avgWordSizePerLanguage = {
+    "English": 5.0,
+    "Deutsch": 5.0,
+    "Japanese": 3.0
+}
 
 
 
 
-
-//functions to access this data if necessary
+//functions to access this data if necessary, typescript complains if dictionary
 export function getFromLangDict(lang: string, dict: Record<string, any>) {
     if (lang in dict) {
         return dict[lang as keyof typeof dict]; // safe
     }
     return "";
+}
+
+export function getAverageSizeOfWord(lang: string){
+    if (!(availableLanguages.includes(lang))) return null;
+    return avgWordSizePerLanguage[lang as keyof typeof avgWordSizePerLanguage]; 
 }

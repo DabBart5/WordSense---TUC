@@ -15,10 +15,9 @@
     "Value5"
   ]);
 
-    let { wordSet, mode, form } = $props<{
+    let { wordSet, mode } = $props<{
     mode: string;
     wordSet: any;
-    form: HTMLFormElement;
 
   }>();
 
@@ -107,9 +106,6 @@
         </button>
       </div>
     </form>
-  {#if !form?.success} <!--this doesnt really do anything since the modal disappears after clicking...-->
-    <p>{form.data}</p>
-  {/if}
 
   </div>
 {/if}

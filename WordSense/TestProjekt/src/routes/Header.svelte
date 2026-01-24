@@ -14,34 +14,49 @@
 
 	export let onToggleTheme; // incoming function from layout
 
-    import LanguageDropdown from "./LanguageDropdown.svelte";
-
+	import LanguageDropdown from "./LanguageDropdown.svelte";
 </script>
 
 <header>
 	<div class="corner">
 		<!--Logo on the left side-->
-		<a href="/" style="display: contents;">		
-			<img src="favicon.svg" alt="WordSense Logo"/>
+		<a href="/" tabindex="0" class="logo-link">
+			<img src="favicon.svg" alt="WordSense Logo" />
 		</a>
-
 	</div>
 
+	
 	<span class="corner">
-		<!-- svelte-ignore a11y_no_static_element_interactions -->
-		<!-- svelte-ignore a11y_click_events_have_key_events -->
 		<ul>
 			<li>
 				<LanguageDropdown />
 			</li>
 			<li>
-				<!-- svelte-ignore element_implicitly_closed -->
-				<div>
-					<!-- svelte-ignore a11y_consider_explicit_label -->
-					<button on:click={onToggleTheme}>
-						<wa-icon name="sun" label="Light/Darkmode"></wa-icon>
-					</button>
-				</div>
+				<button
+					class="theme-toggle-button"
+					on:click={onToggleTheme}
+					aria-label="Toggle light/dark mode"
+				>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 24 24"
+						role="img"
+						aria-hidden="false"
+					>
+						<title>Light/Dark Mode</title>
+						<circle cx="12" cy="12" r="5" fill="currentColor" />
+						<g stroke="currentColor" stroke-width="2">
+							<line x1="12" y1="1" x2="12" y2="3" />
+							<line x1="12" y1="21" x2="12" y2="23" />
+							<line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+							<line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+							<line x1="1" y1="12" x2="3" y2="12" />
+							<line x1="21" y1="12" x2="23" y2="12" />
+							<line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+							<line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+						</g>
+					</svg>
+				</button>
 			</li>
 		</ul>
 	</span>
@@ -62,20 +77,16 @@
 		height: 3em;
 	}
 
-	/* .corner a {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		height: 100%;
+	.logo-link {
+		display: inline-block; /* keeps the <a> focusable */
 	}
 
-	.corner img {
-		width: 2em;
-		height: 2em;
-		object-fit: contain;
-	} */
-
+	.logo-link img {
+		display: block; /* removes inline spacing */
+		width: auto; /* natural width */
+		height: auto; /* preserve aspect ratio */
+		max-height: 50px; /* optional: max height */
+	}
 
 	ul {
 		position: relative;
@@ -88,6 +99,7 @@
 		list-style: none;
 		background: var(--background-color);
 		background-size: contain;
+		vertical-align: center;
 	}
 
 	li {
@@ -95,12 +107,29 @@
 		height: 100%;
 	}
 
-
-	a:hover {
-		color: var(--color-theme-1);
+	button {
+		border: 1px solid var(--color-bg-contrast);
+		color: var(--color-bg-contrast);
 	}
 
-	button{
+	button:hover{
+		background-color: var(--color-bg-contrast);
+		color: var(--background-color);
+	}
+
+	.theme-toggle-button {
+		display: inline-flex; /* like a regular button */
+		align-items: center;
+		justify-content: center;
+		width: auto; /* match dropdown width if needed */
+		height: 2.5em; /* same as language button height */
+		padding: 0 0.5em; /* similar horizontal padding */
 		border: 1px solid var(--color-bg-contrast);
+		background: var(--background-color);
+		cursor: pointer;
+	}
+	.theme-toggle-button svg {
+		width: inherit;
+		height: inherit;
 	}
 </style>
