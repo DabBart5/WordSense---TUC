@@ -46,7 +46,7 @@
   let description = $state("");
 
   function openPopup() {
-    console.log("opening")
+    //console.log("opening")
     open = true;
   }
 

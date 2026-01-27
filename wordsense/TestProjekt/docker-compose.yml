@@ -1,37 +1,39 @@
 services:
   db:
     image: postgres:16
-    env_file:
-      - .env
+    container_name: WordSense-db-prod
+    restart: always
+    environment:
+      POSTGRES_USER: devuser
+      POSTGRES_PASSWORD: devpassword
+      POSTGRES_DB: dictionary_game
+    # --- ADD THIS SECTION ---
     healthcheck:
-      test: ["CMD", "pg_isready", "-U", "devuser", "-d", "dictionary_game"]
+      test: ["CMD-SHELL", "pg_isready -U devuser -d dictionary_game"]
       interval: 5s
       timeout: 5s
       retries: 5
-    container_name: WordSense-db
-    restart: always
-    ports:
-      - "5432:5432"
+    # -------------------------
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - postgres_data_prod:/var/lib/postgresql/data
+      - ./schema.sql:/docker-entrypoint-initdb.d/init.sql
+
 
   sveltekit:
     build: .
     container_name: WordSense-web
     depends_on:
       db:
-        condition: service_healthy
+        condition: service_healthy # Now this will work!
     ports:
-      - "5173:5173"          # Exposes SvelteKit dev server to host
+      - "3000:3000"
     environment:
-      DATABASE_URL: postgres://devuser:devpassword@db:5432/dictionary_game # use db instead of localhost for prod
-    volumes:
-      - .:/app
-      - /app/node_modules
-    command: npm run dev -- --host 0.0.0.0
+      NODE_ENV: production
+      DB_SSL: "false" 
+      DATABASE_URL: postgres://devuser:devpassword@db:5432/dictionary_game
+      #ORIGIN: http://127.0.0.1:3000
+
+    command: node build
 
 volumes:
-  postgres_data:
-
-# this should be the commadn you used last time
-  #docker run --name pg -e POSTGRES_PASSWORD=devpassword -e POSTGRES_USER=devuser -e POSTGRES_DB=dictionary_game -p 5432:5432 -d postgres:16
+  postgres_data_prod:

@@ -19,7 +19,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -36,7 +37,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -48,29 +50,33 @@
             []
         ],
         "exSentence": [
-            "They are imbued with reason and conscience and should interact with each other in a spirit of brotherhood."
+            "It's interesting at parties to see how people interact socially.",
+            "We are studying how these two chemicals interact."
         ],
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "interaction",
         "gender": "none",
         "pronunciation": "/ˌɪntəɹˈækʃən/",
-        "definition": "The situation or occurrence in which two or more objects or events act upon one another to produce a new effect, the effect resulting from such a situation or occurrence.",
+        "definition": "an occasion when two or more people or things communicate with or react to each other",
         "synonym": [
             []
         ],
         "exSentence": [
-            "Then interaction with others becomes important."
+            "It's a friendly environment and there's a great deal of interaction with the rest of the team.",
+            "There's not enough interaction between the management and the workers."
         ],
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -87,13 +93,14 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "interpret",
         "gender": "none",
-        "pronunciation": "",
+        "pronunciation": "/ɪnˈtɝː.prət/",
         "definition": "To explain or tell the meaning of, to translate orally into intelligible or familiar language or terms. applied especially to language, but also to dreams, signs, conduct, mysteries, etc.",
         "synonym": [
             []
@@ -104,7 +111,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -121,14 +129,15 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "interrupt",
         "gender": "none",
         "pronunciation": "",
-        "definition": "An event that causes a computer or other device to temporarily cease what it was doing and attend to a condition.",
+        "definition": "to stop something from happening for a short period",
         "synonym": [
             []
         ],
@@ -138,7 +147,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -150,12 +160,13 @@
             []
         ],
         "exSentence": [
-            "During the interval, Takashi and Harumi got a drink at the theater bar."
+            "During peak hours, the bus will run at 10-minute intervals."
         ],
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -173,7 +184,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -190,7 +202,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -207,7 +220,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -224,7 +238,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -241,13 +256,14 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "to isolate",
         "gender": "none",
-        "pronunciation": "",
+        "pronunciation": "/ˈaɪ.sə.leɪt/",
         "definition": "To separate something from other things with which it is connected or mixed",
         "synonym": [
             []
@@ -258,14 +274,15 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "isolated",
         "gender": "none",
         "pronunciation": "/ˈaɪsəleɪtɪd/",
-        "definition": "To set apart or cut off from others.",
+        "definition": "To be \nset apart or cut off from others.",
         "synonym": [
             []
         ],
@@ -275,7 +292,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -292,7 +310,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -309,7 +328,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -327,7 +347,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -347,7 +368,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -364,7 +386,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -381,7 +404,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -393,12 +417,13 @@
             []
         ],
         "exSentence": [
-            "Say what you will, I will act on my own judgement."
+            "Without seeing the evidence, she is unable to form a judgment one way or the other."
         ],
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -416,7 +441,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -433,7 +459,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -450,7 +477,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -462,13 +490,13 @@
             []
         ],
         "exSentence": [
-            [],
-            "How can you justify spending so much money on clothes?"
+            "It was the only thing that I could do - I don't have to justify myself to anyone."
         ],
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -485,7 +513,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -503,7 +532,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -520,7 +550,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -537,7 +568,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -554,7 +586,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -571,7 +604,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -588,7 +622,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -605,7 +640,8 @@
         "wordType": "adverb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -622,7 +658,8 @@
         "wordType": "adverb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -639,7 +676,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -656,7 +694,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -673,7 +712,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -690,7 +730,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -707,24 +748,26 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "leave",
         "gender": "none",
         "pronunciation": "",
-        "definition": "If you leave something in a particular condition, you do not touch it, move it, or act to change it in any way, so that it stays in the same condition",
+        "definition": "to cause or allow to be or remain in a specified condition",
         "synonym": [
             []
         ],
         "exSentence": [
-            "He left most of his dinner (= did not eat much of it)."
+            "He left most of his dinner."
         ],
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -741,7 +784,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -758,7 +802,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -775,7 +820,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -792,7 +838,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -811,7 +858,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -828,14 +876,15 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "likewise",
         "gender": "none",
         "pronunciation": "/ˈlaɪkˌwaɪz/",
-        "definition": "(manner) In a similar manner.",
+        "definition": "In a similar manner.",
         "synonym": [
             []
         ],
@@ -845,24 +894,26 @@
         "wordType": "adverb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "limitation",
         "gender": "none",
         "pronunciation": "/lɪmɪˈteɪʃən/",
-        "definition": "The act of limiting or the state of being limited.",
+        "definition": "the act of controlling and especially reducing something:",
         "synonym": [
             []
         ],
         "exSentence": [
-            "Furthermore, no distinction shall be made on the basis of the political, jurisdictional or international status of the country or territory to which a person belongs, whether it be independent, trust, non-self-governing or under any other limitation of sovereignty."
+            "They favor anything that involves limitation of government control."
         ],
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -879,7 +930,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -896,7 +948,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -916,7 +969,8 @@
         "wordType": "adverb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -933,7 +987,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -950,7 +1005,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -967,7 +1023,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -984,7 +1041,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1004,7 +1062,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1021,7 +1080,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1038,14 +1098,15 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "long-term",
         "gender": "none",
         "pronunciation": "",
-        "definition": "continuing a long time into the future",
+        "definition": "continuing for a long time",
         "synonym": [
             []
         ],
@@ -1055,7 +1116,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1073,24 +1135,26 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "lord",
         "gender": "none",
         "pronunciation": "",
-        "definition": "The master of the servants of a household, the master of a feudal manor",
+        "definition": "a man who has a lot of power in a particular area of activity",
         "synonym": [
             []
         ],
         "exSentence": [
-            "And whatsoever ye do, do it heartily, as to the Lord, and not unto men."
+            "His gang have been engaged in a bloody feud with a rival crime lord."
         ],
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1107,7 +1171,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1124,7 +1189,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1141,7 +1207,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1153,12 +1220,13 @@
             []
         ],
         "exSentence": [
-            "Pop artists thrive on the adulation of their loyal fans."
+            "When all her other friends deserted her, Steve remained loyal."
         ],
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1175,7 +1243,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1187,12 +1256,13 @@
             []
         ],
         "exSentence": [
-            "I like lyric better than epic."
+            "The most obvious difference between the genres is that narrative poems tell a story and lyric poems don’t."
         ],
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1204,12 +1274,13 @@
             []
         ],
         "exSentence": [
-            "This scenery is magnificent."
+            "New Orleans is famous for its magnificent old oak trees."
         ],
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1226,7 +1297,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1243,7 +1315,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1260,24 +1333,26 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "makeup",
         "gender": "none",
         "pronunciation": "",
-        "definition": "An item's composition.",
+        "definition": "colored substances used on your face to improve or change your appearance",
         "synonym": [
             []
         ],
         "exSentence": [
-            "The makeup of Mideast peace talks may change due to a change of heart on the part of Israel."
+            "I put on a little eye makeup."
         ],
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1294,24 +1369,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
-    },
-    {
-        "language": "English",
-        "word": "manufacture",
-        "gender": "none",
-        "pronunciation": "/ˌmænjʊˈfæktʃə/",
-        "definition": "The action or process of making goods systematically or on a large scale.",
-        "synonym": [
-            []
-        ],
-        "exSentence": [
-            "He works for a company that manufactures car parts."
-        ],
-        "wordType": "noun",
-        "difficulty": "B2",
-        "notes": "",
-        "transitivity": false
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1328,7 +1387,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1345,7 +1405,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1362,7 +1423,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1379,7 +1441,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1396,7 +1459,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1413,7 +1477,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1430,7 +1495,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1447,7 +1513,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1464,7 +1531,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1476,12 +1544,13 @@
             []
         ],
         "exSentence": [
-            "I want to get the word out - even if you don't have a lot of clothes you can enjoy dressing more fashionably by mixing and matching."
+            "Do you think these two colours match?"
         ],
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1498,7 +1567,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1515,7 +1585,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1532,7 +1603,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1549,7 +1621,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1566,7 +1639,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1583,7 +1657,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1600,7 +1675,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1617,7 +1693,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1634,7 +1711,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1651,7 +1729,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1668,7 +1747,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1685,7 +1765,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1702,7 +1783,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1719,24 +1801,26 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "metaphor",
         "gender": "none",
         "pronunciation": "/ˈmɛt.ə.fɔː(ɹ)/",
-        "definition": "The use of a word or phrase to refer to something that it is not, invoking a direct similarity between the word or phrase used and the thing described (but in the case of English without the words like or as, since use of those words would imply a simile), the word or phrase used in this way, an implied comparison.",
+        "definition": "an expression, often found in literature, that describes a person or object by referring to something that is considered to have similar characteristics to that person or object",
         "synonym": [
             []
         ],
         "exSentence": [
-            "He's a tiger when he's angry\" is an example of metaphor."
+            "\"The mind is an ocean\" and \"the city is a jungle\" are both metaphors."
         ],
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1753,7 +1837,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1770,7 +1855,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1787,7 +1873,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1804,14 +1891,15 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "minister",
         "gender": "none",
         "pronunciation": "/ˈmɪnɪstə/",
-        "definition": "a member of the government in Britain and many other countries who is in charge of a particular department or has an important position in it",
+        "definition": "a member of the government in \nmany countries who is in charge of a particular department or has an important position in it",
         "synonym": [
             []
         ],
@@ -1821,7 +1909,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1838,7 +1927,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1855,24 +1945,26 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "miserable",
         "gender": "none",
         "pronunciation": "/ˈmɪz(ə)ɹəbəl/",
-        "definition": "very unhappy",
+        "definition": "very unhappy, or causing much unhappiness",
         "synonym": [
             []
         ],
         "exSentence": [
-            "unpleasant and causing unhappiness"
+            "She's miserable living on her own."
         ],
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1889,7 +1981,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1906,7 +1999,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1923,7 +2017,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1941,7 +2036,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1958,7 +2054,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1975,7 +2072,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -1992,14 +2090,15 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "monitor",
         "gender": "none",
         "pronunciation": "/ˈmɒnɨtə/",
-        "definition": "Someone who watches over something, a person in charge of something or someone.",
+        "definition": "a person who has the job of watching or noticing particular things",
         "synonym": [
             []
         ],
@@ -2009,7 +2108,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2026,7 +2126,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2043,7 +2144,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2060,7 +2162,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2077,7 +2180,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2094,7 +2198,8 @@
         "wordType": "adverb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2111,7 +2216,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2130,14 +2236,15 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "mosquito",
         "gender": "none",
         "pronunciation": "/məˈski.toʊ/",
-        "definition": "A small flying insect of the family Culicidae, the females of which bite humans and animals and suck blood, leaving an itching bump on the skin, and sometimes carrying diseases like malaria and yellow fever.",
+        "definition": "a small flying insect that bites people and animals and sucks their blood",
         "synonym": [
             []
         ],
@@ -2147,7 +2254,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2166,7 +2274,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2183,7 +2292,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2200,7 +2310,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2217,7 +2328,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2234,7 +2346,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2251,7 +2364,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2263,19 +2377,20 @@
             []
         ],
         "exSentence": [
-            "There was a multiple collision on the highway."
+            "We made multiple copies of the report."
         ],
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "multiply",
         "gender": "none",
         "pronunciation": "/ˈmʌltɪplaɪ/",
-        "definition": "An act or instance of multiplying.",
+        "definition": "to increase, or to increase something, very much in number",
         "synonym": [
             []
         ],
@@ -2285,7 +2400,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2302,7 +2418,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2319,7 +2436,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2336,7 +2454,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2353,7 +2472,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2370,7 +2490,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2387,7 +2508,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2404,7 +2526,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2421,14 +2544,15 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "neat",
         "gender": "none",
         "pronunciation": "/niːt/",
-        "definition": "An artificial intelligence researcher who believes that solutions should be elegant, clear and provably correct.",
+        "definition": "tidy, with everything in its place",
         "synonym": [
             []
         ],
@@ -2438,7 +2562,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2455,7 +2580,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2472,7 +2598,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2489,7 +2616,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2506,7 +2634,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2523,7 +2652,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2540,7 +2670,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2557,7 +2688,8 @@
         "wordType": "adverb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2574,7 +2706,8 @@
         "wordType": "adverb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2591,7 +2724,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2608,7 +2742,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2625,7 +2760,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2642,7 +2778,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2659,7 +2796,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2676,7 +2814,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2693,7 +2832,8 @@
         "wordType": "adverb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2710,7 +2850,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2727,26 +2868,26 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "nutrition",
         "gender": "none",
         "pronunciation": "/njuːˈtɹɪ.ʃən/",
-        "definition": "the substances that you take into your body as food and the way that they influence your health: ",
+        "definition": "the substances that you take into your body as food and the way that they influence your health",
         "synonym": [
             []
         ],
         "exSentence": [
-            [
-                "Good nutrition is essential if patients are to make a quick recovery."
-            ]
+            "Good nutrition is essential if patients are to make a quick recovery."
         ],
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2763,7 +2904,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2780,7 +2922,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2797,7 +2940,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2814,7 +2958,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2831,7 +2976,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2848,7 +2994,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2865,13 +3012,14 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "observer",
         "gender": "none",
-        "pronunciation": "/ɒb-/",
+        "pronunciation": "",
         "definition": "One who makes observations, monitors or takes notice",
         "synonym": [
             []
@@ -2882,7 +3030,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2899,7 +3048,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2916,7 +3066,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2933,7 +3084,8 @@
         "wordType": "adverb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2950,7 +3102,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2967,7 +3120,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -2984,7 +3138,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3001,7 +3156,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3018,7 +3174,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3035,7 +3192,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3052,14 +3210,15 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "ongoing",
         "gender": "none",
         "pronunciation": "",
-        "definition": "To be ongoing (occurring, happening), to last, proceed or continue.",
+        "definition": "To be occurring/\nhappening, to last, proceed or continue.",
         "synonym": [
             []
         ],
@@ -3069,7 +3228,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3086,7 +3246,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3103,7 +3264,8 @@
         "wordType": "adverb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3120,7 +3282,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3137,7 +3300,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3154,24 +3318,26 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "opponent",
         "gender": "none",
         "pronunciation": "/ɒpəʊnənt/",
-        "definition": "One who opposes another, one who works or takes a position against someone or something, one who attempts to stop the progress of someone or something.",
+        "definition": "a person who disagrees with something and speaks against it or tries to change it",
         "synonym": [
             []
         ],
         "exSentence": [
-            "The manager balanced the strength of his team against that of their opponent and sighed."
+            "Leading opponents of the proposed cuts in defence spending will meet later today."
         ],
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3192,7 +3358,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3213,7 +3380,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3230,7 +3398,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3247,7 +3416,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3264,7 +3434,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3281,7 +3452,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3298,7 +3470,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3315,14 +3488,15 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "otherwise",
         "gender": "none",
         "pronunciation": "/ˈʌð.əˌwaɪz/",
-        "definition": "Other than supposed, different.",
+        "definition": "used after an order or suggestion to show what the result will be if you do not follow that order or suggestion",
         "synonym": [
             []
         ],
@@ -3332,7 +3506,8 @@
         "wordType": "conjunction",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3349,7 +3524,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3366,7 +3542,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3383,7 +3560,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3400,7 +3578,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3417,7 +3596,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3434,7 +3614,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3451,7 +3632,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3468,7 +3650,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3485,7 +3668,8 @@
         "wordType": "adverb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3502,7 +3686,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3519,7 +3704,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3531,14 +3717,13 @@
             []
         ],
         "exSentence": [
-            [
-                "Oxygen has the atomic number 8, which represents the number of protons in its nucleus."
-            ]
+            "Oxygen has the atomic number 8, which represents the number of protons in its nucleus."
         ],
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3555,7 +3740,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3572,7 +3758,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3589,14 +3776,15 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "palm",
         "gender": "none",
         "pronunciation": "/ˈpæm/",
-        "definition": "Any of various evergreen trees from the family Palmae or Arecaceae, which are mainly found in the tropics.",
+        "definition": "a plant, similar to a tree, that grows in hot countries and has a tall trunk with a mass of long pointed leaves at the top",
         "synonym": [
             [
                 "palm tree"
@@ -3608,7 +3796,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3625,7 +3814,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3642,7 +3832,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3659,31 +3850,33 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "parallel",
         "gender": "none",
         "pronunciation": "/ˈpæɹəˌlɛl/",
-        "definition": "One of a set of parallel lines.",
+        "definition": "If two or more lines, streets, etc. are parallel, the distance between them is the same all along their length",
         "synonym": [
             []
         ],
         "exSentence": [
-            "If two or more lines, streets, etc. are parallel, the distance between them is the same all along their length"
+            "Draw a pair of parallel lines."
         ],
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "parliament",
         "gender": "none",
         "pronunciation": "",
-        "definition": "A formal council summoned (especially by a monarch) to discuss important issues.",
+        "definition": "A formal council summoned\n to discuss important issues.",
         "synonym": [
             []
         ],
@@ -3693,7 +3886,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3710,7 +3904,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3727,7 +3922,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3744,7 +3940,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3761,7 +3958,8 @@
         "wordType": "adverb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3778,7 +3976,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3795,7 +3994,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3812,7 +4012,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3829,7 +4030,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3846,7 +4048,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3863,7 +4066,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3880,7 +4084,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3897,7 +4102,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3914,7 +4120,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3931,7 +4138,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3948,7 +4156,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3965,7 +4174,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3982,7 +4192,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -3999,7 +4210,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4016,7 +4228,8 @@
         "wordType": "adverb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4033,7 +4246,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4050,7 +4264,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4067,7 +4282,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4084,7 +4300,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4101,7 +4318,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4118,7 +4336,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4135,7 +4354,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4152,7 +4372,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4169,7 +4390,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4186,7 +4408,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4203,7 +4426,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4220,7 +4444,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4237,7 +4462,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4254,7 +4480,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4271,7 +4498,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4290,7 +4518,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4307,7 +4536,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4324,7 +4554,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4341,7 +4572,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4358,7 +4590,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4375,7 +4608,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4392,7 +4626,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4409,7 +4644,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4426,7 +4662,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4443,7 +4680,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4460,7 +4698,8 @@
         "wordType": "adverb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4477,7 +4716,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4494,7 +4734,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4511,7 +4752,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4528,7 +4770,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4545,14 +4788,15 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "precisely",
         "gender": "none",
         "pronunciation": "/pɹɪˈsaɪsli/",
-        "definition": "(manner) In a precise manner, exactly.",
+        "definition": "In a precise manner, exactly.",
         "synonym": [
             [
                 "exactly",
@@ -4565,7 +4809,8 @@
         "wordType": "adverb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4582,14 +4827,15 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "preference",
         "gender": "none",
         "pronunciation": "/ˈpɹɛf(ə)ɹ(ə)ns/",
-        "definition": "The selection of one thing or person over others (with the main adposition being \"for\" in relation to the thing or person, but possibly also \"of\")",
+        "definition": "The selection of one thing or person over others",
         "synonym": [
             []
         ],
@@ -4599,7 +4845,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4616,7 +4863,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4633,14 +4881,15 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "presence",
         "gender": "none",
         "pronunciation": "/ˈpɹɛzəns/",
-        "definition": "The fact or condition of being present, or of being within sight or call, or at hand.",
+        "definition": "The fact or condition of being within sight or call, or at hand.",
         "synonym": [
             []
         ],
@@ -4650,7 +4899,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4667,7 +4917,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4684,7 +4935,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4701,7 +4953,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4718,14 +4971,15 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "primarily",
         "gender": "none",
         "pronunciation": "/pɹaɪˈmɛɹəli/",
-        "definition": "(focus) Of a primary or central nature, first and foremost",
+        "definition": "Of a primary or central nature, first and foremost",
         "synonym": [
             []
         ],
@@ -4735,7 +4989,8 @@
         "wordType": "adverb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4752,7 +5007,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4769,7 +5025,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4786,7 +5043,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4803,7 +5061,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4820,7 +5079,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4837,7 +5097,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4854,7 +5115,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4871,7 +5133,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4888,7 +5151,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4905,7 +5169,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4922,7 +5187,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4939,7 +5205,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4956,7 +5223,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4973,7 +5241,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -4990,7 +5259,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5007,7 +5277,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5019,12 +5290,13 @@
             []
         ],
         "exSentence": [
-            "Especially over the last 20 years, the purported link between progressive welfare policies and economic failure in the Northern European countries seems to point to the difficulty of sustaining both full social welfare and international competitivity."
+            "There's been a progressive decline in the standard of living over the past few years."
         ],
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5045,7 +5317,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5062,7 +5335,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5079,7 +5353,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5096,24 +5371,26 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "prompt",
         "gender": "none",
         "pronunciation": "/pɹɒmpt/",
-        "definition": "(of an action) done quickly and without delay, or (of a person) acting quickly or arriving at the arranged time",
+        "definition": "to make something happen",
         "synonym": [
             []
         ],
         "exSentence": [
-            "Be prompt in dealing with the problem."
+            "The bishop's speech has prompted an angry response from both political parties."
         ],
-        "wordType": "adjective",
+        "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5130,7 +5407,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5147,7 +5425,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5164,7 +5443,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5181,7 +5461,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5198,7 +5479,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5215,7 +5497,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5232,7 +5515,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5249,7 +5533,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5266,7 +5551,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5283,7 +5569,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5300,7 +5587,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5317,7 +5605,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5334,7 +5623,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5351,24 +5641,26 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "this actually counts as a noun as per cambridge dicionary",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "punk",
         "gender": "none",
         "pronunciation": "/pʌŋk/",
-        "definition": "A person used for sex, particularly:",
+        "definition": "a culture popular among young people, especially in the late 1970s, involving opposition to authority expressed through shocking behaviour, clothes, and hair, and fast, loud music",
         "synonym": [
             []
         ],
         "exSentence": [
-            "a culture popular among young people, especially in the late 1970s, involving opposition to authority expressed through shocking behaviour, clothes, and hair, and fast, loud music"
+            "He first got involved in graffiti when he was a punk in the 1980s."
         ],
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5385,7 +5677,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5402,7 +5695,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5419,7 +5713,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5431,12 +5726,13 @@
             []
         ],
         "exSentence": [
-            "Rows of houses, each of them different and pleasing with their spacious gardens, are replaced by purely functional blocks of flats which have nothing more to commend them than over-praised 'modern conveniences'."
+            "On a purely practical level, it is difficult to see how such proposals would work."
         ],
         "wordType": "adverb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5453,7 +5749,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5470,7 +5767,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5482,13 +5780,13 @@
             []
         ],
         "exSentence": [
-            [],
             "The findings of the survey puzzle me - they're not at all what I would have expected."
         ],
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5500,14 +5798,13 @@
             []
         ],
         "exSentence": [
-            [
-                "Visitors to the country have been asked to fill in a detailed questionnaire."
-            ]
+            "Visitors to the country have been asked to fill in a detailed questionnaire."
         ],
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5524,7 +5821,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5541,7 +5839,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5558,7 +5857,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5575,25 +5875,26 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "rail",
         "gender": "none",
         "pronunciation": "/ɹeɪl/",
-        "definition": "the system of transport that uses trains",
+        "definition": "the system of transport that trains use",
         "synonym": [
             []
         ],
         "exSentence": [
-            "Environmentalists argue that more goods should be transported by rail.",
-            "We happened to see a truck run into the guard-rail."
+            "Environmentalists argue that more goods should be transported by rail."
         ],
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5610,7 +5911,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5627,7 +5929,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5645,7 +5948,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5662,14 +5966,15 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "rapidly",
         "gender": "none",
         "pronunciation": "/ˈɹæpɪdli/",
-        "definition": "With speed, in a rapid manner.",
+        "definition": "With speed, in a speedy manner.",
         "synonym": [
             []
         ],
@@ -5679,14 +5984,15 @@
         "wordType": "adverb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "rat",
         "gender": "none",
         "pronunciation": "/ɹæt/",
-        "definition": "A medium-sized rodent belonging to the genus Rattus.",
+        "definition": "an unpleasant person who deceives or is not loyal",
         "synonym": [
             []
         ],
@@ -5696,7 +6002,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5713,7 +6020,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5730,7 +6038,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5742,13 +6051,13 @@
             []
         ],
         "exSentence": [
-            "Oil is an important raw material that can be processed into many different products, including plastics.",
             "Can you eat raw oysters?"
         ],
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5765,7 +6074,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5782,7 +6092,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5799,7 +6110,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5816,7 +6128,8 @@
         "wordType": "adverb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5833,7 +6146,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5850,7 +6164,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5869,7 +6184,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5886,7 +6202,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5903,7 +6220,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5920,7 +6238,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5937,7 +6256,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5954,7 +6274,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5971,7 +6292,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -5988,7 +6310,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -6005,7 +6328,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -6022,7 +6346,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -6039,7 +6364,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -6056,7 +6382,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -6073,7 +6400,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -6090,7 +6418,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -6107,7 +6436,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -6124,7 +6454,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -6141,7 +6472,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -6153,19 +6485,20 @@
             []
         ],
         "exSentence": [
-            "Before pouring cement mixture into forms for a foundation, the work crew securely place an armature of steel bars at a predetermined spacing in order to reinforce the finished building's hardened concrete."
+            "The pockets on my jeans are reinforced with double stitching."
         ],
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
         "word": "relatively",
         "gender": "none",
         "pronunciation": "[ˈɹɛl.ə.tʰɪv.li]",
-        "definition": "Proportionally, in relation to some larger scale thing.",
+        "definition": "quite good, bad, etc. in comparison with other similar things or with what you expect",
         "synonym": [
             []
         ],
@@ -6175,7 +6508,8 @@
         "wordType": "adverb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -6192,7 +6526,8 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -6209,7 +6544,8 @@
         "wordType": "noun",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -6226,7 +6562,8 @@
         "wordType": "verb",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": true
+        "transitivity": true,
+        "reviewed": true
     },
     {
         "language": "English",
@@ -6243,6 +6580,7 @@
         "wordType": "adjective",
         "difficulty": "B2",
         "notes": "",
-        "transitivity": false
+        "transitivity": false,
+        "reviewed": true
     }
 ]

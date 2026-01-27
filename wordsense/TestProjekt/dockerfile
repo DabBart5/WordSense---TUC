@@ -1,21 +1,25 @@
-# --- Development stage -------------------------------------------------------
-FROM node:20-slim
+# --- Build Stage ---
+FROM node:20-slim AS builder
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+# The db folder is here during the build
+RUN npm run build
 
-# 1. MATCH THIS TO YOUR DOCKER COMPOSE VOLUME
+# --- Runtime Stage ---
+FROM node:20-slim
 WORKDIR /app
 
-# Copy package files
-# 1. Copy only dependency files first
-COPY package.json package-lock.json ./
+# Copy the build artifacts
+COPY --from=builder /app/build ./build
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/package.json ./package.json
 
-# Install all dependencies for development
-RUN npm install
+#Copy the db folder so the seed script can find it
+COPY --from=builder /app/db ./db 
 
-# Copy the rest of your project
-COPY . .
+ENV NODE_ENV=production
+EXPOSE 3000
 
-# Expose Vite dev server port
-EXPOSE 5173
-
-# Start SvelteKit in dev mode (watch mode)
-CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
+CMD ["node", "build"]

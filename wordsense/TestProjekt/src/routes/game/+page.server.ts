@@ -85,7 +85,7 @@ export const actions = {
 
         const option = getString(form, "reason");
         if (!option || option === '') {
-            console.log("failed to read reason")
+            //console.log("failed to read reason")
             return;
         }
 
@@ -145,12 +145,12 @@ function calcTimerVal(timerVal : number, wordSet: any, showExSentence: boolean, 
         }
     }
 
-    console.log("average word size for ",language,": ", averageWordSize);
+    //console.log("average word size for ",language,": ", averageWordSize);
 
     const estimatedWordCount = (totalLength/averageWordSize) * 5/6; //average of five characters per word in english, this may not be applicable to other languages, excluding empty spaces
     const estimatedSecondsPerWord = 0.3; //0.2s per word estimated for a native speaker, learner estimated 50% slower
 
     const estimatedTimeNeeded = estimatedWordCount * estimatedSecondsPerWord + 3; //absolute value at the end as time to think (some base leeway)
-    console.log("calculated time: ",estimatedTimeNeeded)
+    //console.log("calculated time: ",estimatedTimeNeeded)
     return estimatedTimeNeeded;
 }

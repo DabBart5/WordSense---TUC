@@ -7,7 +7,7 @@ export async function startNewGame(form: FormData){
             //clean up whenever a new game is started
             CLEAN_GAMES();
 
-            console.log(form)
+            //console.log(form)
             // console.log("isTimer = ", getString(form, "isFree"), ", timer = ", getString(form, "showExSentence") )
           
             // validate form
@@ -31,7 +31,7 @@ export async function startNewGame(form: FormData){
             } else if (timer === "timer") {
                 tmp = Number(getString(form, 'timerval'));
             }
-            else console.log("unexpected error, timer is not part of acceptable values, check failed")
+            else console.log("unexpected error, timer is not part of acceptable values, check failed, i hope this never happens, so i am letting this comment in here")
             const timerVal = tmp;
 
             if (!language || !difficulty || !mode) {
@@ -75,7 +75,7 @@ function checkData(data: FormData) {
     if (mode === null) return -1;
     if (!availableModes.includes(mode)) return -1;//mode is part of possible modes
 
-    console.log("before timer check in check data")
+    //console.log("before timer check in check data")
     const timer = getString(data, 'timer');
     if (timer != 'timer' && timer != 'auto' && timer != 'none') return -1;
 
@@ -83,7 +83,7 @@ function checkData(data: FormData) {
     
     if (timerVal === null) return -1;
 
-    console.log("before timerval check")
+    //console.log("before timerval check")
     if (Number(timerVal) > -1){ //changed
          if ((Number(timerVal) < minTimer || Number(timerVal) > maxTimer)) return -1; //timervalue lies between max and min
     }

@@ -36,7 +36,7 @@ async function seed() {
 
     for (const entry of data) {
         if(entry.wordtype === "verb"){
-            console.log("Verb:", entry.word,"   TRANSITIVITY:", entry.transitivity);
+            //console.log("Verb:", entry.word,"   TRANSITIVITY:", entry.transitivity);
         }
         const flatSynonyms = normalizeSynonyms(entry.synonym);
 
